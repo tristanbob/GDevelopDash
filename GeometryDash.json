@@ -1346,474 +1346,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_1.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_2.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_3.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_4.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_5.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_6.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Death_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Death_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Death_7.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_1.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_2.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_3.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_4.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_5.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_6.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_7.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Hit_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Hit_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Hit_8.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_1.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_10.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_10.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_11.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_11.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_12.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_12.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_2.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_3.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_4.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_5.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_6.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_7.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_8.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Stand_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Stand_9.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Stand_9.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_1.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_2.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_3.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_4.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_5.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_6.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_7.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_8.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Wild Animal 3_Walk_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Wild Animal 3_Walk_9.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/4d8fedd1-ae2a-48aa-b4ef-8cf12675f62b/resources/Wild Animals/Animal 3/Wild Animal 3_Walk_9.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Wild Animal 1_Death_1.png",
         "kind": "image",
         "metadata": "",
@@ -3167,37 +2699,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/cube white.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "cube white.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Isometric Interiors Pack/Props/2aa68074056b66d881c62f141283ecd812576d2aff5c452f49d8309d5510201f_cube white.png",
-          "name": "cube white.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "DALL·E 2023-12-19 19.54.56 - A Geometry Dash-style hero sprite, shaped like a square. The sprite has a sleek, futuristic design with neon accents. The primary color is electric bl.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "DALL·E 2023-12-19 19.54.56 - A Geometry Dash-style hero sprite, shaped like a square. The sprite has a sleek, futuristic design with neon accents. The primary color is electric bl.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "WaveHero.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "WaveHero.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "WaveHero64x64.png",
         "kind": "image",
         "metadata": "",
@@ -3225,6 +2726,19 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Simple Space/effects/ae39dcd8ba4090f7068122272b85eac695a277f43e843f33ddd77c051b5fa682_Trail Purple.png",
           "name": "Trail Purple.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Trail Yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Trail Yellow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Simple Space/effects/55b37eb8f3be9684897c097169e1a0bdcf4f9ca453aa863a959cd98920036e4b_Trail Yellow.png",
+          "name": "Trail Yellow.png"
         }
       }
     ],
@@ -3264,7 +2778,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3300560049165994,
+        "zoomFactor": 1.2436836988380453,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3529,13 +3043,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 4928,
+          "height": 864,
           "layer": "Obstacles",
           "name": "FinishLine",
           "persistentUuid": "1e1ecb1c-7842-4458-b87c-8ce8a88deb8b",
-          "width": 608,
-          "x": 54784,
-          "y": -1888,
+          "width": 224,
+          "x": 53408,
+          "y": 1920,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -3943,12 +3457,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 576,
+          "height": 128,
           "layer": "",
           "name": "TeleportHere",
           "persistentUuid": "05206248-5b89-4379-971f-55e7dd1ae047",
-          "width": 224,
-          "x": 29760,
+          "width": 128,
+          "x": 28512,
           "y": 352,
           "zOrder": 109,
           "numberProperties": [],
@@ -4178,9 +3692,841 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "cfd2814b-f39e-43f2-b8a9-90bb4273080f",
+          "width": 96,
+          "x": 30944,
+          "y": 704,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "layer": "",
+          "name": "TeleportHere",
+          "persistentUuid": "9c406396-a3e3-444f-88b8-c7fb68aa6a49",
+          "width": 192,
+          "x": 12992,
+          "y": 448,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 736,
+          "layer": "Obstacles",
+          "name": "TrailPurple",
+          "persistentUuid": "c9afd7ac-8985-4d53-b752-d3c96139bae5",
           "width": 128,
-          "x": 29344,
-          "y": 672,
+          "x": 14464,
+          "y": 256,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 736,
+          "layer": "Obstacles",
+          "name": "TrailPurple",
+          "persistentUuid": "16838d11-86e2-4097-aa74-b68b799e673a",
+          "width": 128,
+          "x": 14464,
+          "y": 256,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 1,
+          "height": 416,
+          "layer": "Obstacles",
+          "name": "TrailYellow",
+          "persistentUuid": "bf6cce0d-df26-4ddb-a688-31d9ed00c5f8",
+          "width": 96,
+          "x": 30944,
+          "y": 288,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 5,
+          "height": 350,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "2809dcfb-b3e2-40da-b390-281cd70eafda",
+          "width": 1068,
+          "x": 42709,
+          "y": 1158,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "f303b9ed-b8b5-4aee-b45b-2775ae41651b",
+          "width": 745,
+          "x": 50721,
+          "y": 1255,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "3da378d2-f126-4173-be5a-2916b47a4fbd",
+          "width": 677,
+          "x": 48916,
+          "y": 1538,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0be6af39-9da7-417d-8903-c1a12e014be8",
+          "width": 745,
+          "x": 49260,
+          "y": 2548,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 6,
+          "height": 416,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "667546be-7148-4f44-8b0b-f3677827c39d",
+          "width": 954,
+          "x": 42727,
+          "y": 2132,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "28c81528-4c12-4f41-8e2a-62a01a077c8c",
+          "width": 677,
+          "x": 48810,
+          "y": 2365,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "a9fb4282-8aaf-4148-90a2-5db657aefc0f",
+          "width": 745,
+          "x": 49338,
+          "y": 1697,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "53307555-46e2-4712-b83b-b632ad598186",
+          "width": 745,
+          "x": 50675,
+          "y": 2035,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "00b95bee-c6d0-4189-a594-92678a15042d",
+          "width": 745,
+          "x": 43281,
+          "y": 1336,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "c00550a4-a7cf-4b41-81d0-a60f99b2382b",
+          "width": 677,
+          "x": 49821,
+          "y": 1539,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "9d639a3c-bf7a-42ed-ba59-fbcf7e4b59b6",
+          "width": 745,
+          "x": 50165,
+          "y": 2550,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "ec7187ff-ee3c-49fe-a629-fc6cc41789c0",
+          "width": 677,
+          "x": 49714,
+          "y": 2366,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "feaf8a2c-c9f1-4e2a-9802-302fbaeb9831",
+          "width": 745,
+          "x": 50242,
+          "y": 1699,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 5,
+          "height": 289,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "35f0b95c-43be-4606-a416-0bccbeab4db1",
+          "width": 887,
+          "x": 43173,
+          "y": 2096,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "538d0712-eb19-4cdd-9418-5e0690796e5c",
+          "width": 745,
+          "x": 51569,
+          "y": 2078,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0e863eb1-3cb1-40d9-9705-839e0b54ff56",
+          "width": 745,
+          "x": 51647,
+          "y": 1226,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8db47738-c727-4224-9e14-2f9f0acb965a",
+          "width": 677,
+          "x": 51225,
+          "y": 1067,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "4aca5c30-6715-4e13-92d5-69fca91d5f27",
+          "width": 677,
+          "x": 51119,
+          "y": 1894,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "05fe0f15-3eb6-4bea-918f-c51fcbefe5b8",
+          "width": 745,
+          "x": 48334,
+          "y": 2271,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "33db713a-bc5b-4ec8-bbd7-cc3df37220fb",
+          "width": 745,
+          "x": 48412,
+          "y": 1420,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "2d84584b-3c0b-4053-bcdf-0af02a725a6e",
+          "width": 677,
+          "x": 47990,
+          "y": 1262,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "f3861067-6f28-4b94-970c-9535fb276bcd",
+          "width": 677,
+          "x": 47884,
+          "y": 2088,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "2402b649-be4f-45b8-ae4e-a48c49f86489",
+          "width": 677,
+          "x": 53110,
+          "y": 1636,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "6b346832-51c8-4a98-b2fa-a783af0691f2",
+          "width": 745,
+          "x": 47419,
+          "y": 2254,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "91c2d203-dce4-400d-902d-f31aac5c9621",
+          "width": 677,
+          "x": 53003,
+          "y": 2462,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "e9ed20d6-0d1a-4db8-a28c-62fd103b7587",
+          "width": 745,
+          "x": 47496,
+          "y": 1403,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "3e350d53-2904-4b5e-9ebd-c29de8f8e197",
+          "width": 745,
+          "x": 52528,
+          "y": 2369,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0182cd3b-b00d-4f16-b735-ad6170542eff",
+          "width": 745,
+          "x": 52605,
+          "y": 1518,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "be2b81c7-9c47-40b7-bc41-9f42872e70e3",
+          "width": 677,
+          "x": 52184,
+          "y": 1359,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "04fa96e9-3f01-488f-83eb-5e682c6ce69c",
+          "width": 677,
+          "x": 52077,
+          "y": 2185,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "layer": "Obstacles",
+          "name": "TrailYellow",
+          "persistentUuid": "8315a66c-dfcb-4d3f-8b02-5f24d402cb09",
+          "width": 76,
+          "x": 30944,
+          "y": 256,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "c333a6b7-806d-4ecb-acb9-729be71ef2a2",
+          "width": 745,
+          "x": 44686,
+          "y": 864,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "57b38537-abc7-41f4-840f-148a96bfab1d",
+          "width": 745,
+          "x": 44640,
+          "y": 1643,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "1a05893b-7c97-40f0-9936-3313879d5ca1",
+          "width": 677,
+          "x": 43786,
+          "y": 1148,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b6fc1fe6-12d1-4373-a231-a107ae06a13c",
+          "width": 745,
+          "x": 44130,
+          "y": 2158,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "ba34be4f-13c6-4600-8127-785f38a5e685",
+          "width": 745,
+          "x": 44207,
+          "y": 1307,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d55849fa-397e-4120-bf47-f9abc40523a0",
+          "width": 745,
+          "x": 45534,
+          "y": 1686,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "4f9e1b11-ddb6-4c46-bf23-6fbdcb5c95d7",
+          "width": 745,
+          "x": 45612,
+          "y": 834,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "71f47bac-59bc-4124-9a05-7e072eabdf80",
+          "width": 677,
+          "x": 45190,
+          "y": 676,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "75bd287b-8f29-4eda-aa3d-b1bf60acde1c",
+          "width": 677,
+          "x": 45084,
+          "y": 1502,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b7557f4c-ea73-40cd-9f65-5ba3f717cf33",
+          "width": 677,
+          "x": 47075,
+          "y": 1244,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "656947ca-77e1-4eb6-ba07-b50ac6d4af98",
+          "width": 677,
+          "x": 46968,
+          "y": 2071,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b8352df5-84d6-481b-bbbc-c9959cf45d71",
+          "width": 745,
+          "x": 46492,
+          "y": 1977,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "7659fc7c-2d3e-4087-99cc-ef9d5ae1854d",
+          "width": 745,
+          "x": 46570,
+          "y": 1126,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cbec9acb-e168-4ab8-879e-ab527f4b4e08",
+          "width": 677,
+          "x": 46149,
+          "y": 967,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "c1ceb654-1f7c-4408-9de5-1dd4a9c63213",
+          "width": 677,
+          "x": 46042,
+          "y": 1794,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "2206fd81-d6c5-432c-843a-00b70c7133d1",
+          "width": 677,
+          "x": 43679,
+          "y": 1974,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "0231b93e-6f9a-4e55-bb1e-a064652cc7bd",
+          "width": 128,
+          "x": 29792,
+          "y": 256,
           "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
@@ -4193,27 +4539,762 @@
           "height": 320,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "677d22e2-0337-4db8-ae80-6005c15fb42c",
+          "persistentUuid": "f0d85f78-ddaf-4637-9d50-95faaba18382",
           "width": 128,
-          "x": 30976,
-          "y": 192,
+          "x": 28352,
+          "y": 672,
           "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 45,
           "customSize": true,
-          "depth": 1,
-          "height": 736,
+          "depth": 5,
+          "height": 350,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8696118f-4f1b-498c-8795-ce8818473b21",
+          "width": 1068,
+          "x": 32021,
+          "y": 294,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cf57e173-28a9-40c8-b5fa-4783ec94ea70",
+          "width": 745,
+          "x": 40033,
+          "y": 391,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "4782c333-e539-46fb-8f47-62273050344c",
+          "width": 677,
+          "x": 38228,
+          "y": 674,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "668fa046-7394-4012-bfa0-0e1bdba7aa0b",
+          "width": 745,
+          "x": 38572,
+          "y": 1684,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 6,
+          "height": 416,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "573f530a-a86e-4afb-80da-622dd9e8131c",
+          "width": 954,
+          "x": 32039,
+          "y": 1268,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "546cce79-39b9-4c00-b882-0544efdf9c6a",
+          "width": 677,
+          "x": 38122,
+          "y": 1501,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "c462b2a6-c7f8-4f11-bc86-0fafdcf7955f",
+          "width": 745,
+          "x": 38650,
+          "y": 833,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "1bc9bc0e-df13-46b8-8ef0-fdd89cbcc421",
+          "width": 745,
+          "x": 39987,
+          "y": 1171,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d32aa3e7-237a-45b9-ad7a-9718f4039348",
+          "width": 745,
+          "x": 32593,
+          "y": 472,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "ab99a175-06c4-4a38-993b-4d8854d18195",
+          "width": 677,
+          "x": 39133,
+          "y": 675,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d3cced32-79e2-404b-8a5a-00e25becfd62",
+          "width": 745,
+          "x": 39477,
+          "y": 1686,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b05d08d9-f467-406a-9d34-1aac4df3b1fe",
+          "width": 677,
+          "x": 39026,
+          "y": 1502,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "baa22942-d29b-4602-bee4-4167970b2ba2",
+          "width": 745,
+          "x": 39554,
+          "y": 835,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 5,
+          "height": 289,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "22a9c45f-12eb-46c1-99e5-2ba69d3bc8ef",
+          "width": 887,
+          "x": 32485,
+          "y": 1232,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "a90614bd-e3cb-4bd6-bbaa-4a3d035c01db",
+          "width": 745,
+          "x": 40881,
+          "y": 1214,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8ed44218-228a-486c-af71-f8955f047d7f",
+          "width": 745,
+          "x": 40959,
+          "y": 362,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "9f10f559-1e37-451a-a6be-4515a4b2b40f",
+          "width": 677,
+          "x": 40537,
+          "y": 203,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0972979f-2168-4747-b9fe-276768312410",
+          "width": 677,
+          "x": 40431,
+          "y": 1030,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d2f23759-7616-4423-a298-6e9c0bcacb1a",
+          "width": 745,
+          "x": 37646,
+          "y": 1407,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b59f5e06-5fb5-4d89-bc0d-447557a6d6b6",
+          "width": 745,
+          "x": 37724,
+          "y": 556,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "4444fc6e-f165-4496-833d-df833507e218",
+          "width": 677,
+          "x": 37302,
+          "y": 398,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "022ebee5-e096-489d-822c-9f395ad059a1",
+          "width": 677,
+          "x": 37196,
+          "y": 1224,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "a48e066a-051f-45fa-ba35-a657030cc4e4",
+          "width": 677,
+          "x": 42422,
+          "y": 772,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "cc7ec463-3736-409c-975a-e068e0217a92",
+          "width": 745,
+          "x": 36731,
+          "y": 1390,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "52606a27-d2c6-408c-a201-b00afb946cf4",
+          "width": 677,
+          "x": 42315,
+          "y": 1598,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "775c5fd8-2b25-4c6e-bda9-afd9ac1a4aed",
+          "width": 745,
+          "x": 36808,
+          "y": 539,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "62aeaa90-d9ca-4bb3-a883-c6a33a6a88a1",
+          "width": 745,
+          "x": 41840,
+          "y": 1505,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "ec18506d-bf55-41f7-aad9-cac061b3a492",
+          "width": 745,
+          "x": 41917,
+          "y": 654,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "d634f09f-1be3-4385-b2e0-b6896207de82",
+          "width": 677,
+          "x": 41496,
+          "y": 495,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "4f27556e-dfe3-4563-896b-30db9ee5aff0",
+          "width": 677,
+          "x": 41389,
+          "y": 1321,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "fb071671-2b7b-42ba-bcfd-8211691b0bc4",
+          "width": 745,
+          "x": 33998,
+          "y": 0,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "467d4fb3-aba2-43aa-9518-cf7a74eb5c14",
+          "width": 745,
+          "x": 33952,
+          "y": 779,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8ad47743-d135-44dc-a5bf-6f9bfbe7e8c2",
+          "width": 677,
+          "x": 33098,
+          "y": 284,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0d66d090-e1a1-4810-bceb-fae624dc3020",
+          "width": 745,
+          "x": 33442,
+          "y": 1294,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "2d3d9b46-acc5-4666-b498-6662987e9636",
+          "width": 745,
+          "x": 33519,
+          "y": 443,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8b496b22-dd8a-4882-95d6-8fc092ddefb7",
+          "width": 745,
+          "x": 34846,
+          "y": 822,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "3b279e7f-dbf7-40cb-b542-696fc02fe892",
+          "width": 745,
+          "x": 34924,
+          "y": -30,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "007181b6-311f-4949-a384-1c7d4a55b4be",
+          "width": 677,
+          "x": 34502,
+          "y": -188,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8a19638c-e7af-4d01-87fa-7060945fcdf8",
+          "width": 677,
+          "x": 34396,
+          "y": 638,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "5653ab88-9b24-42ab-a47e-09eab331e2c4",
+          "width": 677,
+          "x": 36387,
+          "y": 380,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "73206250-7719-460f-937b-26ed9bbe1b83",
+          "width": 677,
+          "x": 36280,
+          "y": 1207,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0fd3b008-3ef8-43f2-8a65-c011c8aa8462",
+          "width": 745,
+          "x": 35804,
+          "y": 1113,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 4,
+          "height": 243,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "b92f645d-37ec-4e74-8a94-24029c494b91",
+          "width": 745,
+          "x": 35882,
+          "y": 262,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "0b98b83e-a35e-42ce-9434-7d804b5a4b8a",
+          "width": 677,
+          "x": 35461,
+          "y": 103,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "fc786213-42c8-4b83-99d8-48c943721336",
+          "width": 677,
+          "x": 35354,
+          "y": 930,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 4,
+          "height": 295,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "8727fcf4-5426-4458-85cd-d1eae9ce9ee0",
+          "width": 677,
+          "x": 32991,
+          "y": 1110,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
           "layer": "Obstacles",
-          "name": "WaveModePortal",
-          "persistentUuid": "f85ea55d-b721-477a-b3b8-5fb03665b764",
-          "width": 96,
-          "x": 32256,
-          "y": 256,
-          "zOrder": 115,
+          "name": "WaveMode_Text",
+          "persistentUuid": "29c2192f-2416-43e5-8bf0-b6f26ae6679e",
+          "width": 0,
+          "x": 30400,
+          "y": 445,
+          "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4221,31 +5302,47 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 576,
+          "depth": 3,
+          "height": 128,
           "layer": "",
-          "name": "TeleportHere",
-          "persistentUuid": "9c406396-a3e3-444f-88b8-c7fb68aa6a49",
-          "width": 224,
-          "x": 12992,
-          "y": 32,
-          "zOrder": 109,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 736,
-          "layer": "",
-          "name": "TrailPurple",
-          "persistentUuid": "c9afd7ac-8985-4d53-b752-d3c96139bae5",
+          "name": "WildAnimal1",
+          "persistentUuid": "eb452570-a2dd-4126-b8ff-8ee6905058d8",
           "width": 128,
-          "x": 14464,
-          "y": 256,
-          "zOrder": 116,
+          "x": 14304,
+          "y": 608,
+          "zOrder": 120,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 128,
+          "layer": "",
+          "name": "DomesticatedAnimal1",
+          "persistentUuid": "c54ef416-37fe-4b92-82f0-0c2881e3385a",
+          "width": 128,
+          "x": 14176,
+          "y": 608,
+          "zOrder": 121,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 114,
+          "layer": "",
+          "name": "DomesticatedAnimal3",
+          "persistentUuid": "8541ab6b-01ab-48ce-9720-fd4730e4294f",
+          "width": 114,
+          "x": 14094,
+          "y": 622,
+          "zOrder": 122,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8307,1362 +9404,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "f26d5b5dcc3b638aa079d4ffb2a1bbc79485c9429c4535fb9f4ee590be8d2529",
-          "name": "WildAnimal3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Walk",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.05,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Walk_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Stand",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0833,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Stand_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hit",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Hit_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Death",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.1429,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Wild Animal 3_Death_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 21
-                          },
-                          {
-                            "x": 44,
-                            "y": 39
-                          },
-                          {
-                            "x": 9,
-                            "y": 39
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "824be3d9c6eff32172e4aa28fe291f05be5fb6d7765efc1d61dec85630c3c3d8",
           "name": "WildAnimal1",
           "type": "Sprite",
@@ -13536,7 +13277,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Ship   Mode",
+          "string": "Ship  Mode",
           "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
           "textAlignment": "center",
           "characterSize": 70,
@@ -13642,66 +13383,6 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "cd7ecee9486c97274a0a0c3e65ca32c12ce4cdfc483e2d37c84862ef5db1a2f9",
-          "name": "CubeWhite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "cube white.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 39,
-                            "y": 0
-                          },
-                          {
-                            "x": 39,
-                            "y": 47
-                          },
-                          {
-                            "x": 0,
-                            "y": 47
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "height": 32,
           "name": "WaveModePortal",
@@ -13790,6 +13471,87 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "025f696246324d08ed5116e7c8a13e42fc1aaa4a472f8169f8d1a0d5bb89a697",
+          "name": "TrailYellow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Trail Yellow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 127
+                          },
+                          {
+                            "x": 32,
+                            "y": 127
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "WaveMode_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Wave  Mode",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 70,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -13856,9 +13618,6 @@
             "objectName": "DomesticatedAnimal1"
           },
           {
-            "objectName": "WildAnimal3"
-          },
-          {
             "objectName": "WildAnimal1"
           },
           {
@@ -13871,6 +13630,9 @@
             "objectName": "ShipMode_Text"
           },
           {
+            "objectName": "WaveMode_Text"
+          },
+          {
             "objectName": "ShipTrail"
           },
           {
@@ -13880,10 +13642,10 @@
             "objectName": "WaveModePortal"
           },
           {
-            "objectName": "CubeWhite"
+            "objectName": "TrailPurple"
           },
           {
-            "objectName": "TrailPurple"
+            "objectName": "TrailYellow"
           }
         ]
       },
@@ -14678,185 +14440,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Wave mode",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "w"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "State",
-                    "=",
-                    "\"Wave\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "State",
-                    "=",
-                    "\"Wave\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "PlatformerObject",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Player_Platformer.PlatformerObject::MaxSpeed()",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Controls",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Space"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MouseButtonPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "-1 * Player_Platformer.PlatformerObject::MaxSpeed()",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "MouseButtonPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "Player_Platformer.PlatformerObject::MaxSpeed()",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "name": "Player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15005,7 +14588,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Win level",
+          "name": "Change to ship",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -15019,7 +14602,7 @@
                   "parameters": [
                     "Player_Platformer",
                     ">",
-                    "ShipModePortal.BoundingBoxCenterX()"
+                    "TrailPurple.BoundingBoxCenterX()"
                   ]
                 },
                 {
@@ -15045,22 +14628,103 @@
                         "=",
                         "\"Ship\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "PlatformerObject"
-                      ]
                     }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change to wave",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BoundingBoxCenterX"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    ">",
+                    "TrailYellow.BoundingBoxCenterX()"
                   ]
                 },
                 {
-                  "disabled": true,
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"Wave\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Wave mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "Animation",
+                    "=",
+                    "\"Wave\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -15068,90 +14732,191 @@
                       },
                       "parameters": [
                         "Player_Platformer",
-                        "SmoothCamera",
+                        "PlatformerObject",
                         ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "StopMusicCanal"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "",
-                        "1"
+                        "Player_Platformer"
                       ]
                     },
                     {
                       "type": {
-                        "value": "PlaySound"
+                        "value": "Tween::TweenCameraZoom2"
                       },
                       "parameters": [
                         "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                        "\"ZoomOut\"",
+                        "0.7",
                         "",
-                        "100",
-                        "0.9"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
-                        "",
-                        "100",
-                        "1.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"GDevelopDash\"",
-                        "="
+                        "\"linear\"",
+                        "0.5"
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Road",
+                        "",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "State",
+                        "=",
+                        "\"Dead\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Always move to the right",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "Player_Platformer.PlatformerObject::MaxSpeed()",
+                            "0",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Controls",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Space"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "0",
+                            "-1 * Player_Platformer.PlatformerObject::MaxSpeed()",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "0",
+                            "Player_Platformer.PlatformerObject::MaxSpeed()",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
@@ -15217,18 +14982,6 @@
                     },
                     {
                       "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "ShipTrail",
-                        "Player_Sticker.BoundingBoxLeft()",
-                        "Player_Sticker.BoundingBoxCenterY()",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "ParticleSystem::StopEmission"
                       },
                       "parameters": [
@@ -15237,13 +14990,10 @@
                     },
                     {
                       "type": {
-                        "value": "Sticker::Sticker::Stick"
+                        "value": "ParticleSystem::StartEmission"
                       },
                       "parameters": [
-                        "ShipTrail",
-                        "Sticker",
-                        "Player_Sticker",
-                        ""
+                        "ShipTrail"
                       ]
                     }
                   ]
@@ -15405,7 +15155,137 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
+          "name": "Win level",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BoundingBoxCenterX"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    ">",
+                    "FinishLine.BoundingBoxCenterX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "SmoothCamera",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "StopMusicCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                        "",
+                        "100",
+                        "0.9"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                        "",
+                        "100",
+                        "1.1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GDevelopDash\"",
+                        "="
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Teleport",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
