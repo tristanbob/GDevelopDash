@@ -21,7 +21,7 @@
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "GDevelop Dash",
-    "description": "",
+    "description": "Recreate the fun and challenge of Geometry Dash with this clone made in GDevelop.",
     "author": "",
     "windowWidth": 1920,
     "windowHeight": 1080,
@@ -62,6 +62,7 @@
     ],
     "playableDevices": [
       "keyboard",
+      "gamepad",
       "mobile"
     ],
     "extensionProperties": [],
@@ -108,15 +109,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/4aff911b77a74ec85d226e2b355e36132cc4c098f51ebdb68829f1cdf6114296_tiled_Brick2.png",
           "name": "tiled_Brick2.png"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/High spikes2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "High spikes",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "file": "assets/AlfaSlabOne-Regular.ttf",
@@ -2670,7 +2662,7 @@
         "alwaysLoaded": false,
         "file": "assets/assets_Play-Button-Idle.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/assets_Play-Button-Idle.png\"}",
         "name": "assets\\Play-Button-Idle",
         "smoothed": true,
         "userAdded": true
@@ -2743,55 +2735,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Blue life bar-bar.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Blue life bar-bar.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://private-assets.gdevelop.io/32bc8837-d024-4e68-b26a-4dd03fb009b3/resources/UI/Blue life bar-bar.png",
-          "name": "gdevelop-private-asset-storage"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue life bar-bar2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Blue life bar-bar",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue life bar-bar3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Blue life bar-bar2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue life bar-bar4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Blue life bar-bar3",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Blue life bar-bar5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Blue life bar-bar4",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Blue life bar-bar6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Blue life bar-bar6.png\"}",
@@ -2810,28 +2753,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Circle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Circle.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS Vita/67529b310c204a3daf30a6498bc072ef0b64e57e109bea5fa5842ae3da124dbb_Circle.png",
-          "name": "Circle.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Circle2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Circle2.png\"}",
-        "name": "Circle",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Circle3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Circle3.png\"}",
@@ -2845,7 +2766,7 @@
         "metadata": "",
         "name": "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true,
         "origin": {
@@ -2899,7 +2820,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.5427920802473476,
+        "zoomFactor": 0.1440493154925083,
         "windowMask": false
       },
       "objectsGroups": [
@@ -2953,6 +2874,7 @@
           "depth": 1,
           "height": 1696,
           "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "6ce1fd0d-591d-4894-b978-28b37b76214a",
           "width": 12224,
@@ -5675,7 +5597,8 @@
           "customSize": true,
           "depth": 1,
           "height": 1696,
-          "layer": "",
+          "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "0ca866c0-ee49-41ba-addb-84bee162a8c0",
           "width": 1696,
@@ -5691,7 +5614,8 @@
           "customSize": true,
           "depth": 1,
           "height": 1536,
-          "layer": "",
+          "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "1c6864af-0c35-4ffc-b783-70953ab25179",
           "width": 416,
@@ -5708,6 +5632,7 @@
           "depth": 1,
           "height": 1536,
           "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "64543061-6dd1-4dc0-b14a-6b3f1fd5abb0",
           "width": 384,
@@ -5724,6 +5649,7 @@
           "depth": 1,
           "height": 1536,
           "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "68201610-30ec-498d-8471-70ff5d32027e",
           "width": 480,
@@ -5740,6 +5666,7 @@
           "depth": 1,
           "height": 1696,
           "layer": "Obstacles",
+          "locked": true,
           "name": "Road",
           "persistentUuid": "44acbe09-4b02-4137-b6a1-d5cafcca9385",
           "width": 576,
@@ -7859,6 +7786,12 @@
               "name": "DefaultJumpSpeed",
               "type": "number",
               "value": 1500
+            },
+            {
+              "folded": true,
+              "name": "AllowRingJump",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -17059,7 +16992,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Jump Pad",
+                  "name": "Jump Pads",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -17186,10 +17119,106 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Jump ring",
+                  "name": "Jump rings",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Require new jump for jump rings",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::IsJumping"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "PlatformerObject"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject",
+                                    "\"Jump\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "AllowRingJump",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject",
+                                    "\"Jump\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "AllowRingJump",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
@@ -17213,26 +17242,14 @@
                           "conditions": [
                             {
                               "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SetCanJump"
+                                "value": "ObjectVariableAsBoolean"
                               },
                               "parameters": [
                                 "Player_Platformer",
-                                "PlatformerObject"
+                                "AllowRingJump",
+                                "True"
                               ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
+                            },
                             {
                               "type": {
                                 "value": "BuiltinCommonInstructions::Or"
@@ -17280,6 +17297,15 @@
                             {
                               "type": {
                                 "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "PlatformerObject"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::SetCanJump"
                               },
                               "parameters": [
                                 "Player_Platformer",
