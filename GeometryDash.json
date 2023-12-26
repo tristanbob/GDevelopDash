@@ -555,6 +555,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Circle2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ship.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ship",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5754,8 +5772,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets\\Purple Car_Idle",
+                      "hasCustomCollisionMask": false,
+                      "image": "Ship",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6929,7 +6947,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Circle",
+                      "image": "Circle2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
