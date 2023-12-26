@@ -520,7 +520,7 @@
         "metadata": "",
         "name": "2c73ebd849c60078c3744888d940243bc5dc25f70589da4a008e7e20bc65b054_Powerup 4.aac",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true,
         "origin": {
@@ -534,7 +534,7 @@
         "metadata": "",
         "name": "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true,
         "origin": {
@@ -548,7 +548,7 @@
         "metadata": "",
         "name": "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
         "preloadAsMusic": false,
-        "preloadAsSound": false,
+        "preloadAsSound": true,
         "preloadInCache": false,
         "userAdded": true,
         "origin": {
@@ -573,6 +573,20 @@
         "name": "Ship",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/1up 4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "5b9dbd5c0cfedf571cd35d2835046d6a1938afd71b18a3b1ab236144235819c7_1up 4.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/1up/5b9dbd5c0cfedf571cd35d2835046d6a1938afd71b18a3b1ab236144235819c7_1up 4.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -611,7 +625,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.08197080873857353,
+        "zoomFactor": 0.06081793941801465,
         "windowMask": false
       },
       "objectsGroups": [
@@ -1328,13 +1342,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 166,
+          "height": 128,
           "layer": "",
           "name": "ShipMode_Text",
           "persistentUuid": "285d44a9-0fdb-45d1-b7d6-a01f809eded5",
           "width": 760,
-          "x": 13728,
-          "y": 416,
+          "x": 13696,
+          "y": 384,
           "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
@@ -5433,6 +5447,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "InvertGravity_Text",
+          "persistentUuid": "22717066-0893-4870-aa65-3baea1b230f1",
+          "width": 0,
+          "x": 21920,
+          "y": 381,
+          "zOrder": 136,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5531,18 +5560,6 @@
           ],
           "effects": [],
           "behaviors": [
-            {
-              "name": "AdvancedJump",
-              "type": "AdvancedJump::AdvancedJump",
-              "PlatformerBehavior": "PlatformerObject",
-              "CoyoteTimeFrameDuration": 0.2,
-              "CanCoyoteJump": false,
-              "WasInTheAir": false,
-              "AirJumpCountMaximum": 0,
-              "AreFloorJumpCountedAsAirJump": false,
-              "AirJumpCount": 0,
-              "WasJumpKeyReleased": false
-            },
             {
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
@@ -5885,12 +5902,12 @@
         {
           "additive": false,
           "assetStoreId": "",
-          "destroyWhenNoParticles": true,
+          "destroyWhenNoParticles": false,
           "emitterAngleA": 0,
           "emitterAngleB": 90,
           "emitterForceMax": 200,
           "emitterForceMin": 0,
-          "flow": 60,
+          "flow": 120,
           "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 300,
           "name": "CubeTrail",
@@ -5905,7 +5922,7 @@
           "particleBlue1": 226,
           "particleBlue2": 226,
           "particleGravityX": 0,
-          "particleGravityY": -20,
+          "particleGravityY": -100,
           "particleGreen1": 144,
           "particleGreen2": 144,
           "particleLifeTimeMax": 0.5,
@@ -6403,7 +6420,20 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Ship  Mode",
           "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
@@ -6609,7 +6639,20 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "string": "Wave  Mode",
           "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
@@ -7723,28 +7766,90 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "additive": true,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": false,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 1000,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 300,
+          "name": "EndLevelParticles",
+          "particleAlpha1": 255,
+          "particleAlpha2": 255,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 224,
+          "particleBlue2": 224,
+          "particleGravityX": 500,
+          "particleGravityY": 0,
+          "particleGreen1": 16,
+          "particleGreen2": 16,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 189,
+          "particleRed2": 189,
+          "particleSize1": 0,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 16,
+          "rendererParam2": 16,
+          "rendererType": "Line",
+          "tank": 4000,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 720,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "InvertGravity_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "string": "Invert Gravity",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 70,
+          "color": {
+            "b": 7,
+            "g": 255,
+            "r": 0
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
-          {
-            "folderName": "Victory",
-            "children": [
-              {
-                "objectName": "RestartLevel_Button"
-              },
-              {
-                "objectName": "LevelComplete"
-              },
-              {
-                "objectName": "VictoryShockwave"
-              },
-              {
-                "objectName": "VictoryParticles"
-              }
-            ]
-          },
           {
             "folderName": "PlayerComponents",
             "children": [
@@ -7840,6 +7945,9 @@
               },
               {
                 "objectName": "WaveMode_Text"
+              },
+              {
+                "objectName": "InvertGravity_Text"
               }
             ]
           },
@@ -7854,6 +7962,26 @@
               },
               {
                 "objectName": "InvertGravityShockwave"
+              }
+            ]
+          },
+          {
+            "folderName": "Victory",
+            "children": [
+              {
+                "objectName": "EndLevelParticles"
+              },
+              {
+                "objectName": "RestartLevel_Button"
+              },
+              {
+                "objectName": "LevelComplete"
+              },
+              {
+                "objectName": "VictoryShockwave"
+              },
+              {
+                "objectName": "VictoryParticles"
               }
             ]
           },
@@ -8112,7 +8240,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Jumppad particles",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -8380,9 +8507,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 194,
+          "colorG": 227,
+          "colorR": 80,
           "creationTime": 0,
           "name": "GameState: Playing",
           "source": "",
@@ -8630,7 +8757,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "name": "Jump rings",
+                          "name": "Jump orbs",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
@@ -8639,7 +8766,7 @@
                               "colorG": 176,
                               "colorR": 74,
                               "creationTime": 0,
-                              "name": "Require new jump for jump rings",
+                              "name": "Require new jump for jump orbs",
                               "source": "",
                               "type": "BuiltinCommonInstructions::Group",
                               "events": [
@@ -8725,6 +8852,15 @@
                                   },
                                   "parameters": [],
                                   "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Up"
+                                      ]
+                                    },
                                     {
                                       "type": {
                                         "value": "KeyPressed"
@@ -8838,6 +8974,20 @@
                                         "75",
                                         "1"
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                                      },
+                                      "parameters": [
+                                        "Player_Sticker",
+                                        "Tween",
+                                        "\"Spin\"",
+                                        "Player_Sticker.Angle() + 180",
+                                        "\"linear\"",
+                                        "0.4",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
@@ -8935,6 +9085,15 @@
                                       "parameters": [
                                         "",
                                         "Space"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Up"
                                       ]
                                     },
                                     {
@@ -9060,6 +9219,12 @@
                                     "Player_Platformer",
                                     "PlatformerObject"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
                                 }
                               ],
                               "actions": [
@@ -9242,7 +9407,6 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Ship",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -9323,6 +9487,20 @@
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ParticleSystem::StopEmission"
+                                  },
+                                  "parameters": [
+                                    "CubeTrail"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
                               "type": "BuiltinCommonInstructions::Comment",
                               "color": {
                                 "b": 109,
@@ -9365,6 +9543,14 @@
                                   },
                                   "parameters": [
                                     "Player_Platformer"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ParticleSystem::StartEmission"
+                                  },
+                                  "parameters": [
+                                    "CubeTrail"
                                   ]
                                 }
                               ]
@@ -9656,6 +9842,15 @@
                                         "1",
                                         ""
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Up"
+                                      ]
                                     }
                                   ]
                                 }
@@ -9706,6 +9901,16 @@
                                     "",
                                     "1",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "KeyPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Up"
                                   ]
                                 }
                               ],
@@ -9765,7 +9970,6 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Wave mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -10045,6 +10249,15 @@
                                         "1",
                                         ""
                                       ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Up"
+                                      ]
                                     }
                                   ]
                                 }
@@ -10095,6 +10308,16 @@
                                     "",
                                     "1",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "KeyPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Up"
                                   ]
                                 }
                               ],
@@ -10237,7 +10460,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10535,9 +10757,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 194,
+          "colorG": 227,
+          "colorR": 80,
           "creationTime": 0,
           "name": "GameState: Victory",
           "source": "",
@@ -10588,301 +10810,371 @@
                         "",
                         "1"
                       ]
-                    },
+                    }
+                  ],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Tween::TweenCameraPosition2"
-                      },
-                      "parameters": [
-                        "",
-                        "\"PanToPlayer\"",
-                        "Player_Platformer.X()",
-                        "Player_Platformer.Y()",
-                        "\"\"",
-                        "\"easeOutQuad\"",
-                        "1"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenCameraPosition2"
+                          },
+                          "parameters": [
+                            "",
+                            "\"PanToPlayer\"",
+                            "Player_Platformer.X()",
+                            "Player_Platformer.Y()",
+                            "\"\"",
+                            "\"easeOutQuad\"",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenCameraZoom2"
+                          },
+                          "parameters": [
+                            "",
+                            "\"ZoomIn\"",
+                            "1",
+                            "",
+                            "\"easeOutQuad\"",
+                            "1"
+                          ]
+                        }
                       ]
                     },
                     {
-                      "type": {
-                        "value": "Tween::TweenCameraZoom2"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ZoomIn\"",
-                        "1",
-                        "",
-                        "\"easeOutQuad\"",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
-                        "",
-                        "100",
-                        "0.9"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
-                        "",
-                        "100",
-                        "1.1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.3"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "ShowShadowClones",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Tween",
-                        "\"SlamToSide\"",
-                        "CameraBorderRight()",
-                        "\"easeInQuad\"",
-                        "1",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Tween",
-                        "\"SlideUp\"",
-                        "CameraCenterY() - 200",
-                        "\"easeOutQuad\"",
-                        "0.6",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.6"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Tween",
-                        "\"SlideDown\"",
-                        "CameraCenterY()",
-                        "\"easeInQuad\"",
-                        "0.4",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.4"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "VictoryShockwave",
-                        "Player_Platformer.CenterX()",
-                        "Player_Platformer.CenterY()",
-                        "\"Obstacles\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "VictoryParticles",
-                        "Player_Platformer.CenterX()",
-                        "Player_Platformer.CenterY()",
-                        "\"Obstacles\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
-                        "",
-                        "100",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "LevelComplete",
-                        "CameraCenterX(\"UI\") - 225",
-                        "CameraCenterY(\"UI\") - 200",
-                        "\"UI\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ScalableCapability::ScalableBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "LevelComplete",
-                        "Scale",
-                        "=",
-                        "0.5"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectScaleTween2"
-                      },
-                      "parameters": [
-                        "LevelComplete",
-                        "Tween",
-                        "\"ExpandFromNothing\"",
-                        "1",
-                        "1",
-                        "\"bouncePast\"",
-                        "1",
-                        "",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
-                        "",
-                        "100",
-                        "0.7"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "RestartLevel_Button",
-                        "CameraCenterX(\"UI\") - 160",
-                        "CameraBorderTop(\"UI\") - 64",
-                        "\"UI\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "RestartLevel_Button",
-                        "Tween",
-                        "\"SlideDown\"",
-                        "CameraCenterY(\"UI\") - 64",
-                        "\"easeOutBack\"",
-                        "0.5",
-                        "1"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                            "",
+                            "100",
+                            "0.9"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                            "",
+                            "100",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "751052bbd3de6938713ebbe8782cc3f6feba91f9e3caf27272335ac4e549c0cd_Complete_02.aac",
+                            "",
+                            "100",
+                            "1.1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "0.3"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "ShowShadowClones",
+                                "True"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "Tween",
+                                "\"SlamToSide\"",
+                                "CameraBorderRight()",
+                                "\"easeInQuad\"",
+                                "1",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "Tween",
+                                "\"SlideUp\"",
+                                "CameraCenterY() - 200",
+                                "\"easeOutQuad\"",
+                                "0.6",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "5b9dbd5c0cfedf571cd35d2835046d6a1938afd71b18a3b1ab236144235819c7_1up 4.aac",
+                                "",
+                                "100",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Create"
+                              },
+                              "parameters": [
+                                "",
+                                "EndLevelParticles",
+                                "CameraBorderRight(\"UI\", )",
+                                "CameraCenterY(\"UI\")",
+                                "\"UI\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.6"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "Tween",
+                                "\"SlideDown\"",
+                                "CameraCenterY()",
+                                "\"easeInQuad\"",
+                                "0.4",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "0.4"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+                                    "",
+                                    "100",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "VictoryShockwave",
+                                    "Player_Platformer.CenterX()",
+                                    "Player_Platformer.CenterY()",
+                                    "\"Obstacles\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "VictoryParticles",
+                                    "Player_Platformer.CenterX()",
+                                    "Player_Platformer.CenterY()",
+                                    "\"Obstacles\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "PlaySound"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+                                        "",
+                                        "100",
+                                        "0.7"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "LevelComplete",
+                                        "CameraCenterX(\"UI\") - 225",
+                                        "CameraBorderTop(\"UI\") + 0.25 * CameraHeight(\"UI\")",
+                                        "\"UI\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                      },
+                                      "parameters": [
+                                        "LevelComplete",
+                                        "Scale",
+                                        "=",
+                                        "0.5"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Tween::TweenBehavior::AddObjectScaleTween2"
+                                      },
+                                      "parameters": [
+                                        "LevelComplete",
+                                        "Tween",
+                                        "\"ExpandFromNothing\"",
+                                        "1",
+                                        "1",
+                                        "\"bouncePast\"",
+                                        "1",
+                                        "",
+                                        "yes"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Wait"
+                                      },
+                                      "parameters": [
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "Create"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "RestartLevel_Button",
+                                            "CameraCenterX(\"UI\") - 160",
+                                            "CameraBorderTop(\"UI\") - 64",
+                                            "\"UI\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                                          },
+                                          "parameters": [
+                                            "RestartLevel_Button",
+                                            "Tween",
+                                            "\"SlideDown\"",
+                                            "CameraCenterY(\"UI\") - 64",
+                                            "\"easeOutBack\"",
+                                            "0.5",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "PlaySound"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+                                            "",
+                                            "100",
+                                            "0.7"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -11497,10 +11789,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "AdvancedJump",
-          "type": "AdvancedJump::AdvancedJump"
-        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
@@ -57108,7 +57396,7 @@
           "persistentUuid": "f4cc0ae8-07fa-4245-95b8-5064981f979b",
           "width": 320,
           "x": 768,
-          "y": 448,
+          "y": 512,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
