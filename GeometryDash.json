@@ -29,7 +29,36 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "preview.png"
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -403,7 +432,7 @@
         "alwaysLoaded": false,
         "file": "assets/Circle4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Circle4.png\"}",
         "name": "Circle",
         "smoothed": true,
         "userAdded": true
@@ -425,6 +454,107 @@
         "name": "InvertGravityRing2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "preview.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/37288d30c2e013a34e415fb35fffd2f7267ebd031c4380927485d7461708f810_Blue Button With Shadow_Hovered.png",
+          "name": "Blue Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/22930cdc6b25260eef3817f1687842974261b68c84ec2a13d7f32b1a2985240f_Blue Button With Shadow_Idle.png",
+          "name": "Blue Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/26efbc7581c47b884f5335aa7581999a75b3062aa24062a1a91955e334826d21_Blue Button With Shadow_Pressed.png",
+          "name": "Blue Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "file": "assets/Powerup 4.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2c73ebd849c60078c3744888d940243bc5dc25f70589da4a008e7e20bc65b054_Powerup 4.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Power-up/2c73ebd849c60078c3744888d940243bc5dc25f70589da4a008e7e20bc65b054_Powerup 4.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Explosion 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Arrow.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -463,7 +593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.22169247275006185,
+        "zoomFactor": 0.08197080873857353,
         "windowMask": false
       },
       "objectsGroups": [
@@ -478,6 +608,9 @@
             },
             {
               "name": "TeleportHere"
+            },
+            {
+              "name": "VictoryTeleport"
             }
           ]
         },
@@ -522,6 +655,12 @@
           "name": "HorizontalSpeed",
           "type": "number",
           "value": 750
+        },
+        {
+          "folded": true,
+          "name": "GameState",
+          "type": "string",
+          "value": "\"Loading\""
         }
       ],
       "instances": [
@@ -772,9 +911,9 @@
           "layer": "Obstacles",
           "name": "FinishLine",
           "persistentUuid": "1e1ecb1c-7842-4458-b87c-8ce8a88deb8b",
-          "width": 224,
-          "x": 53408,
-          "y": 1920,
+          "width": 96,
+          "x": 53600,
+          "y": 1888,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -1251,7 +1390,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 384,
+          "height": 352,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "3758842a-4477-4c5e-b2f3-468c5bd4ae64",
@@ -1272,7 +1411,7 @@
           "name": "Road",
           "persistentUuid": "9ed1c2c3-2c1e-4a63-8c48-9523c6b614c0",
           "width": 128,
-          "x": 23840,
+          "x": 24352,
           "y": 256,
           "zOrder": 112,
           "numberProperties": [],
@@ -1288,7 +1427,7 @@
           "name": "Road",
           "persistentUuid": "597b52f6-b729-4f46-ae36-e87a686dc334",
           "width": 128,
-          "x": 25632,
+          "x": 25888,
           "y": 736,
           "zOrder": 112,
           "numberProperties": [],
@@ -3420,21 +3559,6 @@
           "height": 0,
           "layer": "Obstacles",
           "name": "_3_Spikes",
-          "persistentUuid": "57060c54-1886-40b5-8930-1107246dad9f",
-          "width": 0,
-          "x": 29856,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
           "persistentUuid": "a5ff92fa-11a8-4dca-8d5a-3a3a272b283f",
           "width": 0,
           "x": 19104,
@@ -3498,21 +3622,6 @@
           "persistentUuid": "bfbdcdef-8842-4b10-a5c2-cb7f93ae05ae",
           "width": 0,
           "x": 19616,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "c422c987-d8fb-4a5a-94b6-8a8f3e35d5a0",
-          "width": 0,
-          "x": 29984,
           "y": 992,
           "zOrder": 130,
           "numberProperties": [],
@@ -3663,21 +3772,6 @@
           "persistentUuid": "296c9c10-49fe-45ac-baa3-f58b62a5c079",
           "width": 0,
           "x": 25760,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "3ae2f7c0-c316-4f27-8ee1-6e14c9386df7",
-          "width": 0,
-          "x": 30624,
           "y": 992,
           "zOrder": 130,
           "numberProperties": [],
@@ -3930,21 +4024,6 @@
           "height": 0,
           "layer": "Obstacles",
           "name": "_3_Spikes",
-          "persistentUuid": "21e33a01-9cef-4e47-af3d-147b722e900d",
-          "width": 0,
-          "x": 30752,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
           "persistentUuid": "969ded40-21a3-4227-9f81-9cbff74a7366",
           "width": 0,
           "x": 22176,
@@ -4113,21 +4192,6 @@
           "persistentUuid": "107a2b3d-0151-45b1-8a77-1c2616cc2bd6",
           "width": 0,
           "x": 26144,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "c25dbe7f-e875-4690-9b98-1ed8a90d9c0c",
-          "width": 0,
-          "x": 23968,
           "y": 256,
           "zOrder": 130,
           "numberProperties": [],
@@ -4337,7 +4401,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "b4b16d67-200d-4182-83c7-82ccfd9e6ec0",
           "width": 0,
-          "x": 25888,
+          "x": 25632,
           "y": 992,
           "zOrder": 130,
           "numberProperties": [],
@@ -4503,21 +4567,6 @@
           "persistentUuid": "9427aac2-eaa6-4011-9540-6b702c05620c",
           "width": 0,
           "x": 27296,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "bea79e2f-59af-403c-afce-cf2c65106cd7",
-          "width": 0,
-          "x": 29728,
           "y": 992,
           "zOrder": 130,
           "numberProperties": [],
@@ -4708,141 +4757,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "4f22bc10-efaa-4a0c-957a-545c714b6264",
-          "width": 0,
-          "x": 29216,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "7450ada2-e820-4360-825f-39ad89de3eef",
-          "width": 0,
-          "x": 29344,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "ff788b55-65a0-430d-9f0e-ca324e37c3ad",
-          "width": 0,
-          "x": 29472,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "34dfce82-d4fd-41c4-9be4-c08d2c844c66",
-          "width": 0,
-          "x": 29600,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "9b5ab02f-9934-4c9b-8358-e714b641c402",
-          "width": 0,
-          "x": 29088,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "aa3a9cb5-0a5a-470d-bb70-a029ca4ce5aa",
-          "width": 0,
-          "x": 30112,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "79711ca8-ecb9-47fc-bf55-8b120a5e7a80",
-          "width": 0,
-          "x": 30240,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "636da225-a7d7-4828-934b-1d316f7404a8",
-          "width": 0,
-          "x": 30368,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "c21f504c-be32-4d7c-b9f4-b64393a43494",
-          "width": 0,
-          "x": 30496,
-          "y": 992,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "",
           "name": "VictoryTeleport",
           "persistentUuid": "3c394457-74e5-4b4e-afc4-c77c8fb90e35",
@@ -4878,7 +4792,7 @@
           "persistentUuid": "6e3e635c-a596-4a74-b7ba-16db63395177",
           "width": 96,
           "x": 29040,
-          "y": 592,
+          "y": 608,
           "zOrder": 134,
           "numberProperties": [],
           "stringProperties": [],
@@ -4892,8 +4806,8 @@
           "name": "InvertGravityRing",
           "persistentUuid": "728b762a-b726-4989-9729-ecc004af72b8",
           "width": 0,
-          "x": 43824,
-          "y": 1584,
+          "x": 43888,
+          "y": 1552,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -5151,51 +5065,6 @@
           "persistentUuid": "b413117a-c98f-4004-941a-63ae200033af",
           "width": 0,
           "x": 24864,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "bb6e2caf-ac0a-4fe6-b80f-6b24b16af2f6",
-          "width": 0,
-          "x": 24224,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "6c554da7-e3da-4a6d-9da4-42fb691f9bb5",
-          "width": 0,
-          "x": 24096,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "eb771e5e-c9fa-4d43-951c-dc3ad5100e1d",
-          "width": 0,
-          "x": 24352,
           "y": 256,
           "zOrder": 130,
           "numberProperties": [],
@@ -5634,6 +5503,12 @@
               "name": "GravitySign",
               "type": "number",
               "value": 1
+            },
+            {
+              "folded": true,
+              "name": "ShowShadowClones",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -5681,8 +5556,8 @@
               "FollowOnY": true,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 0,
-              "FollowFreeAreaBottom": 0,
+              "FollowFreeAreaTop": 400,
+              "FollowFreeAreaBottom": 400,
               "CameraOffsetX": 500,
               "CameraOffsetY": 0,
               "CameraDelay": 0,
@@ -5740,6 +5615,10 @@
               "AirDownwardSpeedMax": 9000,
               "FloorUpwardSpeedMax": 9000,
               "FloorDownwardSpeedMax": 9000
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -5806,7 +5685,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Player_Sticker",
           "type": "Sprite",
@@ -5845,7 +5724,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "assets\\Play-Button-Idle",
                       "points": [],
                       "originPoint": {
@@ -5859,26 +5738,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -5911,20 +5771,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 29.5,
+                            "y": 2.5
                           },
                           {
-                            "x": 64,
-                            "y": 0
+                            "x": 88.5,
+                            "y": 3
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 88,
+                            "y": 61
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 60.5
                           }
                         ]
                       ]
@@ -5959,20 +5819,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8.5,
+                            "y": 8.5
                           },
                           {
-                            "x": 64,
-                            "y": 0
+                            "x": 56.5,
+                            "y": 8.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 57,
+                            "y": 53.5
                           },
                           {
-                            "x": 0,
-                            "y": 64
+                            "x": 8,
+                            "y": 53.5
                           }
                         ]
                       ]
@@ -6093,19 +5953,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18,
-                            "y": 20
+                            "x": 16,
+                            "y": 12
                           },
                           {
-                            "x": 120,
-                            "y": 20
+                            "x": 112,
+                            "y": 12
                           },
                           {
-                            "x": 120,
+                            "x": 112,
                             "y": 64
                           },
                           {
-                            "x": 18,
+                            "x": 16,
                             "y": 64
                           }
                         ]
@@ -6342,7 +6202,7 @@
             "BarBottomPadding": 8,
             "BarLeftPadding": 10,
             "PreviousHighValueDuration": 0,
-            "ShowLabel": true,
+            "ShowLabel": false,
             "EasingDuration": 0
           },
           "childrenContent": {
@@ -7051,6 +6911,10 @@
             {
               "name": "ShakeObject_PositionAngleScale",
               "type": "ShakeObject::ShakeObject_PositionAngleScale"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -7187,20 +7051,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24.5,
-                            "y": 16.5
+                            "x": 22,
+                            "y": 16
                           },
                           {
-                            "x": 39.5,
-                            "y": 16.5
+                            "x": 42,
+                            "y": 16
                           },
                           {
-                            "x": 40.5,
-                            "y": 46.5
+                            "x": 42,
+                            "y": 64
                           },
                           {
-                            "x": 23,
-                            "y": 47
+                            "x": 22,
+                            "y": 64
                           }
                         ]
                       ]
@@ -7438,11 +7302,431 @@
           "absoluteCoordinates": false,
           "clearBetweenFrames": true,
           "antialiasing": "none"
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Player_Sticker_ShadowClone",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "FaceForward",
+              "type": "FaceForward::FaceForward",
+              "RotationSpeed": 0,
+              "OffsetAngle": 0,
+              "PreviousX": 2.0247e-320,
+              "PreviousY": 2.0247e-320,
+              "MovementDirection": 0
+            },
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": true,
+              "IsDestroyedWithParent": true
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Cube",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Play-Button-Idle",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ship",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Purple Car_Idle",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 29.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 88.5,
+                            "y": 3
+                          },
+                          {
+                            "x": 88,
+                            "y": 61
+                          },
+                          {
+                            "x": 29.5,
+                            "y": 60.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wave",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "WaveHero64x64.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 56.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 57,
+                            "y": 53.5
+                          },
+                          {
+                            "x": 8,
+                            "y": 53.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "VictoryShockwave",
+          "type": "PrimitiveDrawing::Drawer",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "DrawEllipseShockWave",
+              "type": "DrawShockWaveEffect::DrawEllipseShockWave",
+              "Start1Width": 8,
+              "Start2Height": 8,
+              "Start3Outline": 16,
+              "Start4Color": "189;16;224",
+              "Start5Opacity": 255,
+              "Start6Angle": 0,
+              "End1Width": 1280,
+              "End2Height": 1280,
+              "End3Outline": 15,
+              "End4Color": "255;255;255",
+              "End5Opacity": 0,
+              "End6Angle": 0,
+              "Behaviors": "Tween",
+              "Duration": 1000,
+              "TweenName": "easeOutSine",
+              "Width": 2.33419557253e-313,
+              "Height": 2.33419557253e-313,
+              "Outline": 2.33419557253e-313,
+              "Color": "",
+              "Angle": 2.33419557253e-313,
+              "Type": "Fill"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "fillOpacity": 255,
+          "outlineSize": 10,
+          "outlineOpacity": 255,
+          "fillColor": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "outlineColor": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "absoluteCoordinates": false,
+          "clearBetweenFrames": true,
+          "antialiasing": "none"
+        },
+        {
+          "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
+          "name": "RestartLevel_Button",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "LeftPadding": 16,
+            "RightPadding": 16,
+            "PressedLabelOffsetY": 3,
+            "BottomPadding": 32,
+            "TopPadding": 32,
+            "HoveredFadeOutDuration": 0.25
+          },
+          "childrenContent": {
+            "Hovered": {
+              "bottomMargin": 16,
+              "height": 128,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Blue Button With Shadow_Hovered.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 320
+            },
+            "Idle": {
+              "bottomMargin": 16,
+              "height": 128,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Blue Button With Shadow_Idle.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 320
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "Restart\nLevel",
+              "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+              "textAlignment": "center",
+              "characterSize": 40,
+              "color": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            "Pressed": {
+              "bottomMargin": 16,
+              "height": 128,
+              "leftMargin": 16,
+              "rightMargin": 16,
+              "texture": "Blue Button With Shadow_Pressed.png",
+              "tiled": true,
+              "topMargin": 16,
+              "width": 320
+            }
+          }
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 360,
+          "emitterForceMax": 1000,
+          "emitterForceMin": 600,
+          "flow": 1000,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 300,
+          "name": "VictoryParticles",
+          "particleAlpha1": 255,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 226,
+          "particleBlue2": 226,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGreen1": 144,
+          "particleGreen2": 144,
+          "particleLifeTimeMax": 1,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 74,
+          "particleRed2": 74,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "rendererParam1": 24,
+          "rendererParam2": 24,
+          "rendererType": "Line",
+          "tank": 150,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": true,
+          "name": "LevelComplete",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "BlackOutline",
+              "doubleParameters": {
+                "padding": 4,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "0;0;0"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Outline",
+              "name": "WhiteOutline",
+              "doubleParameters": {
+                "padding": 4,
+                "thickness": 4
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "LEVEL COMPLETE!",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 224,
+            "g": 16,
+            "r": 189
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ProgressPercent_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "100%",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Victory",
+            "children": [
+              {
+                "objectName": "RestartLevel_Button"
+              },
+              {
+                "objectName": "LevelComplete"
+              },
+              {
+                "objectName": "VictoryShockwave"
+              },
+              {
+                "objectName": "VictoryParticles"
+              }
+            ]
+          },
           {
             "folderName": "PlayerComponents",
             "children": [
@@ -7454,6 +7738,9 @@
               },
               {
                 "objectName": "Player_Sticker"
+              },
+              {
+                "objectName": "Player_Sticker_ShadowClone"
               },
               {
                 "objectName": "DeathShockwave"
@@ -7523,6 +7810,9 @@
               },
               {
                 "objectName": "AttemptNumber_Text"
+              },
+              {
+                "objectName": "ProgressPercent_Text"
               },
               {
                 "objectName": "LevelProgressBar"
@@ -7804,6 +8094,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Jumppad particles",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -7969,8 +8260,8 @@
                     "",
                     "Goodnightmare.aac",
                     "1",
-                    "50",
-                    "50",
+                    "yes",
+                    "40",
                     "1"
                   ]
                 },
@@ -8049,17 +8340,33 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ProgressPercent_Text",
+                    "Text",
+                    "=",
+                    "ToString(round(LevelProgressBar.Value())) + \"%\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
         },
         {
-          "colorB": 254,
-          "colorG": 19,
-          "colorR": 144,
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
           "creationTime": 0,
-          "folded": true,
-          "name": "Cube mode",
+          "name": "GameState: Playing",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -8068,92 +8375,23 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "VarSceneTxt"
                   },
                   "parameters": [
-                    "Player_Sticker",
-                    "Animation",
+                    "GameState",
                     "=",
-                    "\"Cube\""
+                    "\"Playing\""
                   ]
                 }
               ],
               "actions": [],
               "events": [
                 {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
                   "creationTime": 0,
-                  "name": "Corner Correction",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Check two positions, one at the bottom of the player and a higher one based on PercentCornerCorrection.\nCheck the horizontal location one frame in front of object based on it's current moving speed.\nIf the bottom check is inside terrain but the top is not, then move the player up based on the difference between the bottom of player and the top of the terrain. "
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "Road",
-                            "Player_Platformer.BoundingBoxRight() + (Player_Platformer.PlatformerObject::CurrentSpeed() * TimeDelta())",
-                            "Player_Platformer.BoundingBoxBottom() - 1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "Road",
-                            "Player_Platformer.BoundingBoxRight() + (Player_Platformer.PlatformerObject::CurrentSpeed() * TimeDelta())",
-                            "Player_Platformer.BoundingBoxBottom() - (Player_Platformer.Height() * Player_Platformer.PercentCornerCorrection)"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "MettreY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "-",
-                            "abs(Player_Platformer.BoundingBoxBottom() - Road.BoundingBoxTop()) + 1"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Jump Pads",
+                  "name": "Cube mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -8162,274 +8400,1418 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionNP"
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
                           },
                           "parameters": [
-                            "Player_Platformer",
-                            "JumpPad",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SetCanJump"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::JumpSpeed"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject",
+                            "Player_Sticker",
+                            "Animation",
                             "=",
-                            "Player_Platformer.DefaultJumpSpeed * JumpPadMultiplier"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "JumpShockwave",
-                            "JumpPad.CenterX()",
-                            "JumpPad.CenterY()",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
-                            "",
-                            "75",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "JumpPad",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::JumpSpeed"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject",
-                            "=",
-                            "Player_Platformer.DefaultJumpSpeed"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Jump rings",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "colorB": 228,
-                      "colorG": 176,
-                      "colorR": 74,
-                      "creationTime": 0,
-                      "name": "Require new jump for jump rings",
-                      "source": "",
-                      "type": "BuiltinCommonInstructions::Group",
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsJumping"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject",
-                                "\"Jump\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "AllowRingJump",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "inverted": true,
-                                "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject",
-                                "\"Jump\""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetObjectVariableAsBoolean"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "AllowRingJump",
-                                "True"
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "parameters": []
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Space"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MouseButtonPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Gamepads::C_Any_Button_pressed"
-                              },
-                              "parameters": [
-                                "",
-                                "1",
-                                ""
-                              ]
-                            }
+                            "\"Cube\""
                           ]
                         }
                       ],
                       "actions": [],
                       "events": [
                         {
-                          "disabled": true,
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Corner Correction",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Check two positions, one at the bottom of the player and a higher one based on PercentCornerCorrection.\nCheck the horizontal location one frame in front of object based on it's current moving speed.\nIf the bottom check is inside terrain but the top is not, then move the player up based on the difference between the bottom of player and the top of the terrain. "
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Road",
+                                    "Player_Platformer.BoundingBoxRight() + (Player_Platformer.PlatformerObject::CurrentSpeed() * TimeDelta())",
+                                    "Player_Platformer.BoundingBoxBottom() - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Road",
+                                    "Player_Platformer.BoundingBoxRight() + (Player_Platformer.PlatformerObject::CurrentSpeed() * TimeDelta())",
+                                    "Player_Platformer.BoundingBoxBottom() - (Player_Platformer.Height() * Player_Platformer.PercentCornerCorrection)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "MettreY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "-",
+                                    "abs(Player_Platformer.BoundingBoxBottom() - Road.BoundingBoxTop()) + 1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Jump Pads",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "JumpPad",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SetCanJump"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::JumpSpeed"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject",
+                                    "=",
+                                    "Player_Platformer.DefaultJumpSpeed * JumpPadMultiplier"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateJumpKey"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "JumpShockwave",
+                                    "JumpPad.CenterX()",
+                                    "JumpPad.CenterY()",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "PlaySound"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+                                    "",
+                                    "75",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "JumpPad",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::JumpSpeed"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject",
+                                    "=",
+                                    "Player_Platformer.DefaultJumpSpeed"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Jump rings",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Require new jump for jump rings",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::IsJumping"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Once"
+                                      },
+                                      "parameters": []
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "AllowRingJump",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject",
+                                        "\"Jump\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "AllowRingJump",
+                                        "True"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "AllowRingJump",
+                                    "True"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Space"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Left"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Gamepads::C_Any_Button_pressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "1",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionNP"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "JumpRing",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetObjectVariableAsBoolean"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "AllowRingJump",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::SetCanJump"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Create"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "JumpShockwave",
+                                        "JumpRing.CenterX()",
+                                        "JumpRing.CenterY()",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::JumpSpeed"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject",
+                                        "=",
+                                        "Player_Platformer.DefaultJumpSpeed * JumpRingMultiplier"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::SimulateJumpKey"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlaySoundCanal"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
+                                        "2",
+                                        "100",
+                                        "75",
+                                        "1"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "JumpRing",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::JumpSpeed"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject",
+                                    "=",
+                                    "Player_Platformer.DefaultJumpSpeed"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Always move to the right",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateRightKey"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Controls",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Space"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Left"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Gamepads::C_Any_Button_pressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "1",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::SimulateJumpKey"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::IsJumping"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "PlaySoundCanal"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "aceb87b9faffd65f466f6462cf4bd17eeb2b0ed64e86c3dba27d62fd4fea40c8_Jump_Start_03.wav",
+                                    "1",
+                                    "100",
+                                    "100",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Particles",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "PlatformBehavior::IsOnFloor"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ParticleSystem::StopEmission"
+                                  },
+                                  "parameters": [
+                                    "CubeTrail"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::IsOnFloor"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ParticleSystem::StartEmission"
+                                  },
+                                  "parameters": [
+                                    "CubeTrail"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Rotate in air",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::IsJumping"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "PlatformBehavior::IsFalling"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "PlatformerObject"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Tween",
+                                    "\"Spin\"",
+                                    "Player_Sticker.Angle() + 180",
+                                    "\"linear\"",
+                                    "0.4",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "PlatformBehavior::IsOnFloor"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "PlatformerObject"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Tween::StopTween"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Tween",
+                                    "\"Spin\"",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetAngle"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "=",
+                                    "round(Player_Sticker.Angle()/90) * 90"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Death",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "CubeDangerObstacles",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "State",
+                                    "=",
+                                    "\"Dead\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Ship",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"Ship\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
                             {
                               "type": {
-                                "value": "ObjectVariableAsBoolean"
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
                               },
                               "parameters": [
                                 "Player_Platformer",
-                                "AllowRingJump",
-                                "True"
+                                "PlatformerObject",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Player_Sticker",
+                                "FaceForward",
+                                "yes"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ParticleSystem::StopEmission"
+                              },
+                              "parameters": [
+                                "CubeTrail"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ParticleSystem::StartEmission"
+                              },
+                              "parameters": [
+                                "ShipTrail"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Keep inside road",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Player touching floor"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Road",
+                                    "Player_Platformer.CenterX()",
+                                    "Player_Platformer.BoundingBoxBottom() + 1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetCenterY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "=",
+                                    "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Arreter"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Player touching ceiling"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionPoint"
+                                  },
+                                  "parameters": [
+                                    "Road",
+                                    "Player_Platformer.CenterX()",
+                                    "Player_Platformer.BoundingBoxTop() - 1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetCenterY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "=",
+                                    "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Arreter"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer"
+                                  ]
+                                }
                               ]
                             }
                           ],
-                          "actions": []
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Invert gravity",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "InvertGravityRing",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "*",
+                                    "-1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Create"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "InvertGravityShockwave",
+                                    "InvertGravityRing.CenterX()",
+                                    "InvertGravityRing.CenterY()",
+                                    "\"Obstacles\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ChangePlan"
+                                  },
+                                  "parameters": [
+                                    "InvertGravityShockwave",
+                                    "=",
+                                    "InvertGravityRing.ZOrder() + 1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Flippable",
+                                    "no"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "=",
+                                    "-1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Flippable",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Death trigger",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionPoint"
+                                      },
+                                      "parameters": [
+                                        "Road",
+                                        "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta()) + 32",
+                                        "Player_Platformer.BoundingBoxCenterY()"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "CollisionNP"
+                                      },
+                                      "parameters": [
+                                        "Player_Platformer",
+                                        "ShipDangerObstacles",
+                                        "",
+                                        "",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjetTxt"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "State",
+                                    "=",
+                                    "\"Dead\""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Controls",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Space"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Left"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Gamepads::C_Any_Button_pressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "1",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "0",
+                                    "-2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "KeyPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Space"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "MouseButtonPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Left"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Gamepads::C_Any_Button_pressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "0",
+                                    "2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Always move right",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "Player_Platformer.PlatformerObject::MaxSpeed()",
+                                    "0",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Wave mode",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"Wave\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "PlatformerObject",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Arreter"
+                              },
+                              "parameters": [
+                                "Player_Platformer"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Tween::TweenCameraZoom2"
+                              },
+                              "parameters": [
+                                "",
+                                "\"ZoomOut\"",
+                                "0.7",
+                                "",
+                                "\"linear\"",
+                                "0.5"
+                              ]
+                            }
+                          ]
                         },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
@@ -8440,459 +9822,280 @@
                               },
                               "parameters": [
                                 "Player_Platformer",
-                                "JumpRing",
+                                "Road",
                                 "",
                                 "",
-                                ""
+                                "yes"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
                             }
                           ],
                           "actions": [
                             {
                               "type": {
-                                "value": "PlatformBehavior::SetCanJump"
+                                "value": "ModVarObjetTxt"
                               },
                               "parameters": [
                                 "Player_Platformer",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Create"
-                              },
-                              "parameters": [
-                                "",
-                                "JumpShockwave",
-                                "JumpRing.CenterX()",
-                                "JumpRing.CenterY()",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::JumpSpeed"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject",
+                                "State",
                                 "=",
-                                "Player_Platformer.DefaultJumpSpeed * JumpRingMultiplier"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::SimulateJumpKey"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlaySound"
-                              },
-                              "parameters": [
-                                "",
-                                "982e7b54cdd141371ad82b0ab7ce659f5b4b7ca6eb1f87c895d4da99d3f98ce2_Coins 6.aac",
-                                "",
-                                "75",
-                                "1"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "JumpRing",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::JumpSpeed"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject",
-                            "=",
-                            "Player_Platformer.DefaultJumpSpeed"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Always move to the right",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Controls",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Space"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MouseButtonPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Gamepads::C_Any_Button_pressed"
-                              },
-                              "parameters": [
-                                "",
-                                "1",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateJumpKey"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsJumping"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "aceb87b9faffd65f466f6462cf4bd17eeb2b0ed64e86c3dba27d62fd4fea40c8_Jump_Start_03.wav",
-                            "",
-                            "100",
-                            "1"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Particles",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::StopEmission"
-                          },
-                          "parameters": [
-                            "CubeTrail"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ParticleSystem::StartEmission"
-                          },
-                          "parameters": [
-                            "CubeTrail"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Rotate in air",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsJumping"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "PlatformBehavior::IsFalling"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject"
+                                "\"Dead\""
                               ]
                             }
                           ]
                         },
                         {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Invert gravity",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "InvertGravityRing",
+                                    "",
+                                    "",
+                                    "yes"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Once"
+                                  },
+                                  "parameters": []
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "*",
+                                    "-1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Flippable",
+                                    "no"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "GravitySign",
+                                    "=",
+                                    "-1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                                  },
+                                  "parameters": [
+                                    "Player_Sticker",
+                                    "Flippable",
+                                    "yes"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
                           "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::TweenBehavior::AddObjectAngleTween2"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Tween",
-                            "\"Spin\"",
-                            "Player_Sticker.Angle() + 180",
-                            "\"linear\"",
-                            "0.4",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::IsOnFloor"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "PlatformerObject"
-                          ]
                         },
                         {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Always move to the right",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "Player_Platformer.PlatformerObject::MaxSpeed()",
+                                    "0",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
                           "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Tween::StopTween"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Tween",
-                            "\"Spin\"",
-                            "no"
-                          ]
                         },
                         {
-                          "type": {
-                            "value": "SetAngle"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "=",
-                            "round(Player_Sticker.Angle()/90) * 90"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Death",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "CubeDangerObstacles",
-                            "",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Controls",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::Or"
+                                  },
+                                  "parameters": [],
+                                  "subInstructions": [
+                                    {
+                                      "type": {
+                                        "value": "KeyPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Space"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "MouseButtonPressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "Left"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Gamepads::C_Any_Button_pressed"
+                                      },
+                                      "parameters": [
+                                        "",
+                                        "1",
+                                        ""
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "0",
+                                    "-Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed()",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "KeyPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Space"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "MouseButtonPressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "Left"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "Gamepads::C_Any_Button_pressed"
+                                  },
+                                  "parameters": [
+                                    "",
+                                    "1",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AddForceXY"
+                                  },
+                                  "parameters": [
+                                    "Player_Platformer",
+                                    "0",
+                                    "Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed()",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
                           "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "State",
-                            "=",
-                            "\"Dead\""
-                          ]
                         }
                       ]
                     }
@@ -8909,7 +10112,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Debug",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8985,6 +10187,25 @@
                   },
                   "parameters": [
                     "DEBUG",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DebuggerTools::EnableDebugDraw"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    "",
+                    "",
                     ""
                   ]
                 }
@@ -9251,887 +10472,6 @@
           "parameters": []
         },
         {
-          "colorB": 254,
-          "colorG": 19,
-          "colorR": 144,
-          "creationTime": 0,
-          "name": "Ship",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Player_Sticker",
-                    "Animation",
-                    "=",
-                    "\"Ship\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "PlatformerObject",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Player_Sticker",
-                        "FaceForward",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ParticleSystem::StopEmission"
-                      },
-                      "parameters": [
-                        "CubeTrail"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ParticleSystem::StartEmission"
-                      },
-                      "parameters": [
-                        "ShipTrail"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Keep inside road",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Player touching floor"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "Road",
-                            "Player_Platformer.CenterX()",
-                            "Player_Platformer.BoundingBoxBottom() + 1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetCenterY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "=",
-                            "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "Player_Platformer"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Comment",
-                      "color": {
-                        "b": 109,
-                        "g": 230,
-                        "r": 255,
-                        "textB": 0,
-                        "textG": 0,
-                        "textR": 0
-                      },
-                      "comment": "Player touching ceiling"
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "Road",
-                            "Player_Platformer.CenterX()",
-                            "Player_Platformer.BoundingBoxTop() - 1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetCenterY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "=",
-                            "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Arreter"
-                          },
-                          "parameters": [
-                            "Player_Platformer"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Invert gravity",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "InvertGravityRing",
-                            "",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "*",
-                            "-1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "InvertGravityShockwave",
-                            "InvertGravityRing.CenterX()",
-                            "InvertGravityRing.CenterY()",
-                            "\"Obstacles\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangePlan"
-                          },
-                          "parameters": [
-                            "InvertGravityShockwave",
-                            "=",
-                            "InvertGravityRing.ZOrder() + 1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipY"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Flippable",
-                            "no"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "=",
-                            "-1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipY"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Flippable",
-                            "yes"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Death trigger",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "CollisionPoint"
-                              },
-                              "parameters": [
-                                "Road",
-                                "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta()) + 32",
-                                "Player_Platformer.BoundingBoxCenterY()"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "CollisionNP"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "ShipDangerObstacles",
-                                "",
-                                "",
-                                ""
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjetTxt"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "State",
-                            "=",
-                            "\"Dead\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Controls",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Space"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MouseButtonPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Gamepads::C_Any_Button_pressed"
-                              },
-                              "parameters": [
-                                "",
-                                "1",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "-2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
-                            "1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "MouseButtonPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Gamepads::C_Any_Button_pressed"
-                          },
-                          "parameters": [
-                            "",
-                            "1",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
-                            "1"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Always move right",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "Player_Platformer.PlatformerObject::MaxSpeed()",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 254,
-          "colorG": 19,
-          "colorR": 144,
-          "creationTime": 0,
-          "name": "Wave mode",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Player_Sticker",
-                    "Animation",
-                    "=",
-                    "\"Wave\""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "PlatformerObject",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "Player_Platformer"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenCameraZoom2"
-                      },
-                      "parameters": [
-                        "",
-                        "\"ZoomOut\"",
-                        "0.7",
-                        "",
-                        "\"linear\"",
-                        "0.5"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Road",
-                        "",
-                        "",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "State",
-                        "=",
-                        "\"Dead\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Invert gravity",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "InvertGravityRing",
-                            "",
-                            "",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "*",
-                            "-1"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "=",
-                            "1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipY"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Flippable",
-                            "no"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "GravitySign",
-                            "=",
-                            "-1"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipY"
-                          },
-                          "parameters": [
-                            "Player_Sticker",
-                            "Flippable",
-                            "yes"
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Always move to the right",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "Player_Platformer.PlatformerObject::MaxSpeed()",
-                            "0",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                },
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "name": "Controls",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Or"
-                          },
-                          "parameters": [],
-                          "subInstructions": [
-                            {
-                              "type": {
-                                "value": "KeyPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Space"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "MouseButtonPressed"
-                              },
-                              "parameters": [
-                                "",
-                                "Left"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Gamepads::C_Any_Button_pressed"
-                              },
-                              "parameters": [
-                                "",
-                                "1",
-                                ""
-                              ]
-                            }
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "-Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed()",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "MouseButtonPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "Gamepads::C_Any_Button_pressed"
-                          },
-                          "parameters": [
-                            "",
-                            "1",
-                            ""
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AddForceXY"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "0",
-                            "Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed()",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "parameters": []
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
           "colorB": 228,
           "colorG": 176,
           "colorR": 74,
@@ -10160,11 +10500,57 @@
                   "parameters": []
                 }
               ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "GameState",
+                    "=",
+                    "\"Victory\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "GameState: Victory",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "GameState",
+                    "=",
+                    "\"Victory\""
+                  ]
+                }
+              ],
               "actions": [],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
                   "actions": [
                     {
                       "type": {
@@ -10182,6 +10568,33 @@
                       },
                       "parameters": [
                         "",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraPosition2"
+                      },
+                      "parameters": [
+                        "",
+                        "\"PanToPlayer\"",
+                        "Player_Platformer.X()",
+                        "Player_Platformer.Y()",
+                        "\"\"",
+                        "\"easeOutQuad\"",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraZoom2"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ZoomIn\"",
+                        "1",
+                        "",
+                        "\"easeOutQuad\"",
                         "1"
                       ]
                     },
@@ -10242,7 +10655,304 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "3"
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "ShowShadowClones",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Tween",
+                        "\"SlamToSide\"",
+                        "CameraBorderRight()",
+                        "\"easeInQuad\"",
+                        "1",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Tween",
+                        "\"SlideUp\"",
+                        "CameraCenterY() - 200",
+                        "\"easeOutQuad\"",
+                        "0.6",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.6"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Tween",
+                        "\"SlideDown\"",
+                        "CameraCenterY()",
+                        "\"easeInQuad\"",
+                        "0.4",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.4"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "68d16e38f82501c538c69cacf2f2491b4ff15cb34fa3ad08ce8e9445b4f1812a_Explosion 1.aac",
+                        "",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "VictoryShockwave",
+                        "Player_Platformer.CenterX()",
+                        "Player_Platformer.CenterY()",
+                        "\"Obstacles\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "VictoryParticles",
+                        "Player_Platformer.CenterX()",
+                        "Player_Platformer.CenterY()",
+                        "\"Obstacles\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "1.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+                        "",
+                        "100",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "LevelComplete",
+                        "CameraCenterX(\"UI\") - 225",
+                        "CameraCenterY(\"UI\") - 200",
+                        "\"UI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "LevelComplete",
+                        "Scale",
+                        "=",
+                        "0.5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectScaleTween2"
+                      },
+                      "parameters": [
+                        "LevelComplete",
+                        "Tween",
+                        "\"ExpandFromNothing\"",
+                        "1",
+                        "1",
+                        "\"bouncePast\"",
+                        "1",
+                        "",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "3bd7554e8249d64b0e2b62bbef263214ed7a0dffca63a3b55b3a9a9b5256e203_Arrow.aac",
+                        "",
+                        "100",
+                        "0.7"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "RestartLevel_Button",
+                        "CameraCenterX(\"UI\") - 160",
+                        "CameraBorderTop(\"UI\") - 64",
+                        "\"UI\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "RestartLevel_Button",
+                        "Tween",
+                        "\"SlideDown\"",
+                        "CameraCenterY(\"UI\") - 64",
+                        "\"easeOutBack\"",
+                        "0.5",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "ShowShadowClones",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ShadowClones::AnimateShadowClones"
+                      },
+                      "parameters": [
+                        "",
+                        "Player_Sticker",
+                        "Player_Sticker_ShadowClone",
+                        "5",
+                        "4",
+                        "25",
+                        "5",
+                        "",
+                        "",
+                        "yes",
+                        "yes",
+                        "yes",
+                        "yes",
+                        "yes",
+                        "yes",
+                        "yes",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                      },
+                      "parameters": [
+                        "RestartLevel_Button",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "aceb87b9faffd65f466f6462cf4bd17eeb2b0ed64e86c3dba27d62fd4fea40c8_Jump_Start_03.wav",
+                        "1",
+                        "100",
+                        "100",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GDevelopDash\"",
+                        "yes"
                       ]
                     }
                   ]
@@ -56335,6 +57045,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "UI",
+          "name": "ProgressPercent_Text",
+          "persistentUuid": "0e0ebae3-31b3-410e-97c6-efd40b5e9766",
+          "width": 640,
+          "x": 640,
+          "y": 41,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -56348,6 +57074,55 @@
         "gridAlpha": 0.2,
         "snap": true,
         "zoomFactor": 0.5079575118131732,
+        "windowMask": false
+      }
+    },
+    {
+      "associatedLayout": "GDevelopDash",
+      "name": "EndGameUI",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 128,
+          "layer": "",
+          "name": "RestartLevel_Button",
+          "persistentUuid": "f4cc0ae8-07fa-4245-95b8-5064981f979b",
+          "width": 320,
+          "x": 768,
+          "y": 448,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "LevelComplete",
+          "persistentUuid": "7bb56c35-8919-4bd9-9af7-ba2f924f71c2",
+          "width": 0,
+          "x": 416,
+          "y": 224,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.2,
+        "snap": true,
+        "zoomFactor": 0.3645833333333333,
         "windowMask": false
       }
     }
