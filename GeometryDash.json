@@ -463,7 +463,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.17576384491806146,
+        "zoomFactor": 0.22169247275006185,
         "windowMask": false
       },
       "objectsGroups": [
@@ -484,9 +484,6 @@
         {
           "name": "ShipDangerObstacles",
           "objects": [
-            {
-              "name": "Road"
-            },
             {
               "name": "_3_Spikes"
             },
@@ -1190,22 +1187,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 288,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "126563c4-114f-489d-bb63-e4a96c8f6d55",
-          "width": 128,
-          "x": 15648,
-          "y": 768,
-          "zOrder": 112,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 352,
           "layer": "Obstacles",
           "name": "Road",
@@ -1368,7 +1349,7 @@
           "depth": 1,
           "height": 800,
           "layer": "Obstacles",
-          "name": "TrailPurple",
+          "name": "ShipModePortal",
           "persistentUuid": "c9afd7ac-8985-4d53-b752-d3c96139bae5",
           "width": 128,
           "x": 14464,
@@ -1384,7 +1365,7 @@
           "depth": 1,
           "height": 800,
           "layer": "Obstacles",
-          "name": "TrailPurple",
+          "name": "ShipModePortal",
           "persistentUuid": "16838d11-86e2-4097-aa74-b68b799e673a",
           "width": 128,
           "x": 14464,
@@ -1400,7 +1381,7 @@
           "depth": 1,
           "height": 416,
           "layer": "Obstacles",
-          "name": "TrailYellow",
+          "name": "WaveModePortal",
           "persistentUuid": "bf6cce0d-df26-4ddb-a688-31d9ed00c5f8",
           "width": 96,
           "x": 30880,
@@ -1896,7 +1877,7 @@
           "depth": 1,
           "height": 448,
           "layer": "Obstacles",
-          "name": "TrailYellow",
+          "name": "WaveModePortal",
           "persistentUuid": "8315a66c-dfcb-4d3f-8b02-5f24d402cb09",
           "width": 76,
           "x": 30880,
@@ -5122,126 +5103,6 @@
           "height": 0,
           "layer": "Obstacles",
           "name": "_3_Spikes",
-          "persistentUuid": "7f9fd389-1bdd-4704-929d-4385f12cdfd5",
-          "width": 0,
-          "x": 23584,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "3872e8ec-d796-48a8-b8b0-88c6a785b259",
-          "width": 0,
-          "x": 23328,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "453caf38-786d-4599-9000-dcea6191b2d1",
-          "width": 0,
-          "x": 23456,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "a2570119-9992-46cc-9d2b-ebe56ff1247b",
-          "width": 0,
-          "x": 23712,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "8ae751bf-6f7a-4994-9f4c-8481c993e271",
-          "width": 0,
-          "x": 23072,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "f5ee0d71-7882-4240-ac4b-189722a97fe8",
-          "width": 0,
-          "x": 22944,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "8982b734-abb0-4697-9b90-8bf80de8be46",
-          "width": 0,
-          "x": 23200,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "29ed3a91-5b48-4b20-a365-234a14744bd9",
-          "width": 0,
-          "x": 22816,
-          "y": 256,
-          "zOrder": 130,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
           "persistentUuid": "8e938a11-64b8-402c-ac45-42a8bcc7aa91",
           "width": 0,
           "x": 24736,
@@ -6596,67 +6457,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "37d2e5319e264617a9192ac6d32554074317af2d0172bf251fc1b13019357151",
-          "name": "ReverseGravity",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Settings",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Settings",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 19,
-                            "y": 16
-                          },
-                          {
-                            "x": 62,
-                            "y": 16
-                          },
-                          {
-                            "x": 62,
-                            "y": 63
-                          },
-                          {
-                            "x": 19,
-                            "y": 63
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "ShipTeleport",
           "type": "Sprite",
@@ -6803,69 +6603,9 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "ShipModePortal",
-          "texture": "New image2",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Reflection",
-              "name": "Effect",
-              "doubleParameters": {
-                "alphaEnding": 1,
-                "alphaStart": 1,
-                "amplitudeEnding": 20,
-                "amplitudeStart": 20,
-                "animationSpeed": -30,
-                "boundary": 0,
-                "waveLengthEnding": 60,
-                "waveLengthStart": 30
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "mirror": true
-              }
-            }
-          ],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "WaveModePortal",
-          "texture": "WaveModePortal",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Reflection",
-              "name": "Effect",
-              "doubleParameters": {
-                "alphaEnding": 1,
-                "alphaStart": 1,
-                "amplitudeEnding": 20,
-                "amplitudeStart": 20,
-                "animationSpeed": -20,
-                "boundary": 0,
-                "waveLengthEnding": 100,
-                "waveLengthStart": 50
-              },
-              "stringParameters": {},
-              "booleanParameters": {
-                "mirror": true
-              }
-            }
-          ],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "166031ac90f27587240d46e81f078a235ede62eef7b9ae10cc7ba4be0b39233f",
-          "name": "TrailPurple",
+          "name": "ShipModePortal",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6925,7 +6665,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "025f696246324d08ed5116e7c8a13e42fc1aaa4a472f8169f8d1a0d5bb89a697",
-          "name": "TrailYellow",
+          "name": "WaveModePortal",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7704,6 +7444,55 @@
         "folderName": "__ROOT",
         "children": [
           {
+            "folderName": "PlayerComponents",
+            "children": [
+              {
+                "objectName": "PlayerSpawn"
+              },
+              {
+                "objectName": "Player_Platformer"
+              },
+              {
+                "objectName": "Player_Sticker"
+              },
+              {
+                "objectName": "DeathShockwave"
+              },
+              {
+                "objectName": "ExplosionParticles"
+              },
+              {
+                "objectName": "CubeTrail"
+              },
+              {
+                "objectName": "ShipTrail"
+              }
+            ]
+          },
+          {
+            "folderName": "Terrain",
+            "children": [
+              {
+                "objectName": "ShipModePortal"
+              },
+              {
+                "objectName": "WaveModePortal"
+              },
+              {
+                "objectName": "Road"
+              },
+              {
+                "objectName": "_3_Spikes"
+              },
+              {
+                "objectName": "_1_Spike"
+              },
+              {
+                "objectName": "FinishLine"
+              }
+            ]
+          },
+          {
             "folderName": "Debugging",
             "children": [
               {
@@ -7724,94 +7513,61 @@
             ]
           },
           {
-            "objectName": "Road"
+            "folderName": "UI",
+            "children": [
+              {
+                "objectName": "SquareWhiteSlider"
+              },
+              {
+                "objectName": "Background"
+              },
+              {
+                "objectName": "AttemptNumber_Text"
+              },
+              {
+                "objectName": "LevelProgressBar"
+              },
+              {
+                "objectName": "ShipMode_Text"
+              },
+              {
+                "objectName": "WaveMode_Text"
+              }
+            ]
           },
           {
-            "objectName": "Background"
+            "folderName": "InvertGravity",
+            "children": [
+              {
+                "objectName": "InvertGravityParticles"
+              },
+              {
+                "objectName": "InvertGravityRing"
+              },
+              {
+                "objectName": "InvertGravityShockwave"
+              }
+            ]
           },
           {
-            "objectName": "Player_Platformer"
-          },
-          {
-            "objectName": "Player_Sticker"
-          },
-          {
-            "objectName": "CubeTrail"
-          },
-          {
-            "objectName": "_3_Spikes"
-          },
-          {
-            "objectName": "_1_Spike"
-          },
-          {
-            "objectName": "AttemptNumber_Text"
-          },
-          {
-            "objectName": "DeathShockwave"
-          },
-          {
-            "objectName": "JumpShockwave"
-          },
-          {
-            "objectName": "ExplosionParticles"
-          },
-          {
-            "objectName": "PlayerSpawn"
-          },
-          {
-            "objectName": "FinishLine"
-          },
-          {
-            "objectName": "LevelProgressBar"
-          },
-          {
-            "objectName": "SquareWhiteSlider"
-          },
-          {
-            "objectName": "ReverseGravity"
-          },
-          {
-            "objectName": "ShipMode_Text"
-          },
-          {
-            "objectName": "WaveMode_Text"
-          },
-          {
-            "objectName": "ShipTrail"
-          },
-          {
-            "objectName": "ShipModePortal"
-          },
-          {
-            "objectName": "WaveModePortal"
-          },
-          {
-            "objectName": "TrailPurple"
-          },
-          {
-            "objectName": "TrailYellow"
-          },
-          {
-            "objectName": "JumpPad"
-          },
-          {
-            "objectName": "JumpPadParticles"
-          },
-          {
-            "objectName": "JumpRing"
-          },
-          {
-            "objectName": "InvertGravityRing"
-          },
-          {
-            "objectName": "JumpRingParticles"
-          },
-          {
-            "objectName": "InvertGravityParticles"
-          },
-          {
-            "objectName": "InvertGravityShockwave"
+            "folderName": "JumpBoosts",
+            "children": [
+              {
+                "objectName": "JumpRingParticles"
+              },
+              {
+                "objectName": "JumpShockwave"
+              },
+              {
+                "objectName": "JumpRing"
+              },
+              {
+                "objectName": "JumpPadParticles"
+              },
+              {
+                "objectName": "JumpPad"
+              }
+            ]
           }
         ]
       },
@@ -8302,6 +8058,7 @@
           "colorG": 19,
           "colorR": 144,
           "creationTime": 0,
+          "folded": true,
           "name": "Cube mode",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8620,16 +8377,6 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "AllowRingJump",
-                            "True"
-                          ]
-                        },
-                        {
-                          "type": {
                             "value": "BuiltinCommonInstructions::Or"
                           },
                           "parameters": [],
@@ -8667,6 +8414,23 @@
                       ],
                       "actions": [],
                       "events": [
+                        {
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "ObjectVariableAsBoolean"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "AllowRingJump",
+                                "True"
+                              ]
+                            }
+                          ],
+                          "actions": []
+                        },
                         {
                           "type": "BuiltinCommonInstructions::Standard",
                           "conditions": [
@@ -9145,6 +8909,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Debug",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9233,6 +8998,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9381,6 +9147,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Change to ship",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9395,7 +9162,7 @@
                   "parameters": [
                     "Player_Platformer",
                     ">",
-                    "TrailPurple.BoundingBoxCenterX()"
+                    "ShipModePortal.BoundingBoxCenterX()"
                   ]
                 },
                 {
@@ -9434,6 +9201,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Change to wave",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -9448,7 +9216,7 @@
                   "parameters": [
                     "Player_Platformer",
                     ">",
-                    "TrailYellow.BoundingBoxCenterX()"
+                    "WaveModePortal.BoundingBoxCenterX()"
                   ]
                 },
                 {
@@ -9558,20 +9326,110 @@
                   ]
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Keep inside road",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
-                      "type": {
-                        "value": "SeparateFromObjects"
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
                       },
-                      "parameters": [
-                        "Player_Platformer",
-                        "Road",
-                        ""
+                      "comment": "Player touching floor"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.CenterX()",
+                            "Player_Platformer.BoundingBoxBottom() + 1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Player touching ceiling"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.CenterX()",
+                            "Player_Platformer.BoundingBoxTop() - 1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        }
                       ]
                     }
-                  ]
+                  ],
+                  "parameters": []
                 },
                 {
                   "colorB": 228,
@@ -9713,12 +9571,32 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "CollisionPoint"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "Road",
-                            "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta())",
-                            "Player_Platformer.BoundingBoxCenterY()"
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta()) + 32",
+                                "Player_Platformer.BoundingBoxCenterY()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "ShipDangerObstacles",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
                           ]
                         },
                         {
@@ -9856,7 +9734,19 @@
                           ]
                         }
                       ]
-                    },
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Always move right",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
@@ -56356,7 +56246,12 @@
           "x": 0,
           "y": 0,
           "zOrder": 2,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -56401,7 +56296,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.420110610600183,
+        "zoomFactor": 1.285621123678242,
         "windowMask": false
       }
     },
