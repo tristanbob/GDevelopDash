@@ -774,11 +774,11 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "UFO",
-          "persistentUuid": "f6537746-fa29-4115-a02c-82973bb9d7e3",
+          "name": "Ball",
+          "persistentUuid": "3315f9b4-edfe-4418-8c0e-f72db06a2175",
           "width": 0,
-          "x": 768,
-          "y": 256,
+          "x": 128,
+          "y": 576,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3186,12 +3186,65 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "670a5ac06ff09d80e633a3abd0a2d0436930bccef0c628c4c68091c7694505b3",
-          "name": "OrcWheel",
+          "name": "Ball",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 1,
+              "RightwardSpeed": 1,
+              "UpwardSpeed": 1,
+              "DownwardSpeed": 1,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 400,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 2.0247e-320,
+              "LogRightwardSpeed": 2.0247e-320,
+              "LogDownwardSpeed": 2.0247e-320,
+              "LogUpwardSpeed": 2.0247e-320,
+              "DelayedCenterX": 2.0247e-320,
+              "DelayedCenterY": 2.0247e-320,
+              "ForecastHistoryMeanX": 2.0247e-320,
+              "ForecastHistoryMeanY": 2.0247e-320,
+              "ForecastHistoryVarianceX": 2.0247e-320,
+              "ForecastHistoryCovariance": 2.0247e-320,
+              "ForecastHistoryLinearA": 2.0247e-320,
+              "ForecastHistoryLinearB": 2.0247e-320,
+              "ForecastedX": 2.0247e-320,
+              "ForecastedY": 2.0247e-320,
+              "ProjectedNewestX": 2.0247e-320,
+              "ProjectedNewestY": 2.0247e-320,
+              "ProjectedOldestX": 2.0247e-320,
+              "ProjectedOldestY": 2.0247e-320,
+              "ForecastHistoryVarianceY": 2.0247e-320,
+              "Index": 2.0247e-320,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 2.0247e-320,
+              "WaitingSpeedXMax": 2.0247e-320,
+              "WaitingSpeedYMax": 2.0247e-320,
+              "WaitingEnd": 2.0247e-320,
+              "CameraDelayCatchUpDuration": 2.0247e-320,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000.000000007454,
+              "OldY": 9000.000000007454,
+              "IsCalledManually": false
+            }
+          ],
           "animations": [
             {
               "name": "assets\\Orc Wheel2",
@@ -3252,7 +3305,60 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "SmoothCamera",
+              "type": "SmoothCamera::SmoothCamera",
+              "LeftwardSpeed": 1,
+              "RightwardSpeed": 1,
+              "UpwardSpeed": 1,
+              "DownwardSpeed": 1,
+              "FollowOnX": true,
+              "FollowOnY": true,
+              "FollowFreeAreaLeft": 0,
+              "FollowFreeAreaRight": 0,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 400,
+              "CameraOffsetY": 0,
+              "CameraDelay": 0,
+              "ForecastTime": 0,
+              "ForecastHistoryDuration": 0,
+              "LogLeftwardSpeed": 2.0247e-320,
+              "LogRightwardSpeed": 2.0247e-320,
+              "LogDownwardSpeed": 2.0247e-320,
+              "LogUpwardSpeed": 2.0247e-320,
+              "DelayedCenterX": 2.0247e-320,
+              "DelayedCenterY": 2.0247e-320,
+              "ForecastHistoryMeanX": 2.0247e-320,
+              "ForecastHistoryMeanY": 2.0247e-320,
+              "ForecastHistoryVarianceX": 2.0247e-320,
+              "ForecastHistoryCovariance": 2.0247e-320,
+              "ForecastHistoryLinearA": 2.0247e-320,
+              "ForecastHistoryLinearB": 2.0247e-320,
+              "ForecastedX": 2.0247e-320,
+              "ForecastedY": 2.0247e-320,
+              "ProjectedNewestX": 2.0247e-320,
+              "ProjectedNewestY": 2.0247e-320,
+              "ProjectedOldestX": 2.0247e-320,
+              "ProjectedOldestY": 2.0247e-320,
+              "ForecastHistoryVarianceY": 2.0247e-320,
+              "Index": 2.0247e-320,
+              "CameraDelayCatchUpSpeed": 0,
+              "CameraExtraDelay": 2.0247e-320,
+              "WaitingSpeedXMax": 2.0247e-320,
+              "WaitingSpeedYMax": 2.0247e-320,
+              "WaitingEnd": 2.0247e-320,
+              "CameraDelayCatchUpDuration": 2.0247e-320,
+              "LeftwardSpeedMax": 9000,
+              "RightwardSpeedMax": 9000,
+              "UpwardSpeedMax": 9000,
+              "DownwardSpeedMax": 9000,
+              "OldX": 9000.000000007454,
+              "OldY": 9000.000000007454,
+              "IsCalledManually": false
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -3464,7 +3570,7 @@
             ]
           },
           {
-            "objectName": "OrcWheel"
+            "objectName": "Ball"
           }
         ]
       },
@@ -7058,333 +7164,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Keep inside road",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Player touching floor"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Road",
-                        "UFO.CenterX()",
-                        "UFO.BoundingBoxBottom() + 1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetCenterY"
-                      },
-                      "parameters": [
-                        "UFO",
-                        "=",
-                        "Road.BoundingBoxTop() - UFO.Height()/2 - 1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "UFO"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Player touching ceiling"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Road",
-                        "UFO.CenterX()",
-                        "UFO.BoundingBoxTop() - 1"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetCenterY"
-                      },
-                      "parameters": [
-                        "UFO",
-                        "=",
-                        "Road.BoundingBoxBottom() + UFO.Height()/2 + 1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "UFO"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Always move right",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "UFO",
-                        "100",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceAL"
-                      },
-                      "parameters": [
-                        "UFO",
-                        "90",
-                        "30",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Controls",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "MouseButtonPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Gamepads::C_Any_Button_pressed"
-                          },
-                          "parameters": [
-                            "",
-                            "1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Up"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "UFO"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "UFO",
-                        "0",
-                        "-500",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "disabled": true,
-              "name": "Invert gravity",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Link",
-                  "include": {
-                    "includeConfig": 0
-                  },
-                  "target": "InvertGravityPortal"
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Player_Sticker",
-                    "Animation",
-                    "=",
-                    "\"Ship\""
-                  ]
-                }
-              ],
-              "actions": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 254,
-          "colorG": 19,
-          "colorR": 144,
-          "creationTime": 0,
-          "name": "Spider",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "OrcWheel",
-                    "GravitySign",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "OrcWheel",
-                    "HorizontalSpeed",
-                    "=",
-                    "40"
-                  ]
-                }
-              ]
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
               "name": "Enforce ceiling and floors",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7416,8 +7195,8 @@
                           },
                           "parameters": [
                             "Road",
-                            "OrcWheel.BoundingBoxLeft()",
-                            "OrcWheel.BoundingBoxBottom() + 1"
+                            "UFO.BoundingBoxLeft()",
+                            "UFO.BoundingBoxBottom() + 1"
                           ]
                         },
                         {
@@ -7426,8 +7205,8 @@
                           },
                           "parameters": [
                             "Road",
-                            "OrcWheel.BoundingBoxRight()",
-                            "OrcWheel.BoundingBoxBottom() + 1"
+                            "UFO.BoundingBoxRight()",
+                            "UFO.BoundingBoxBottom() + 1"
                           ]
                         }
                       ]
@@ -7439,9 +7218,9 @@
                         "value": "SetCenterY"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "UFO",
                         "=",
-                        "Road.BoundingBoxTop() - OrcWheel.Height()/2 - 1"
+                        "Road.BoundingBoxTop() - UFO.Height()/2 - 1"
                       ]
                     },
                     {
@@ -7449,7 +7228,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "OrcWheel"
+                        "UFO"
                       ]
                     },
                     {
@@ -7457,7 +7236,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "UFO",
                         "IsOnGround",
                         "True"
                       ]
@@ -7491,8 +7270,8 @@
                           },
                           "parameters": [
                             "Road",
-                            "OrcWheel.BoundingBoxLeft()",
-                            "OrcWheel.BoundingBoxTop() - 1"
+                            "UFO.BoundingBoxLeft()",
+                            "UFO.BoundingBoxTop() - 1"
                           ]
                         },
                         {
@@ -7501,8 +7280,8 @@
                           },
                           "parameters": [
                             "Road",
-                            "OrcWheel.BoundingBoxRight()",
-                            "OrcWheel.BoundingBoxTop() - 1"
+                            "UFO.BoundingBoxRight()",
+                            "UFO.BoundingBoxTop() - 1"
                           ]
                         }
                       ]
@@ -7514,9 +7293,9 @@
                         "value": "SetCenterY"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "UFO",
                         "=",
-                        "Road.BoundingBoxBottom() + OrcWheel.Height()/2 + 1"
+                        "Road.BoundingBoxBottom() + UFO.Height()/2 + 1"
                       ]
                     },
                     {
@@ -7524,7 +7303,7 @@
                         "value": "Arreter"
                       },
                       "parameters": [
-                        "OrcWheel"
+                        "UFO"
                       ]
                     },
                     {
@@ -7532,7 +7311,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "UFO",
                         "IsOnGround",
                         "True"
                       ]
@@ -7557,42 +7336,30 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceXY"
+                        "value": "AddForceAL"
                       },
                       "parameters": [
-                        "OrcWheel",
-                        "OrcWheel.Variable(HorizontalSpeed)",
-                        "0",
-                        ""
+                        "UFO",
+                        "90",
+                        "50",
+                        "1"
                       ]
                     }
                   ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Gravity",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "value": "AddForceAL"
+                        "value": "AddForceXY"
                       },
                       "parameters": [
-                        "OrcWheel",
-                        "90",
-                        "OrcWheel.Variable(GravitySign) * 30",
-                        "1"
+                        "UFO",
+                        "750",
+                        "0",
+                        ""
                       ]
                     }
                   ]
@@ -7667,29 +7434,460 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "OrcWheel",
-                        "GravitySign",
-                        "*",
-                        "-1"
+                        "UFO"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "UFO",
+                        "0",
+                        "-900",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "disabled": true,
+          "folded": true,
+          "name": "Spider",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "GravitySign",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "HorizontalSpeed",
+                    "=",
+                    "100"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching floor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "IsOnGround",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Ball.BoundingBoxLeft()",
+                            "Ball.BoundingBoxBottom() + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Ball.BoundingBoxRight()",
+                            "Ball.BoundingBoxBottom() + 1"
+                          ]
+                        }
                       ]
                     }
                   ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "=",
+                        "Road.BoundingBoxTop() - Ball.Height() / 2 - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Ball"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching ceiling"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Ball.BoundingBoxLeft()",
+                            "Ball.BoundingBoxTop() - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Ball.BoundingBoxRight()",
+                            "Ball.BoundingBoxTop() - 1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "=",
+                        "Road.BoundingBoxBottom() + Ball.Height() / 2 + 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Ball"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Ball.Variable(HorizontalSpeed)",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "90",
+                        "Ball.Variable(GravitySign) * 50",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Controls",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Gamepads::C_Any_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [],
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Teleport spider downwards"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjet"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "OrcWheel",
-                            "GravitySign",
-                            "=",
-                            "1"
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "GravitySign",
+                                    "=",
+                                    "-1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "IsOnGround",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "GravitySign",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "IsOnGround",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -7704,10 +7902,10 @@
                               },
                               "parameters": [
                                 "Road",
-                                "OrcWheel.BoundingBoxLeft()",
-                                "OrcWheel.CenterY()",
+                                "Ball.BoundingBoxLeft()",
+                                "Ball.CenterY()",
                                 "90",
-                                "max(CameraHeight(OrcWheel.Layer(),0),CameraWidth(OrcWheel.Layer(),0))",
+                                "max(CameraHeight(Ball.Layer(), 0), CameraWidth(Ball.Layer(), 0))",
                                 "WheelTargetLeftDownX",
                                 "WheelTargetLeftDownY",
                                 ""
@@ -7725,10 +7923,10 @@
                               },
                               "parameters": [
                                 "Road",
-                                "OrcWheel.BoundingBoxRight()",
-                                "OrcWheel.CenterY()",
+                                "Ball.BoundingBoxRight()",
+                                "Ball.CenterY()",
                                 "90",
-                                "max(CameraHeight(OrcWheel.Layer(),0),CameraWidth(OrcWheel.Layer(),0))",
+                                "max(CameraHeight(Ball.Layer(), 0), CameraWidth(Ball.Layer(), 0))",
                                 "WheelTargetRightDownX",
                                 "WheelTargetRightDownY",
                                 ""
@@ -7746,9 +7944,9 @@
                                 "value": "SetCenterY"
                               },
                               "parameters": [
-                                "OrcWheel",
+                                "Ball",
                                 "=",
-                                "min(Variable(WheelTargetLeftDownY), Variable(WheelTargetRightDownY)) - OrcWheel.Height()/2"
+                                "min(Variable(WheelTargetLeftDownY), Variable(WheelTargetRightDownY)) - Ball.Height() / 2"
                               ]
                             },
                             {
@@ -7756,7 +7954,17 @@
                                 "value": "Arreter"
                               },
                               "parameters": [
-                                "OrcWheel"
+                                "Ball"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipY"
+                              },
+                              "parameters": [
+                                "Ball",
+                                "Flippable",
+                                "no"
                               ]
                             }
                           ]
@@ -7764,17 +7972,84 @@
                       ]
                     },
                     {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Teleport spider upwards"
+                    },
+                    {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "VarObjet"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": [
-                            "OrcWheel",
-                            "GravitySign",
-                            "=",
-                            "-1"
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "GravitySign",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "IsOnGround",
+                                    "True"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "GravitySign",
+                                    "=",
+                                    "-1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Ball",
+                                    "IsOnGround",
+                                    "False"
+                                  ]
+                                }
+                              ]
+                            }
                           ]
                         }
                       ],
@@ -7789,10 +8064,10 @@
                               },
                               "parameters": [
                                 "Road",
-                                "OrcWheel.BoundingBoxLeft()",
-                                "OrcWheel.CenterY()",
+                                "Ball.BoundingBoxLeft()",
+                                "Ball.CenterY()",
                                 "270",
-                                "max(CameraHeight(OrcWheel.Layer(),0),CameraWidth(OrcWheel.Layer(),0))",
+                                "max(CameraHeight(Ball.Layer(), 0), CameraWidth(Ball.Layer(), 0))",
                                 "WheelTargetLeftUpX",
                                 "WheelTargetLeftUpY",
                                 ""
@@ -7810,10 +8085,10 @@
                               },
                               "parameters": [
                                 "Road",
-                                "OrcWheel.BoundingBoxRight()",
-                                "OrcWheel.CenterY()",
+                                "Ball.BoundingBoxRight()",
+                                "Ball.CenterY()",
                                 "270",
-                                "max(CameraHeight(OrcWheel.Layer(),0),CameraWidth(OrcWheel.Layer(),0))",
+                                "max(CameraHeight(Ball.Layer(), 0), CameraWidth(Ball.Layer(), 0))",
                                 "WheelTargetRightUpX",
                                 "WheelTargetRightUpY",
                                 ""
@@ -7831,9 +8106,9 @@
                                 "value": "SetCenterY"
                               },
                               "parameters": [
-                                "OrcWheel",
+                                "Ball",
                                 "=",
-                                "max(Variable(WheelTargetLeftUpY), Variable(WheelTargetRightUpY)) + OrcWheel.Height()/2"
+                                "max(Variable(WheelTargetLeftUpY), Variable(WheelTargetRightUpY)) + Ball.Height() / 2"
                               ]
                             },
                             {
@@ -7841,9 +8116,59 @@
                                 "value": "Arreter"
                               },
                               "parameters": [
-                                "OrcWheel"
+                                "Ball"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "FlippableCapability::FlippableBehavior::FlipY"
+                              },
+                              "parameters": [
+                                "Ball",
+                                "Flippable",
+                                "yes"
                               ]
                             }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Change gravity (if initiated while on the ground)"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "GravitySign",
+                            "*",
+                            "-1"
                           ]
                         }
                       ]
@@ -7898,8 +8223,7 @@
           "colorG": 19,
           "colorR": 144,
           "creationTime": 0,
-          "disabled": true,
-          "name": "Wheel",
+          "name": "Ball",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -7921,7 +8245,7 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "OrcWheel",
+                    "Ball",
                     "GravitySign",
                     "=",
                     "1"
@@ -7932,10 +8256,10 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "OrcWheel",
+                    "Ball",
                     "HorizontalSpeed",
                     "=",
-                    "200"
+                    "75"
                   ]
                 },
                 {
@@ -7943,7 +8267,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "OrcWheel",
+                    "Ball",
                     "AllowGravityChange",
                     "False"
                   ]
@@ -7955,10 +8279,50 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Keep inside road",
+              "name": "Enforce ceiling and floors",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Estimate border positions for the next frame"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "NextFrameTopY",
+                        "=",
+                        "Ball.BoundingBoxTop() + (Ball.ForceY() * TimeDelta())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "NextFrameBottomY",
+                        "=",
+                        "Ball.BoundingBoxBottom() + (Ball.ForceY() * TimeDelta())"
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
@@ -7973,61 +8337,81 @@
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OrcWheel",
-                        "IsOnGround",
-                        "False"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "Road",
-                        "OrcWheel.CenterX()",
-                        "OrcWheel.BoundingBoxBottom() + 1"
+                        "Ball.ForceY()",
+                        ">",
+                        "0"
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetCenterY"
-                      },
-                      "parameters": [
-                        "OrcWheel",
-                        "=",
-                        "Road.BoundingBoxTop() - OrcWheel.Height()/2 - 1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "OrcWheel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OrcWheel",
-                        "IsOnGround",
-                        "True"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Ball.BoundingBoxLeft()",
+                                "Ball.Variable(NextFrameBottomY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Ball.BoundingBoxRight()",
+                                "Ball.Variable(NextFrameBottomY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "=",
+                            "Road.BoundingBoxTop() - Ball.Height()/2 - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Ball"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -8049,42 +8433,78 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "Road",
-                        "OrcWheel.CenterX()",
-                        "OrcWheel.BoundingBoxTop() - 1"
+                        "Ball.ForceY()",
+                        "<",
+                        "0"
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "SetCenterY"
-                      },
-                      "parameters": [
-                        "OrcWheel",
-                        "=",
-                        "Road.BoundingBoxBottom() + OrcWheel.Height()/2 + 1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "OrcWheel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "OrcWheel",
-                        "IsOnGround",
-                        "True"
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Ball.BoundingBoxLeft()",
+                                "Ball.Variable(NextFrameTopY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Ball.BoundingBoxRight()",
+                                "Ball.Variable(NextFrameTopY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "=",
+                            "Road.BoundingBoxBottom() + Ball.Height()/2 + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Ball"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -8110,8 +8530,8 @@
                         "value": "AddForceXY"
                       },
                       "parameters": [
-                        "OrcWheel",
-                        "OrcWheel.Variable(HorizontalSpeed)",
+                        "Ball",
+                        "Ball.Variable(HorizontalSpeed)",
                         "0",
                         ""
                       ]
@@ -8128,8 +8548,8 @@
                         "value": "Rotate"
                       },
                       "parameters": [
-                        "OrcWheel",
-                        "OrcWheel.Variable(RotationSign) * ToDeg(OrcWheel.Variable(HorizontalSpeed) / (OrcWheel.Width()/2))",
+                        "Ball",
+                        "Ball.Variable(RotationSign) * ToDeg(Ball.Variable(HorizontalSpeed) / (Ball.Width() / 2))",
                         ""
                       ]
                     }
@@ -8143,7 +8563,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "IsOnGround",
                         "True"
                       ]
@@ -8155,10 +8575,10 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "RotationSign",
                         "=",
-                        "OrcWheel.Variable(GravitySign)"
+                        "Ball.Variable(GravitySign)"
                       ]
                     }
                   ]
@@ -8184,9 +8604,9 @@
                         "value": "AddForceAL"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "90",
-                        "OrcWheel.Variable(GravitySign) * 30",
+                        "Ball.Variable(GravitySign) * 100",
                         "1"
                       ]
                     }
@@ -8264,7 +8684,7 @@
                             "value": "SetObjectVariableAsBoolean"
                           },
                           "parameters": [
-                            "OrcWheel",
+                            "Ball",
                             "AllowGravityChange",
                             "True"
                           ]
@@ -8282,7 +8702,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "AllowGravityChange",
                         "True"
                       ]
@@ -8292,7 +8712,7 @@
                         "value": "ObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "IsOnGround",
                         "True"
                       ]
@@ -8355,7 +8775,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "GravitySign",
                         "*",
                         "-1"
@@ -8366,7 +8786,7 @@
                         "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "OrcWheel",
+                        "Ball",
                         "AllowGravityChange",
                         ""
                       ]
@@ -8417,83 +8837,7 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
           "disabled": true,
-          "name": "Wheel",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "OrcWheel",
-                    "0",
-                    "100",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AddForceAL"
-                  },
-                  "parameters": [
-                    "OrcWheel",
-                    "90",
-                    "30",
-                    "1"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "KeyPressed"
-                  },
-                  "parameters": [
-                    "",
-                    "Up"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": []
-            }
-          ],
-          "parameters": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -15366,6 +15710,46 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Estimate border positions for the next frame"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "NextFrameTopY",
+                    "=",
+                    "Player_Platformer.BoundingBoxTop() + (Player_Platformer.ForceY() * TimeDelta())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "NextFrameBottomY",
+                    "=",
+                    "Player_Platformer.BoundingBoxBottom() + (Player_Platformer.ForceY() * TimeDelta())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Player touching floor"
             },
             {
@@ -15373,60 +15757,78 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": [],
-                  "subInstructions": [
+                  "parameters": [
+                    "Player_Platformer.ForceY()",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxLeft()",
+                            "Player_Platformer.Variable(NextFrameBottomY)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxRight()",
+                            "Player_Platformer.Variable(NextFrameBottomY)"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
                       },
                       "parameters": [
-                        "Road",
-                        "Player_Platformer.BoundingBoxLeft()",
-                        "Player_Platformer.BoundingBoxBottom() + 1"
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
                       ]
                     },
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "Road",
-                        "Player_Platformer.BoundingBoxRight()",
-                        "Player_Platformer.BoundingBoxBottom() + 1"
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
                       ]
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenterY"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "=",
-                    "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Player_Platformer"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "IsOnGround",
-                    "True"
                   ]
                 }
               ]
@@ -15448,60 +15850,78 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
                   },
-                  "parameters": [],
-                  "subInstructions": [
+                  "parameters": [
+                    "Player_Platformer.ForceY()",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxLeft()",
+                            "Player_Platformer.Variable(NextFrameTopY)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxRight()",
+                            "Player_Platformer.Variable(NextFrameTopY)"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
                       },
                       "parameters": [
-                        "Road",
-                        "Player_Platformer.BoundingBoxLeft()",
-                        "Player_Platformer.BoundingBoxTop() - 1"
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
                       ]
                     },
                     {
                       "type": {
-                        "value": "CollisionPoint"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "Road",
-                        "Player_Platformer.BoundingBoxRight()",
-                        "Player_Platformer.BoundingBoxTop() - 1"
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
                       ]
                     }
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetCenterY"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "=",
-                    "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Arreter"
-                  },
-                  "parameters": [
-                    "Player_Platformer"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "IsOnGround",
-                    "True"
                   ]
                 }
               ]
@@ -65645,7 +66065,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.6197916666666686,
+        "zoomFactor": 0.475358508712695,
         "windowMask": false
       }
     },
@@ -65653,21 +66073,6 @@
       "associatedLayout": "GDevelopDash",
       "name": "Level 2",
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "PlayerSpawn",
-          "persistentUuid": "e023404c-b76b-4bb8-911a-11cf18268f09",
-          "width": 0,
-          "x": 601,
-          "y": 477,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -65696,21 +66101,6 @@
           "x": 0,
           "y": 0,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "OrcWheel",
-          "persistentUuid": "a4369fbc-7de4-44fb-a909-fb314043d7c0",
-          "width": 0,
-          "x": 192,
-          "y": 352,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -65790,7 +66180,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.4163025217733335,
+        "zoomFactor": 0.18781732880530427,
         "windowMask": false
       }
     }
