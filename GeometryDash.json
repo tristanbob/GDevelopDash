@@ -9406,7 +9406,7 @@
               "folded": true,
               "name": "DefaultJumpSpeed",
               "type": "number",
-              "value": 1700
+              "value": 2000
             },
             {
               "folded": true,
@@ -9428,6 +9428,12 @@
             },
             {
               "folded": true,
+              "name": "GravityForce",
+              "type": "number",
+              "value": 5000
+            },
+            {
+              "folded": true,
               "name": "ShowShadowClones",
               "type": "boolean",
               "value": false
@@ -9436,11 +9442,11 @@
           "effects": [],
           "behaviors": [
             {
-              "gravity": 3750,
-              "jumpSpeed": 999999999999,
+              "gravity": 0,
+              "jumpSpeed": 0,
+              "jumpSustainTime": 0,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "jumpSustainTime": 0,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 10000,
               "maxSpeed": 750,
@@ -9466,9 +9472,9 @@
               "FollowOnY": true,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 0,
-              "FollowFreeAreaBottom": 0,
-              "CameraOffsetX": 600,
+              "FollowFreeAreaTop": 400,
+              "FollowFreeAreaBottom": 400,
+              "CameraOffsetX": 500,
               "CameraOffsetY": 0,
               "CameraDelay": 0,
               "ForecastTime": 0,
@@ -9513,14 +9519,14 @@
               "PlatformerCharacter": "PlatformerObject",
               "SmoothCamera": "SmoothCamera",
               "JumpOriginY": 1.153405973349735e-303,
-              "AirFollowFreeAreaTop": 400,
-              "AirFollowFreeAreaBottom": 400,
+              "AirFollowFreeAreaTop": 200,
+              "AirFollowFreeAreaBottom": 200,
               "FloorFollowFreeAreaTop": 200,
               "FloorFollowFreeAreaBottom": 200,
-              "AirUpwardSpeed": 0,
-              "AirDownwardSpeed": 0,
-              "FloorUpwardSpeed": 0.9,
-              "FloorDownwardSpeed": 0.9,
+              "AirUpwardSpeed": 0.9,
+              "AirDownwardSpeed": 0.9,
+              "FloorUpwardSpeed": 0.95,
+              "FloorDownwardSpeed": 0.95,
               "AirUpwardSpeedMax": 9000,
               "AirDownwardSpeedMax": 9000,
               "FloorUpwardSpeedMax": 9000,
@@ -12518,7 +12524,7 @@
                   "parameters": [
                     "LevelProgressBar",
                     "=",
-                    "100 * (Player_Platformer.BoundingBoxLeft() -PlayerSpawn.BoundingBoxLeft() ) / (FinishLine.X() - PlayerSpawn.BoundingBoxLeft())",
+                    "100 * (Player_Platformer.BoundingBoxLeft() - PlayerSpawn.BoundingBoxLeft() ) / (FinishLine.X() - PlayerSpawn.BoundingBoxLeft())",
                     ""
                   ]
                 }
@@ -12631,10 +12637,28 @@
                       "actions": [],
                       "events": [
                         {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "PlatformBehavior::Gravity"
+                              },
+                              "parameters": [
+                                "Player_Platformer",
+                                "PlatformerObject",
+                                "=",
+                                "Player_Platformer.Variable(GravityForce)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
                           "colorB": 228,
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Corner Correction",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -14381,7 +14405,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "disabled": true,
           "name": "Player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -62721,21 +62744,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "PlayerSpawn",
-          "persistentUuid": "d055ce5e-7734-44a8-9d72-e36829effc01",
-          "width": 0,
-          "x": 896,
-          "y": 640,
-          "zOrder": 107,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 864,
@@ -67253,6 +67261,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlayerSpawn",
+          "persistentUuid": "354b95d3-11b1-4dd1-a859-2bd28d59b39a",
+          "width": 0,
+          "x": 896,
+          "y": 640,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -67265,7 +67288,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.12203823303706747,
+        "zoomFactor": 0.8081094648115819,
         "windowMask": false
       }
     },
