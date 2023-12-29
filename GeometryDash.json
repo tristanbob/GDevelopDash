@@ -660,6 +660,41 @@
         "name": "assets\\Orc Wheel2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Orc Wheel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\assets_Orc Wheel2.png",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ball.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ball2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ball3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ball3",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -780,6 +815,21 @@
           "x": 128,
           "y": 576,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "UI",
+          "name": "DEBUG",
+          "persistentUuid": "7921d7e3-f800-40b3-8378-f4229002993d",
+          "width": 0,
+          "x": 832,
+          "y": 32,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3200,7 +3250,7 @@
               "UpwardSpeed": 1,
               "DownwardSpeed": 1,
               "FollowOnX": true,
-              "FollowOnY": true,
+              "FollowOnY": false,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
               "FollowFreeAreaTop": 0,
@@ -3603,7 +3653,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Place level objects",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -8223,6 +8272,7 @@
           "colorG": 19,
           "colorR": 144,
           "creationTime": 0,
+          "disabled": true,
           "name": "Ball",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8232,11 +8282,9 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "DepartScene"
+                    "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [
-                    ""
-                  ]
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -8257,9 +8305,9 @@
                   },
                   "parameters": [
                     "Ball",
-                    "HorizontalSpeed",
+                    "RotationSign",
                     "=",
-                    "75"
+                    "1"
                   ]
                 },
                 {
@@ -8270,6 +8318,39 @@
                     "Ball",
                     "AllowGravityChange",
                     "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "GravityForce",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "MaxVerticalSpeed",
+                    "=",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Ball",
+                    "HorizontalSpeed",
+                    "=",
+                    "100"
                   ]
                 }
               ]
@@ -8305,9 +8386,20 @@
                       },
                       "parameters": [
                         "Ball",
+                        "NextFrameForceY",
+                        "=",
+                        "(Ball.ForceY() + (Ball.Variable(GravitySign) * Ball.Variable(GravityForce))) * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Ball",
                         "NextFrameTopY",
                         "=",
-                        "Ball.BoundingBoxTop() + (Ball.ForceY() * TimeDelta())"
+                        "Ball.BoundingBoxTop() + Ball.Variable(NextFrameForceY)"
                       ]
                     },
                     {
@@ -8318,7 +8410,35 @@
                         "Ball",
                         "NextFrameBottomY",
                         "=",
-                        "Ball.BoundingBoxBottom() + (Ball.ForceY() * TimeDelta())"
+                        "Ball.BoundingBoxBottom() + Ball.Variable(NextFrameForceY)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset ground detection"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "IsOnGround",
+                        "False"
                       ]
                     }
                   ]
@@ -8517,44 +8637,10 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "name": "Always move right",
+              "name": "Controls",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceXY"
-                      },
-                      "parameters": [
-                        "Ball",
-                        "Ball.Variable(HorizontalSpeed)",
-                        "0",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Ball",
-                        "Ball.Variable(RotationSign) * ToDeg(Ball.Variable(HorizontalSpeed) / (Ball.Width() / 2))",
-                        ""
-                      ]
-                    }
-                  ]
-                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
@@ -8582,48 +8668,7 @@
                       ]
                     }
                   ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Gravity",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AddForceAL"
-                      },
-                      "parameters": [
-                        "Ball",
-                        "90",
-                        "Ball.Variable(GravitySign) * 100",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Controls",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
+                },
                 {
                   "colorB": 228,
                   "colorG": 176,
@@ -8695,99 +8740,245 @@
                   "parameters": []
                 },
                 {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Key pressed",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "AllowGravityChange",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Space"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Gamepads::C_Any_Button_pressed"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "GravitySign",
+                            "*",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Ball",
+                            "AllowGravityChange",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Apply Gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "90",
+                        "Ball.Variable(GravitySign) * Ball.Variable(GravityForce)",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Enforce max vertical speed"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "ObjectVariableAsBoolean"
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
                       },
                       "parameters": [
-                        "Ball",
-                        "AllowGravityChange",
-                        "True"
+                        "abs(Ball.ForceY())",
+                        ">",
+                        "abs(Ball.Variable(MaxVerticalSpeed))"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Ball",
-                        "IsOnGround",
-                        "True"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Space"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "MouseButtonPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Left"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Gamepads::C_Any_Button_pressed"
-                          },
-                          "parameters": [
-                            "",
-                            "1",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "KeyPressed"
-                          },
-                          "parameters": [
-                            "",
-                            "Up"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "Ball",
-                        "GravitySign",
-                        "*",
-                        "-1"
+                        "Ball"
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetObjectVariableAsBoolean"
+                        "value": "AddForceAL"
                       },
                       "parameters": [
                         "Ball",
-                        "AllowGravityChange",
+                        "90",
+                        "Ball.Variable(GravitySign) * Ball.Variable(MaxVerticalSpeed)",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Ball.Variable(HorizontalSpeed)",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Change rotation direction",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Ball",
+                        "Ball.Variable(RotationSign) * ToDeg(Ball.Variable(HorizontalSpeed) / (Ball.Width() / 2))",
                         ""
                       ]
                     }
@@ -8815,23 +9006,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Player_Sticker",
-                    "Animation",
-                    "=",
-                    "\"Ship\""
-                  ]
-                }
-              ],
-              "actions": []
             }
           ],
           "parameters": []
@@ -9624,6 +9798,36 @@
                         "name": "origine",
                         "x": 47.5,
                         "y": 43
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ball",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Ball3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 31.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -11973,7 +12177,7 @@
                                 "Player_Sticker",
                                 "Animation",
                                 "=",
-                                "\"Cube\""
+                                "\"Ball\""
                               ]
                             }
                           ]
@@ -12404,6 +12608,7 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Cube mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13732,6 +13937,7 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Wave mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -14019,6 +14225,44 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "name": "Ball mode",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"Ball\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "BallMode"
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
@@ -14137,6 +14381,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "name": "Player death",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14285,7 +14530,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Change to ship",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14295,12 +14539,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BoundingBoxCenterX"
+                    "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "Player_Platformer",
-                    ">",
-                    "ShipModePortal.BoundingBoxCenterX()"
+                    "ShipModePortal",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
                   ]
                 },
                 {
@@ -14339,7 +14583,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Change to wave",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14349,12 +14592,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BoundingBoxCenterX"
+                    "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "Player_Platformer",
-                    ">",
-                    "WaveModePortal.BoundingBoxCenterX()"
+                    "WaveModePortal",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
                   ]
                 },
                 {
@@ -14402,12 +14645,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BoundingBoxCenterX"
+                    "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "Player_Platformer",
-                    ">",
-                    "FinishLine.BoundingBoxCenterX()"
+                    "FinishLine",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
                   ]
                 },
                 {
@@ -15689,6 +15932,130 @@
     {
       "associatedLayout": "GDevelopDash",
       "lastChangeTimeStamp": 0,
+      "name": "CrashDetection",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Detect when player crashes into terrain",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Estimate border position for the next frame"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "NextFrameRightBorderX",
+                    "=",
+                    "Player_Platformer.BoundingBoxRight() + (Player_Platformer.Variable(HorizontalSpeed) * TimeDelta())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Player touching floor"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Road",
+                        "Player_Platformer.Variable(NextFrameRightBorderX)",
+                        "Player_Platformer.BoundingBoxTop()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Road",
+                        "Player_Platformer.Variable(NextFrameRightBorderX)",
+                        "Player_Platformer.BoundingBoxBottom()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenterX"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "=",
+                    "Road.BoundingBoxLeft() - Player_Platformer.Width()/2 - 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Arreter"
+                  },
+                  "parameters": [
+                    "Player_Platformer"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjetTxt"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "State",
+                    "=",
+                    "\"Dead\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "GDevelopDash",
+      "lastChangeTimeStamp": 0,
       "name": "EnforceCeilingAndFloor",
       "events": [
         {
@@ -15722,9 +16089,20 @@
                   },
                   "parameters": [
                     "Player_Platformer",
+                    "NextFrameForceY",
+                    "=",
+                    "(Player_Platformer.ForceY() + (Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce))) * TimeDelta()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
                     "NextFrameTopY",
                     "=",
-                    "Player_Platformer.BoundingBoxTop() + (Player_Platformer.ForceY() * TimeDelta())"
+                    "Player_Platformer.BoundingBoxTop() + Player_Platformer.Variable(NextFrameForceY)"
                   ]
                 },
                 {
@@ -15735,7 +16113,35 @@
                     "Player_Platformer",
                     "NextFrameBottomY",
                     "=",
-                    "Player_Platformer.BoundingBoxBottom() + (Player_Platformer.ForceY() * TimeDelta())"
+                    "Player_Platformer.BoundingBoxBottom() + Player_Platformer.Variable(NextFrameForceY)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Reset ground detection"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "IsOnGround",
+                    "False"
                   ]
                 }
               ]
@@ -15928,6 +16334,799 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "GDevelopDash",
+      "lastChangeTimeStamp": 0,
+      "name": "BallMode",
+      "events": [
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "name": "Ball Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "GravitySign",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "RotationSign",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "AllowGravityChange",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "GravityForce",
+                    "=",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "MaxVerticalSpeed",
+                    "=",
+                    "1500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "HorizontalSpeed",
+                    "=",
+                    "750"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::StopEmission"
+                  },
+                  "parameters": [
+                    "CubeTrail"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "EnforceCeilingAndFloor"
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": true,
+              "folded": true,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Estimate border positions for the next frame"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameForceY",
+                        "=",
+                        "(Player_Platformer.ForceY() + (Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce))) * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameTopY",
+                        "=",
+                        "Player_Platformer.BoundingBoxTop() + Player_Platformer.Variable(NextFrameForceY)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameBottomY",
+                        "=",
+                        "Player_Platformer.BoundingBoxBottom() + Player_Platformer.Variable(NextFrameForceY)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset ground detection"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching floor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player_Platformer.ForceY()",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxLeft()",
+                                "Player_Platformer.Variable(NextFrameBottomY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxRight()",
+                                "Player_Platformer.Variable(NextFrameBottomY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching ceiling"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player_Platformer.ForceY()",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxLeft()",
+                                "Player_Platformer.Variable(NextFrameTopY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxRight()",
+                                "Player_Platformer.Variable(NextFrameTopY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Controls",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "RotationSign",
+                        "=",
+                        "Player_Platformer.Variable(GravitySign)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Require new keypress",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Gamepads::C_Any_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "AllowGravityChange",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Key pressed",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "AllowGravityChange",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Space"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Gamepads::C_Any_Button_pressed"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "GravitySign",
+                            "*",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "AllowGravityChange",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Apply Gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "90",
+                        "Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce)",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Enforce max vertical speed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Player_Platformer.ForceY())",
+                        ">",
+                        "abs(Player_Platformer.Variable(MaxVerticalSpeed))"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "90",
+                        "Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(MaxVerticalSpeed)",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Player_Platformer.Variable(HorizontalSpeed)",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Change rotation direction",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Player_Platformer.Variable(RotationSign) * ToDeg(Player_Platformer.Variable(HorizontalSpeed) / (Player_Platformer.Width() / 2))",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": true,
+              "name": "Invert gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "InvertGravityPortal"
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
@@ -61173,7 +62372,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.9140341873313453,
+        "zoomFactor": 1.4201106106001837,
         "windowMask": false
       }
     },
@@ -61353,9 +62552,9 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "399f8c8b-0b33-4a52-b67d-16ebaae28bb1",
-          "width": 128,
-          "x": 2048,
-          "y": 576,
+          "width": 5997,
+          "x": 403,
+          "y": -96,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -66065,7 +67264,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.475358508712695,
+        "zoomFactor": 0.12203823303706747,
         "windowMask": false
       }
     },
