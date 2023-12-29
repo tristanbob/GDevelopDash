@@ -985,6 +985,222 @@
         "name": "assets\\Main Ship Front And Side Shield_7.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "swing-mode.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "swing-mode.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue life bar-bar8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Blue life bar-bar",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_01.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_02.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_03.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_03.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_04.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_04.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_05.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_05.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_06.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_06.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_07.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_07.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_08.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_08.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_09.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_09.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skeleton-fly_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skeleton-fly_10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Swing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Swing11",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1585,7 +1801,7 @@
               ]
             },
             {
-              "name": "Swing",
+              "name": "SwingOld",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -1594,18 +1810,218 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\Main Ship Front And Side Shield_7.png",
+                      "image": "swing-mode.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
                         "x": 0,
                         "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Swing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Swing11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 43.5,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 43.5,
+                        "y": 31.5
                       },
                       "customCollisionMask": []
                     }
@@ -2022,68 +2438,6 @@
                 "g": 255,
                 "r": 255
               }
-            }
-          }
-        },
-        {
-          "assetStoreId": "bfeeb465a4a164b560a2215e3ff9e78e66123af43cbf7ef1f22d56fca4271c80",
-          "name": "SquareWhiteSlider",
-          "type": "PanelSpriteSlider::PanelSpriteSlider",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "BarTopPadding": 6,
-            "BarLeftPadding": 6,
-            "BarRightPadding": 6,
-            "BarBottomPadding": 6,
-            "LabelMargin": 6
-          },
-          "childrenContent": {
-            "Background": {
-              "bottomMargin": 4,
-              "height": 28,
-              "leftMargin": 2,
-              "rightMargin": 2,
-              "texture": "Square White Slider Border.png",
-              "tiled": false,
-              "topMargin": 4,
-              "width": 265
-            },
-            "FillBar": {
-              "bottomMargin": 2,
-              "height": 16,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Square White Slider Fill Bar.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 16
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "It displays the value when it changes.",
-              "font": "",
-              "textAlignment": "",
-              "characterSize": 20,
-              "color": {
-                "b": 221,
-                "g": 221,
-                "r": 221
-              }
-            },
-            "Thumb": {
-              "bottomMargin": 2,
-              "height": 36,
-              "leftMargin": 1,
-              "rightMargin": 1,
-              "texture": "Square White Slider Thumb.png",
-              "tiled": false,
-              "topMargin": 2,
-              "width": 22
             }
           }
         },
@@ -3552,127 +3906,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "670a5ac06ff09d80e633a3abd0a2d0436930bccef0c628c4c68091c7694505b3",
-          "name": "OrcWheel",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Orc Wheel",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Orc Wheel",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 93,
-                            "y": 1
-                          },
-                          {
-                            "x": 93,
-                            "y": 92
-                          },
-                          {
-                            "x": 1,
-                            "y": 92
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "274a3a8c875a76b6cd087a1d690059d792e1be39f24a5f3967b1674bf64f3a35",
-          "name": "WavePortal",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Blue life bar-bar.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 8,
-                            "y": 8
-                          },
-                          {
-                            "x": 134,
-                            "y": 8
-                          },
-                          {
-                            "x": 134,
-                            "y": 24
-                          },
-                          {
-                            "x": 8,
-                            "y": 24
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "07bb73d7d1cefa3e52f4d6394dbbafe1791e5b38415e37a7c8c33cbdaf6ebc59",
           "name": "BallPortal",
           "type": "Sprite",
@@ -3789,7 +4022,7 @@
         {
           "assetStoreId": "4e0e3719b2abbe33ac25fe8b158b4999cb16807dc38d6efa2889feedbdfee20e",
           "height": 128,
-          "name": "WavePortal2",
+          "name": "WavePortal",
           "texture": "tiled_Blue Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -3922,247 +4155,6 @@
             "g": 255,
             "r": 255
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "46f5efc1b93e460b26f0f9dc51f49ac45a89d2f72f133374e4ca10e400de8d16",
-          "name": "MainShipFrontAndSideShield",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Main Ship Front And Side Shield_1",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.125,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_1",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Main Ship Front And Side Shield_6",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 0
-                          },
-                          {
-                            "x": 51,
-                            "y": 64
-                          },
-                          {
-                            "x": 12,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4238,13 +4230,13 @@
             "folderName": "UI",
             "children": [
               {
-                "objectName": "SquareWhiteSlider"
-              },
-              {
                 "objectName": "Background"
               },
               {
                 "objectName": "AttemptNumber_Text"
+              },
+              {
+                "objectName": "LevelProgressBar"
               },
               {
                 "objectName": "ProgressPercent_Text"
@@ -4274,9 +4266,6 @@
                     "objectName": "Jump_Text"
                   }
                 ]
-              },
-              {
-                "objectName": "LevelProgressBar"
               }
             ]
           },
@@ -4338,7 +4327,7 @@
                 "objectName": "UfoPortal"
               },
               {
-                "objectName": "WavePortal2"
+                "objectName": "WavePortal"
               },
               {
                 "objectName": "CubePortal"
@@ -4362,21 +4351,12 @@
                 "objectName": "WaveModePortal"
               },
               {
-                "objectName": "WavePortal"
-              },
-              {
                 "objectName": "BallPortal"
               },
               {
                 "objectName": "CubePortalREMOVE"
               }
             ]
-          },
-          {
-            "objectName": "OrcWheel"
-          },
-          {
-            "objectName": "MainShipFrontAndSideShield"
           }
         ]
       },
@@ -4423,7 +4403,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"Level 1\"",
+                            "\"Level 2\"",
                             "0",
                             "0",
                             "0"
@@ -5069,7 +5049,7 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "name": "Ship",
+                  "name": "Ship mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -5297,7 +5277,7 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "name": "UFO mode",
+                  "name": "Swing mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -5616,7 +5596,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "WaveModePortal",
+                    "WavePortal",
                     "Player_Platformer.CenterX()",
                     "Player_Platformer.CenterY()"
                   ]
@@ -5855,6 +5835,59 @@
                         "Animation",
                         "=",
                         "\"Cube\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change to Cube Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "SwingPortal",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"Swing\""
                       ]
                     }
                   ]
@@ -17829,12 +17862,12 @@
                     },
                     {
                       "type": {
-                        "value": "SetAngle"
+                        "value": "ActivateBehavior"
                       },
                       "parameters": [
-                        "Player_Sticker",
-                        "=",
-                        "0"
+                        "Player_Platformer",
+                        "PlatformerObject",
+                        "no"
                       ]
                     },
                     {
@@ -17845,6 +17878,16 @@
                         "Player_Sticker",
                         "Flippable",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "=",
+                        "0"
                       ]
                     }
                   ]
@@ -18023,6 +18066,19 @@
                         "Player_Platformer",
                         "IsOnGround",
                         "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenCameraZoom2"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpiderZoom\"",
+                        "1",
+                        "",
+                        "\"easeOutQuad\"",
+                        "0.5"
                       ]
                     }
                   ]
@@ -18980,13 +19036,15 @@
                     },
                     {
                       "type": {
-                        "value": "ZoomCamera"
+                        "value": "Tween::TweenCameraZoom2"
                       },
                       "parameters": [
                         "",
+                        "\"CubeZoom\"",
                         "1.5",
                         "",
-                        "0"
+                        "\"easeOutQuad\"",
+                        "0.5"
                       ]
                     }
                   ]
@@ -19908,7 +19966,7 @@
                     "Player_Platformer",
                     "GravityForce",
                     "=",
-                    "50"
+                    "25"
                   ]
                 },
                 {
@@ -19924,18 +19982,7 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Player_Platformer",
-                    "HorizontalSpeed",
-                    "=",
-                    "HorizontalSpeed"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ParticleSystem::StartEmission"
+                    "value": "ParticleSystem::StopEmission"
                   },
                   "parameters": [
                     "CubeTrail"
@@ -19943,7 +19990,7 @@
                 },
                 {
                   "type": {
-                    "value": "ParticleSystem::StopEmission"
+                    "value": "ParticleSystem::StartEmission"
                   },
                   "parameters": [
                     "ShipTrail"
@@ -19956,7 +20003,7 @@
                   "parameters": [
                     "Player_Sticker",
                     "FaceForward",
-                    ""
+                    "yes"
                   ]
                 },
                 {
@@ -19967,16 +20014,6 @@
                     "Player_Sticker",
                     "Flippable",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAngle"
-                  },
-                  "parameters": [
-                    "Player_Sticker",
-                    "=",
-                    "0"
                   ]
                 }
               ]
@@ -20289,34 +20326,6 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "ObjectVariableAsBoolean"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "IsOnGround",
-                        "True"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "RotationSign",
-                        "=",
-                        "Player_Platformer.Variable(GravitySign)"
-                      ]
-                    }
-                  ]
-                },
-                {
                   "colorB": 228,
                   "colorG": 176,
                   "colorR": 74,
@@ -20328,16 +20337,6 @@
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
-                        {
-                          "type": {
-                            "value": "ObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "IsOnGround",
-                            "True"
-                          ]
-                        },
                         {
                           "type": {
                             "value": "BuiltinCommonInstructions::Or"
@@ -20400,16 +20399,6 @@
                             "GravitySign",
                             "*",
                             "-1"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetObjectVariableAsBoolean"
-                          },
-                          "parameters": [
-                            "Player_Platformer",
-                            "AllowGravityChange",
-                            ""
                           ]
                         }
                       ]
@@ -20516,36 +20505,8 @@
                       },
                       "parameters": [
                         "Player_Platformer",
-                        "Player_Platformer.Variable(HorizontalSpeed)",
+                        "HorizontalSpeed",
                         "0",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "name": "Change rotation direction",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Rotate"
-                      },
-                      "parameters": [
-                        "Player_Sticker",
-                        "Player_Platformer.Variable(RotationSign) * ToDeg(Player_Platformer.Variable(HorizontalSpeed) / (Player_Platformer.Width() / 2))",
                         ""
                       ]
                     }
@@ -66972,7 +66933,7 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "f5917f1e-60e0-4f31-b184-31517e85663e",
-          "width": 10816,
+          "width": 10912,
           "x": 0,
           "y": 704,
           "zOrder": 1,
@@ -67723,7 +67684,7 @@
           "name": "ShipTeleport",
           "persistentUuid": "50fec12d-6971-41c5-9544-3db5df916d45",
           "width": 128,
-          "x": 12800,
+          "x": 13088,
           "y": 576,
           "zOrder": 109,
           "numberProperties": [],
@@ -67758,22 +67719,6 @@
           "x": 14464,
           "y": 256,
           "zOrder": 116,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 416,
-          "layer": "Obstacles",
-          "name": "WaveModePortal",
-          "persistentUuid": "a40f4345-cd47-4c94-ad9b-e67acc79b610",
-          "width": 96,
-          "x": 30880,
-          "y": 288,
-          "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68254,22 +68199,6 @@
           "x": 52069,
           "y": 2212,
           "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 448,
-          "layer": "Obstacles",
-          "name": "WaveModePortal",
-          "persistentUuid": "0a25d389-caf6-46fa-b403-ee377c278132",
-          "width": 76,
-          "x": 30880,
-          "y": 256,
-          "zOrder": 117,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69273,8 +69202,8 @@
           "name": "WaveTeleport",
           "persistentUuid": "ad38d6e1-afb8-4512-80fa-84ddba3e0839",
           "width": 0,
-          "x": 30816,
-          "y": 384,
+          "x": 30720,
+          "y": 352,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -69424,8 +69353,8 @@
           "name": "TeleportHere",
           "persistentUuid": "bfe062a7-46ad-4f8f-8da5-66440c1c34dc",
           "width": 0,
-          "x": 6624,
-          "y": 448,
+          "x": 8896,
+          "y": 352,
           "zOrder": 127,
           "numberProperties": [],
           "stringProperties": [],
@@ -69442,21 +69371,6 @@
           "x": 9856,
           "y": 624,
           "zOrder": 125,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Obstacles",
-          "name": "_3_Spikes",
-          "persistentUuid": "2cf28257-d98f-44a3-91be-616a310e41dc",
-          "width": 0,
-          "x": 12672,
-          "y": 800,
-          "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69499,8 +69413,8 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "988a44ac-5b64-4186-9959-0585e3e2d6ca",
-          "width": 1696,
-          "x": 12800,
+          "width": 1408,
+          "x": 13088,
           "y": 704,
           "zOrder": 128,
           "numberProperties": [],
@@ -69515,8 +69429,8 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "7fc67f15-97ab-46a9-a8d4-3787f2d712f2",
-          "width": 416,
-          "x": 12384,
+          "width": 288,
+          "x": 12800,
           "y": 864,
           "zOrder": 128,
           "numberProperties": [],
@@ -69532,7 +69446,7 @@
           "name": "Road",
           "persistentUuid": "d6263733-3ed0-46ed-a627-0c51fcf5c31c",
           "width": 512,
-          "x": 10816,
+          "x": 10912,
           "y": 864,
           "zOrder": 128,
           "numberProperties": [],
@@ -69548,7 +69462,7 @@
           "name": "Road",
           "persistentUuid": "bbd46da3-15e7-469c-9340-b6a7a6d2dbcb",
           "width": 480,
-          "x": 11904,
+          "x": 12320,
           "y": 864,
           "zOrder": 128,
           "numberProperties": [],
@@ -69563,8 +69477,8 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "123b85e8-41d6-4164-a095-e48b3ba8637d",
-          "width": 576,
-          "x": 11328,
+          "width": 896,
+          "x": 11424,
           "y": 704,
           "zOrder": 128,
           "numberProperties": [],
@@ -69579,7 +69493,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "a5daf68b-d686-480a-a00c-c2eebb25f832",
           "width": 0,
-          "x": 12288,
+          "x": 12704,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69594,7 +69508,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "3c783096-85eb-412e-8ac6-035d269fc0f6",
           "width": 0,
-          "x": 12416,
+          "x": 12832,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69609,7 +69523,7 @@
           "name": "JumpOrb",
           "persistentUuid": "5a09f7a4-7b74-44b6-81e9-fc916087bf7d",
           "width": 0,
-          "x": 12528,
+          "x": 12895,
           "y": 624,
           "zOrder": 129,
           "numberProperties": [],
@@ -69624,7 +69538,7 @@
           "name": "JumpOrb",
           "persistentUuid": "37297ca6-5ded-4e3c-a382-99b07b824af9",
           "width": 0,
-          "x": 11072,
+          "x": 11168,
           "y": 624,
           "zOrder": 129,
           "numberProperties": [],
@@ -69639,7 +69553,7 @@
           "name": "JumpOrb",
           "persistentUuid": "be0c9511-22c0-44aa-8163-09ca68dc5915",
           "width": 0,
-          "x": 12176,
+          "x": 12543,
           "y": 624,
           "zOrder": 129,
           "numberProperties": [],
@@ -69654,7 +69568,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "55d3c1b1-fee9-47cf-98a6-2dc2424a8306",
           "width": 0,
-          "x": 11200,
+          "x": 11296,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69669,7 +69583,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "6ba4c6a5-bda6-497e-9a9c-5996d7175ae0",
           "width": 0,
-          "x": 10816,
+          "x": 10912,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69684,7 +69598,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "f9fe2d72-12ac-4582-9e98-fba2464afcaf",
           "width": 0,
-          "x": 11072,
+          "x": 11168,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69699,7 +69613,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "ea94b695-6558-4f83-9614-2bc2a30aeb71",
           "width": 0,
-          "x": 12160,
+          "x": 12576,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69714,7 +69628,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "31bbfee0-4be8-4783-8c1d-d90382ba2f4c",
           "width": 0,
-          "x": 11904,
+          "x": 12320,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69729,7 +69643,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "d7376210-d965-4e08-8816-d29d755b1bd6",
           "width": 0,
-          "x": 12032,
+          "x": 12448,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -69744,7 +69658,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "5e171d6b-bfcd-4eb4-b72c-31e97e7da0f9",
           "width": 0,
-          "x": 12544,
+          "x": 12960,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -70974,7 +70888,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "d49e02d2-78be-4e3a-ac9e-87e79424bfc3",
           "width": 0,
-          "x": 10944,
+          "x": 11040,
           "y": 800,
           "zOrder": 103,
           "numberProperties": [],
@@ -71695,57 +71609,12 @@
           "customSize": false,
           "height": 0,
           "layer": "LevelUI",
-          "name": "Fall_Text",
-          "persistentUuid": "e4a321cb-b500-4c27-9a5a-d8ec2c53375e",
-          "width": 0,
-          "x": 4512,
-          "y": 288,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "LevelUI",
           "name": "Auto_Text",
           "persistentUuid": "51814b1b-f836-4000-af00-61cdbcb69ad2",
           "width": 0,
           "x": 4224,
           "y": 576,
           "zOrder": 139,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "LevelUI",
-          "name": "Fall_Text",
-          "persistentUuid": "9d8430b8-8c15-41c8-a32e-0e2388303b3c",
-          "width": 0,
-          "x": 2080,
-          "y": 592,
-          "zOrder": 138,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "LevelUI",
-          "name": "Fall_Text",
-          "persistentUuid": "1acdc2ab-dd7b-4be4-a729-6ab61b96f304",
-          "width": 0,
-          "x": 2656,
-          "y": 576,
-          "zOrder": 138,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -71788,7 +71657,7 @@
           "name": "Jump_Text",
           "persistentUuid": "8e96ff44-b3f4-48f2-b16b-54b6d0ab06ed",
           "width": 0,
-          "x": 12469,
+          "x": 12836,
           "y": 672,
           "zOrder": 142,
           "numberProperties": [],
@@ -71803,7 +71672,7 @@
           "name": "Jump_Text",
           "persistentUuid": "679745cc-1adc-4d4f-9628-f0dabc72500e",
           "width": 0,
-          "x": 11008,
+          "x": 11104,
           "y": 672,
           "zOrder": 142,
           "numberProperties": [],
@@ -71818,7 +71687,7 @@
           "name": "Jump_Text",
           "persistentUuid": "f88b0974-8dae-42d5-bb43-a3109af4c7c3",
           "width": 0,
-          "x": 12117,
+          "x": 12484,
           "y": 672,
           "zOrder": 142,
           "numberProperties": [],
@@ -71870,6 +71739,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "layer": "",
+          "name": "WavePortal",
+          "persistentUuid": "3327203f-3142-4536-bf99-a924d660ce8b",
+          "width": 96,
+          "x": 30880,
+          "y": 256,
+          "zOrder": 144,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -71882,7 +71767,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.430340380220769,
+        "zoomFactor": 0.1440493154925041,
         "windowMask": false
       }
     },
@@ -71926,7 +71811,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
+          "height": 512,
           "layer": "",
           "name": "Road",
           "persistentUuid": "71757428-691b-4e65-b675-cbcd647a5b3a",
@@ -72005,22 +71890,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 832,
-          "layer": "Obstacles",
-          "name": "WaveModePortal",
-          "persistentUuid": "bd31a143-e156-459a-9c6c-752a2dc8aa08",
-          "width": 128,
-          "x": 5728,
-          "y": 128,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 864,
           "layer": "Obstacles",
           "name": "ShipModePortal",
@@ -72050,38 +71919,6 @@
           "initialVariables": []
         },
         {
-          "angle": 180,
-          "customSize": true,
-          "depth": 1,
-          "height": 832,
-          "layer": "Obstacles",
-          "name": "WaveModePortal",
-          "persistentUuid": "fd62dc0d-a38a-4c6f-9a29-58ad8a421cb7",
-          "width": 128,
-          "x": 5728,
-          "y": 128,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 120,
-          "layer": "Obstacles",
-          "name": "WavePortal",
-          "persistentUuid": "754269d2-5afe-4124-9ef8-9c4794caf28f",
-          "width": 960,
-          "x": 8124,
-          "y": 484,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "depth": 1,
@@ -72090,25 +71927,9 @@
           "name": "BallPortal",
           "persistentUuid": "e728e118-c84f-46e5-b7d5-43364fa127f1",
           "width": 960,
-          "x": 9723,
+          "x": 23675,
           "y": 475,
           "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 832,
-          "layer": "Obstacles",
-          "name": "SwingPortal",
-          "persistentUuid": "b2165c9e-a8a8-4139-bbe3-371ce0b920f5",
-          "width": 64,
-          "x": 4224,
-          "y": 128,
-          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -72133,13 +71954,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 832,
+          "height": 864,
           "layer": "Obstacles",
           "name": "SpiderPortal",
           "persistentUuid": "2d730961-823b-4627-a811-8e4577eece55",
           "width": 64,
-          "x": 7232,
-          "y": 128,
+          "x": 17408,
+          "y": 96,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -72154,8 +71975,8 @@
           "name": "UfoPortal",
           "persistentUuid": "dd06577b-e594-4a61-b3af-d82d7709ea9e",
           "width": 64,
-          "x": 16000,
-          "y": 160,
+          "x": 29984,
+          "y": 128,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -72186,9 +72007,41 @@
           "name": "CubePortal",
           "persistentUuid": "1434dd40-dfda-41e2-84b0-4d8801ade5dc",
           "width": 64,
-          "x": 14048,
+          "x": 15104,
           "y": 128,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "layer": "",
+          "name": "SwingPortal",
+          "persistentUuid": "60f844bb-36e0-4713-a199-528ef65caaf5",
+          "width": 64,
+          "x": 5792,
+          "y": 128,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "layer": "",
+          "name": "WavePortal",
+          "persistentUuid": "765c767f-b2d1-495e-83a8-bd95790e9ddb",
+          "width": 64,
+          "x": 21088,
+          "y": 128,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -72204,7 +72057,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.6197916666666696,
+        "zoomFactor": 0.06944547167664349,
         "windowMask": false
       }
     }
