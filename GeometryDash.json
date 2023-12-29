@@ -844,6 +844,147 @@
         "name": "Spider",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/b4d54260b52be22b9372f6bc7c32e5c2ba77b4bf2a8295cdc13eba4cada738c9_Main Ship Front And Side Shield_1.png",
+          "name": "Main Ship Front And Side Shield_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/7af46f90cc2abefd8d0aa78aac601ea9eee637046b11b954a27b20d0aab7b402_Main Ship Front And Side Shield_2.png",
+          "name": "Main Ship Front And Side Shield_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/069a16037c7ce10008a56cac39ae1d0068760f547b87d72d706f3d1017c4c32e_Main Ship Front And Side Shield_3.png",
+          "name": "Main Ship Front And Side Shield_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/8c6fd63f44ea445800ad60114f09559f51225b4bdcc691db7b29a40f2af3a5fe_Main Ship Front And Side Shield_4.png",
+          "name": "Main Ship Front And Side Shield_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/d2361233f449db2a8aa214276dc8378550a6cd1d54e6328dba1044ca41ee4681_Main Ship Front And Side Shield_5.png",
+          "name": "Main Ship Front And Side Shield_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Main Ship Front And Side Shield_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/FoozleCC/Void Collection/Main Ship/Shields/7e0dcfca64b0d5e34961acb1b359832430f53b3333c74fcb9343159dce59336d_Main Ship Front And Side Shield_6.png",
+          "name": "Main Ship Front And Side Shield_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Main Ship Front And Side Shield_6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Main Ship Front And Side Shield_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Main Ship Front And Side Shield_7.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -9416,7 +9557,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.29879853636070786,
+        "zoomFactor": 0.22169247275006446,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9809,36 +9950,6 @@
               ]
             },
             {
-              "name": "CubeOriginal",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets\\Play-Button-Idle",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Ship",
               "useMultipleDirections": false,
               "directions": [
@@ -10013,6 +10124,35 @@
                         "name": "origine",
                         "x": 35.5,
                         "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Swing",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Main Ship Front And Side Shield_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -12147,7 +12287,7 @@
         {
           "assetStoreId": "4090129765739cfcc9daf32d6356f1e43503693a0aaee97da729a9da2322feb0",
           "height": 128,
-          "name": "CubePortal",
+          "name": "CubePortalREMOVE",
           "texture": "tiled_Water.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12158,7 +12298,7 @@
         {
           "assetStoreId": "cc1eff7856908b3ea024f8effcb52b3ee9910da16f414e0da360aff04045f329",
           "height": 128,
-          "name": "YellowBackground",
+          "name": "SwingPortal",
           "texture": "tiled_Yellow background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12180,7 +12320,7 @@
         {
           "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
           "height": 128,
-          "name": "PurpleBackground",
+          "name": "SpiderPortal",
           "texture": "tiled_Purple background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12191,7 +12331,7 @@
         {
           "assetStoreId": "4b29323520b772b1dc2fe8bfa69706a68d2748033516018650c4568860104c4a",
           "height": 128,
-          "name": "GreenBackground",
+          "name": "CubePortal",
           "texture": "tiled_Green Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12202,7 +12342,7 @@
         {
           "assetStoreId": "4e0e3719b2abbe33ac25fe8b158b4999cb16807dc38d6efa2889feedbdfee20e",
           "height": 128,
-          "name": "BlueBackground",
+          "name": "WavePortal2",
           "texture": "tiled_Blue Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12213,7 +12353,7 @@
         {
           "assetStoreId": "086c79f9728a36aef0c992b41296c75361d8cca4a54d32646af14f982f524a38",
           "height": 128,
-          "name": "BrownBackground",
+          "name": "UfoPortal",
           "texture": "tiled_Brown Background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 128,
@@ -12335,6 +12475,247 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "46f5efc1b93e460b26f0f9dc51f49ac45a89d2f72f133374e4ca10e400de8d16",
+          "name": "MainShipFrontAndSideShield",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Main Ship Front And Side Shield_1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_1",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Main Ship Front And Side Shield_6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 0
+                          },
+                          {
+                            "x": 51,
+                            "y": 64
+                          },
+                          {
+                            "x": 12,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -12502,16 +12883,16 @@
             "folderName": "ChangeModes",
             "children": [
               {
-                "objectName": "BrownBackground"
+                "objectName": "UfoPortal"
               },
               {
-                "objectName": "BlueBackground"
+                "objectName": "WavePortal2"
               },
               {
-                "objectName": "GreenBackground"
+                "objectName": "CubePortal"
               },
               {
-                "objectName": "PurpleBackground"
+                "objectName": "SpiderPortal"
               },
               {
                 "objectName": "RobotPortal"
@@ -12520,7 +12901,7 @@
                 "objectName": "Wall"
               },
               {
-                "objectName": "YellowBackground"
+                "objectName": "SwingPortal"
               },
               {
                 "objectName": "ShipModePortal"
@@ -12535,12 +12916,15 @@
                 "objectName": "BallPortal"
               },
               {
-                "objectName": "CubePortal"
+                "objectName": "CubePortalREMOVE"
               }
             ]
           },
           {
             "objectName": "OrcWheel"
+          },
+          {
+            "objectName": "MainShipFrontAndSideShield"
           }
         ]
       },
@@ -13441,6 +13825,44 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "name": "UFO mode",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"Swing\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "SwingMode"
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
@@ -13834,7 +14256,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "BrownBackground",
+                    "UfoPortal",
                     "Player_Platformer.CenterX()",
                     "Player_Platformer.CenterY()"
                   ]
@@ -13887,7 +14309,7 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
-                    "PurpleBackground",
+                    "SpiderPortal",
                     "Player_Platformer.CenterX()",
                     "Player_Platformer.CenterY()"
                   ]
@@ -13914,6 +14336,59 @@
                         "Animation",
                         "=",
                         "\"Spider\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change to Cube Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "CubePortal",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"Cube\""
                       ]
                     }
                   ]
@@ -18445,6 +18920,54 @@
                         "=",
                         "Player_Platformer.Variable(GravityForce)"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "FaceForward",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Flippable",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "=",
+                        "0"
+                      ]
                     }
                   ]
                 }
@@ -19294,7 +19817,752 @@
       "associatedLayout": "GDevelopDash",
       "lastChangeTimeStamp": 0,
       "name": "SwingMode",
-      "events": []
+      "events": [
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "name": "Swing Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "PlatformerObject",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "GravitySign",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "RotationSign",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "AllowGravityChange",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "GravityForce",
+                    "=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "MaxVerticalSpeed",
+                    "=",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "HorizontalSpeed",
+                    "=",
+                    "HorizontalSpeed"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::StartEmission"
+                  },
+                  "parameters": [
+                    "CubeTrail"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::StopEmission"
+                  },
+                  "parameters": [
+                    "ShipTrail"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "FaceForward",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "Flippable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "EnforceCeilingAndFloor"
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": true,
+              "folded": true,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Estimate border positions for the next frame"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameForceY",
+                        "=",
+                        "(Player_Platformer.ForceY() + (Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce))) * TimeDelta()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameTopY",
+                        "=",
+                        "Player_Platformer.BoundingBoxTop() + Player_Platformer.Variable(NextFrameForceY)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "NextFrameBottomY",
+                        "=",
+                        "Player_Platformer.BoundingBoxBottom() + Player_Platformer.Variable(NextFrameForceY)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Reset ground detection"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "False"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching floor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player_Platformer.ForceY()",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxLeft()",
+                                "Player_Platformer.Variable(NextFrameBottomY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxRight()",
+                                "Player_Platformer.Variable(NextFrameBottomY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching ceiling"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "Player_Platformer.ForceY()",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxLeft()",
+                                "Player_Platformer.Variable(NextFrameTopY)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Road",
+                                "Player_Platformer.BoundingBoxRight()",
+                                "Player_Platformer.Variable(NextFrameTopY)"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenterY"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "=",
+                            "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Player_Platformer"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Controls",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "RotationSign",
+                        "=",
+                        "Player_Platformer.Variable(GravitySign)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Key pressed",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "IsOnGround",
+                            "True"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Space"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "MouseButtonPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Left"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Gamepads::C_Any_Button_pressed"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "KeyPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Up"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "GravitySign",
+                            "*",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "AllowGravityChange",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Apply Gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "90",
+                        "Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce)",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Enforce max vertical speed"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareNumbers"
+                      },
+                      "parameters": [
+                        "abs(Player_Platformer.ForceY())",
+                        ">",
+                        "abs(Player_Platformer.Variable(MaxVerticalSpeed))"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "90",
+                        "Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(MaxVerticalSpeed)",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Player_Platformer.Variable(HorizontalSpeed)",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Change rotation direction",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Player_Platformer.Variable(RotationSign) * ToDeg(Player_Platformer.Variable(HorizontalSpeed) / (Player_Platformer.Width() / 2))",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": true,
+              "name": "Invert gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "InvertGravityPortal"
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ]
     },
     {
       "associatedLayout": "GDevelopDash",
@@ -70724,7 +71992,7 @@
           "name": "ShipModePortal",
           "persistentUuid": "63de355d-5c3f-4da1-8b7f-547e09d77fdd",
           "width": 128,
-          "x": 2848,
+          "x": 2304,
           "y": 128,
           "zOrder": 9,
           "numberProperties": [],
@@ -70740,7 +72008,7 @@
           "name": "ShipModePortal",
           "persistentUuid": "f04c1835-3542-4866-81ee-d9c9ee235d4f",
           "width": 128,
-          "x": 2848,
+          "x": 2304,
           "y": 128,
           "zOrder": 9,
           "numberProperties": [],
@@ -70764,22 +72032,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 832,
-          "layer": "Obstacles",
-          "name": "CubePortal",
-          "persistentUuid": "3af79825-3a7e-46e6-a5e8-bf218a4398f1",
-          "width": 64,
-          "x": 6144,
-          "y": 128,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "depth": 1,
@@ -70788,7 +72040,7 @@
           "name": "WavePortal",
           "persistentUuid": "754269d2-5afe-4124-9ef8-9c4794caf28f",
           "width": 960,
-          "x": 7012,
+          "x": 8124,
           "y": 484,
           "zOrder": 12,
           "numberProperties": [],
@@ -70804,7 +72056,7 @@
           "name": "BallPortal",
           "persistentUuid": "e728e118-c84f-46e5-b7d5-43364fa127f1",
           "width": 960,
-          "x": 8102,
+          "x": 9723,
           "y": 475,
           "zOrder": 13,
           "numberProperties": [],
@@ -70817,10 +72069,10 @@
           "depth": 1,
           "height": 832,
           "layer": "Obstacles",
-          "name": "YellowBackground",
+          "name": "SwingPortal",
           "persistentUuid": "b2165c9e-a8a8-4139-bbe3-371ce0b920f5",
           "width": 64,
-          "x": 5024,
+          "x": 4224,
           "y": 128,
           "zOrder": 14,
           "numberProperties": [],
@@ -70836,7 +72088,7 @@
           "name": "RobotPortal",
           "persistentUuid": "3138aaa9-d2a7-4ee5-8e01-efed4b1ed3e2",
           "width": 64,
-          "x": 9728,
+          "x": 11936,
           "y": 128,
           "zOrder": 15,
           "numberProperties": [],
@@ -70849,10 +72101,10 @@
           "depth": 1,
           "height": 832,
           "layer": "Obstacles",
-          "name": "PurpleBackground",
+          "name": "SpiderPortal",
           "persistentUuid": "2d730961-823b-4627-a811-8e4577eece55",
           "width": 64,
-          "x": 3584,
+          "x": 7232,
           "y": 128,
           "zOrder": 16,
           "numberProperties": [],
@@ -70865,11 +72117,11 @@
           "depth": 1,
           "height": 832,
           "layer": "",
-          "name": "BrownBackground",
+          "name": "UfoPortal",
           "persistentUuid": "dd06577b-e594-4a61-b3af-d82d7709ea9e",
           "width": 64,
-          "x": 10880,
-          "y": 128,
+          "x": 16000,
+          "y": 160,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -70890,6 +72142,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "layer": "",
+          "name": "CubePortal",
+          "persistentUuid": "1434dd40-dfda-41e2-84b0-4d8801ade5dc",
+          "width": 64,
+          "x": 14048,
+          "y": 128,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -70902,7 +72170,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.13480471535734648,
+        "zoomFactor": 0.6197916666666696,
         "windowMask": false
       }
     }
