@@ -13048,429 +13048,11 @@
                       "actions": [],
                       "events": [
                         {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BuiltinCommonInstructions::Once"
-                              },
-                              "parameters": []
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "ActivateBehavior"
-                              },
-                              "parameters": [
-                                "Player_Platformer",
-                                "PlatformerObject",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ActivateBehavior"
-                              },
-                              "parameters": [
-                                "Player_Sticker",
-                                "FaceForward",
-                                "yes"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ParticleSystem::StopEmission"
-                              },
-                              "parameters": [
-                                "CubeTrail"
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "ParticleSystem::StartEmission"
-                              },
-                              "parameters": [
-                                "ShipTrail"
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "colorB": 228,
-                          "colorG": 176,
-                          "colorR": 74,
-                          "creationTime": 0,
-                          "name": "Keep inside road",
-                          "source": "",
-                          "type": "BuiltinCommonInstructions::Group",
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ParticleSystem::StopEmission"
-                                  },
-                                  "parameters": [
-                                    "CubeTrail"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Comment",
-                              "color": {
-                                "b": 109,
-                                "g": 230,
-                                "r": 255,
-                                "textB": 0,
-                                "textG": 0,
-                                "textR": 0
-                              },
-                              "comment": "Player touching floor"
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Road",
-                                    "Player_Platformer.CenterX()",
-                                    "Player_Platformer.BoundingBoxBottom() + 1"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetCenterY"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "=",
-                                    "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Arreter"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "ParticleSystem::StartEmission"
-                                  },
-                                  "parameters": [
-                                    "CubeTrail"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Comment",
-                              "color": {
-                                "b": 109,
-                                "g": 230,
-                                "r": 255,
-                                "textB": 0,
-                                "textG": 0,
-                                "textR": 0
-                              },
-                              "comment": "Player touching ceiling"
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "CollisionPoint"
-                                  },
-                                  "parameters": [
-                                    "Road",
-                                    "Player_Platformer.CenterX()",
-                                    "Player_Platformer.BoundingBoxTop() - 1"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "SetCenterY"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "=",
-                                    "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "Arreter"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "parameters": []
-                        },
-                        {
-                          "colorB": 228,
-                          "colorG": 176,
-                          "colorR": 74,
-                          "creationTime": 0,
-                          "name": "Invert gravity",
-                          "source": "",
-                          "type": "BuiltinCommonInstructions::Group",
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Link",
-                              "include": {
-                                "includeConfig": 0
-                              },
-                              "target": "InvertGravityPortal"
-                            }
-                          ],
-                          "parameters": []
-                        },
-                        {
-                          "colorB": 228,
-                          "colorG": 176,
-                          "colorR": 74,
-                          "creationTime": 0,
-                          "name": "Death trigger",
-                          "source": "",
-                          "type": "BuiltinCommonInstructions::Group",
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Or"
-                                  },
-                                  "parameters": [],
-                                  "subInstructions": [
-                                    {
-                                      "type": {
-                                        "value": "CollisionPoint"
-                                      },
-                                      "parameters": [
-                                        "Road",
-                                        "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta()) + 32",
-                                        "Player_Platformer.BoundingBoxCenterY()"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "CollisionNP"
-                                      },
-                                      "parameters": [
-                                        "Player_Platformer",
-                                        "ShipDangerObstacles",
-                                        "",
-                                        "",
-                                        ""
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Once"
-                                  },
-                                  "parameters": []
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "ModVarObjetTxt"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "State",
-                                    "=",
-                                    "\"Dead\""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "parameters": []
-                        },
-                        {
-                          "colorB": 228,
-                          "colorG": 176,
-                          "colorR": 74,
-                          "creationTime": 0,
-                          "name": "Controls",
-                          "source": "",
-                          "type": "BuiltinCommonInstructions::Group",
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "value": "BuiltinCommonInstructions::Or"
-                                  },
-                                  "parameters": [],
-                                  "subInstructions": [
-                                    {
-                                      "type": {
-                                        "value": "KeyPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "Space"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "MouseButtonPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "Left"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Gamepads::C_Any_Button_pressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "1",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "KeyPressed"
-                                      },
-                                      "parameters": [
-                                        "",
-                                        "Up"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "AddForceXY"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "0",
-                                    "-2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "KeyPressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Space"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "MouseButtonPressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Left"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "Gamepads::C_Any_Button_pressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "1",
-                                    ""
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "inverted": true,
-                                    "value": "KeyPressed"
-                                  },
-                                  "parameters": [
-                                    "",
-                                    "Up"
-                                  ]
-                                }
-                              ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "AddForceXY"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "0",
-                                    "2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
-                                    "1"
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "parameters": []
-                        },
-                        {
-                          "colorB": 228,
-                          "colorG": 176,
-                          "colorR": 74,
-                          "creationTime": 0,
-                          "name": "Always move right",
-                          "source": "",
-                          "type": "BuiltinCommonInstructions::Group",
-                          "events": [
-                            {
-                              "type": "BuiltinCommonInstructions::Standard",
-                              "conditions": [],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "AddForceXY"
-                                  },
-                                  "parameters": [
-                                    "Player_Platformer",
-                                    "Player_Platformer.PlatformerObject::MaxSpeed()",
-                                    "0",
-                                    ""
-                                  ]
-                                }
-                              ]
-                            }
-                          ],
-                          "parameters": []
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "ShipMode"
                         }
                       ]
                     }
@@ -17602,10 +17184,460 @@
       "events": []
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "GDevelopDash",
       "lastChangeTimeStamp": 0,
       "name": "ShipMode",
-      "events": []
+      "events": [
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "name": "Ship",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Setup",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "PlatformerObject",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "FaceForward",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StopEmission"
+                      },
+                      "parameters": [
+                        "CubeTrail"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StartEmission"
+                      },
+                      "parameters": [
+                        "ShipTrail"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Keep inside road",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StopEmission"
+                      },
+                      "parameters": [
+                        "CubeTrail"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching floor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Road",
+                        "Player_Platformer.CenterX()",
+                        "Player_Platformer.BoundingBoxBottom() + 1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StartEmission"
+                      },
+                      "parameters": [
+                        "CubeTrail"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching ceiling"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Road",
+                        "Player_Platformer.CenterX()",
+                        "Player_Platformer.BoundingBoxTop() - 1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Invert gravity",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "InvertGravityPortal"
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Death trigger",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxRight() + (HorizontalSpeed * TimeDelta()) + 32",
+                            "Player_Platformer.BoundingBoxCenterY()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player_Platformer",
+                            "ShipDangerObstacles",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "State",
+                        "=",
+                        "\"Dead\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Controls",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Gamepads::C_Any_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "0",
+                        "-2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "MouseButtonPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Gamepads::C_Any_Button_pressed"
+                      },
+                      "parameters": [
+                        "",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Up"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "0",
+                        "2 * Player_Platformer.GravitySign * Player_Platformer.PlatformerObject::MaxSpeed() * TimeDelta()",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "Player_Platformer.PlatformerObject::MaxSpeed()",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [
