@@ -667,6 +667,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\assets_Orc Wheel2.png",
+        "smoothed": true,
         "userAdded": true
       },
       {
@@ -9328,7 +9329,7 @@
           "folded": true,
           "name": "HorizontalSpeed",
           "type": "number",
-          "value": 750
+          "value": 50
         },
         {
           "folded": true,
@@ -9405,7 +9406,7 @@
               "folded": true,
               "name": "DefaultJumpSpeed",
               "type": "number",
-              "value": 1500
+              "value": 1700
             },
             {
               "folded": true,
@@ -9417,7 +9418,7 @@
               "folded": true,
               "name": "PercentCornerCorrection",
               "type": "number",
-              "value": 1
+              "value": 0.5
             },
             {
               "folded": true,
@@ -9435,10 +9436,10 @@
           "effects": [],
           "behaviors": [
             {
+              "gravity": 3750,
+              "jumpSpeed": 999999999999,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "gravity": 3750,
-              "jumpSpeed": 1500,
               "jumpSustainTime": 0,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 10000,
@@ -9457,17 +9458,17 @@
             {
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
-              "LeftwardSpeed": 0.9,
-              "RightwardSpeed": 0.9,
-              "UpwardSpeed": 0.9,
-              "DownwardSpeed": 0.9,
+              "LeftwardSpeed": 0.98,
+              "RightwardSpeed": 0.98,
+              "UpwardSpeed": 0.98,
+              "DownwardSpeed": 0.98,
               "FollowOnX": true,
               "FollowOnY": true,
               "FollowFreeAreaLeft": 0,
               "FollowFreeAreaRight": 0,
-              "FollowFreeAreaTop": 400,
-              "FollowFreeAreaBottom": 400,
-              "CameraOffsetX": 500,
+              "FollowFreeAreaTop": 0,
+              "FollowFreeAreaBottom": 0,
+              "CameraOffsetX": 600,
               "CameraOffsetY": 0,
               "CameraDelay": 0,
               "ForecastTime": 0,
@@ -9511,13 +9512,13 @@
               "type": "SmoothCamera::SmoothPlatformerCamera",
               "PlatformerCharacter": "PlatformerObject",
               "SmoothCamera": "SmoothCamera",
-              "JumpOriginY": 6.2142650282591e-310,
-              "AirFollowFreeAreaTop": 200,
-              "AirFollowFreeAreaBottom": 200,
+              "JumpOriginY": 1.153405973349735e-303,
+              "AirFollowFreeAreaTop": 400,
+              "AirFollowFreeAreaBottom": 400,
               "FloorFollowFreeAreaTop": 200,
               "FloorFollowFreeAreaBottom": 200,
-              "AirUpwardSpeed": 0.95,
-              "AirDownwardSpeed": 0.95,
+              "AirUpwardSpeed": 0,
+              "AirDownwardSpeed": 0,
               "FloorUpwardSpeed": 0.9,
               "FloorDownwardSpeed": 0.9,
               "AirUpwardSpeedMax": 9000,
@@ -12168,17 +12169,6 @@
                                 "=",
                                 "Player_Platformer.DefaultJumpSpeed"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                              },
-                              "parameters": [
-                                "Player_Sticker",
-                                "Animation",
-                                "=",
-                                "\"Ball\""
-                              ]
                             }
                           ]
                         }
@@ -12406,6 +12396,17 @@
                         },
                         {
                           "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"Cube\""
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ModVarSceneTxt"
                           },
                           "parameters": [
@@ -12608,7 +12609,6 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Cube mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13480,7 +13480,6 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Ship",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13937,12 +13936,12 @@
                   "colorG": 19,
                   "colorR": 144,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Wave mode",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -14236,6 +14235,7 @@
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
                     {
+                      "folded": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
@@ -14530,7 +14530,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Change to ship",
+          "name": "Change to Ship Mode",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -14583,7 +14583,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Change to wave",
+          "name": "Change to Wave Mode",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -15939,6 +15939,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "disabled": true,
           "name": "Detect when player crashes into terrain",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -16434,7 +16435,7 @@
                     "Player_Platformer",
                     "HorizontalSpeed",
                     "=",
-                    "750"
+                    "500"
                   ]
                 },
                 {
@@ -62553,8 +62554,8 @@
           "name": "Road",
           "persistentUuid": "399f8c8b-0b33-4a52-b67d-16ebaae28bb1",
           "width": 5997,
-          "x": 403,
-          "y": -96,
+          "x": 384,
+          "y": -224,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
