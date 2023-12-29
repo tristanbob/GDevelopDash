@@ -16884,51 +16884,17 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "CubeDangerObstacles",
-                        "",
-                        "",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "ModVarObjetTxt"
-                      },
-                      "parameters": [
-                        "Player_Platformer",
-                        "State",
-                        "=",
-                        "\"Dead\""
-                      ]
-                    }
-                  ]
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "CubeRobotDeath"
                 }
               ],
               "parameters": []
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ]
     },
@@ -18867,6 +18833,13 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "CubeRobotDeath"
                 }
               ],
               "parameters": []
@@ -19416,6 +19389,105 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "GDevelopDash",
+      "lastChangeTimeStamp": 0,
+      "name": "CubeRobotDeath",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player_Platformer",
+                    "CubeDangerObstacles",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::CurrentSpeed"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "PlatformerObject",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Road",
+                    "Player_Platformer.BoundingBoxRight()",
+                    "Player_Platformer.BoundingBoxTop() - 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Road",
+                    "Player_Platformer.BoundingBoxLeft()",
+                    "Player_Platformer.BoundingBoxTop() - 1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Player_Platformer",
+                "State",
+                "=",
+                "\"Dead\""
+              ]
+            }
+          ]
         }
       ]
     }
@@ -67347,22 +67419,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "9feaa41e-4397-43cb-9c5b-f1fc98414997",
-          "width": 128,
-          "x": 2624,
-          "y": 576,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 1696,
           "layer": "Obstacles",
           "name": "Road",
@@ -69538,6 +69594,22 @@
           "x": 576,
           "y": 640,
           "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "06ad7051-6dd0-4130-9384-f038e666d41b",
+          "width": 128,
+          "x": 2624,
+          "y": 576,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
