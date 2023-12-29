@@ -9406,7 +9406,7 @@
               "folded": true,
               "name": "DefaultJumpSpeed",
               "type": "number",
-              "value": 2000
+              "value": 1900
             },
             {
               "folded": true,
@@ -9612,7 +9612,7 @@
             {
               "name": "FaceForward",
               "type": "FaceForward::FaceForward",
-              "RotationSpeed": 0,
+              "RotationSpeed": 720,
               "OffsetAngle": 0,
               "PreviousX": 2.0247e-320,
               "PreviousY": 2.0247e-320,
@@ -9675,8 +9675,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -16447,7 +16447,7 @@
                     "Player_Platformer",
                     "MaxVerticalSpeed",
                     "=",
-                    "1500"
+                    "1000"
                   ]
                 },
                 {
@@ -62396,7 +62396,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.4201106106001837,
+        "zoomFactor": 0.922746536420458,
         "windowMask": false
       }
     },
@@ -62588,13 +62588,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 192,
+          "height": 128,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "a714c74d-72ec-47fc-82a3-9ca642e4fb1c",
           "width": 128,
-          "x": 2304,
-          "y": 512,
+          "x": 2048,
+          "y": 576,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -62656,7 +62656,7 @@
           "name": "_3_Spikes",
           "persistentUuid": "ed55b9a0-4ee1-41b1-8b25-2c8b2d729bb2",
           "width": 128,
-          "x": 2176,
+          "x": 1920,
           "y": 640,
           "zOrder": 8,
           "numberProperties": [],
@@ -67270,7 +67270,7 @@
           "name": "PlayerSpawn",
           "persistentUuid": "354b95d3-11b1-4dd1-a859-2bd28d59b39a",
           "width": 0,
-          "x": 896,
+          "x": 576,
           "y": 640,
           "zOrder": 107,
           "numberProperties": [],
@@ -67288,7 +67288,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.8081094648115819,
+        "zoomFactor": 0.49138775453293776,
         "windowMask": false
       }
     },
