@@ -805,7 +805,7 @@
         "alwaysLoaded": false,
         "file": "assets/tiled_Brown Background.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Brown Background.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "tiled_Brown Background.png",
         "smoothed": true,
         "userAdded": false,
@@ -9416,7 +9416,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.1,
         "snap": true,
-        "zoomFactor": 0.3411856023473649,
+        "zoomFactor": 0.29879853636070786,
         "windowMask": false
       },
       "objectsGroups": [
@@ -9477,7 +9477,7 @@
           "folded": true,
           "name": "HorizontalSpeed",
           "type": "number",
-          "value": 50
+          "value": 750
         },
         {
           "folded": true,
@@ -10011,8 +10011,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 35.5,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -10571,6 +10571,18 @@
           "underlined": false,
           "variables": [],
           "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect2",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            },
             {
               "effectType": "Outline",
               "name": "Effect",
@@ -12219,6 +12231,110 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Jump_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Jump",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Fall_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Fall",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Auto_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Auto",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "DontJump_Text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Don't\nJump",
+          "font": "b305b7193d676ab791438e1086c2dd4e95a7d0562d5de8619aace1ac688dceae_AlfaSlabOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 35,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12304,6 +12420,18 @@
               },
               {
                 "objectName": "ProgressPercent_Text"
+              },
+              {
+                "objectName": "Jump_Text"
+              },
+              {
+                "objectName": "DontJump_Text"
+              },
+              {
+                "objectName": "Auto_Text"
+              },
+              {
+                "objectName": "Fall_Text"
               },
               {
                 "objectName": "LevelProgressBar"
@@ -12459,7 +12587,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"Level 1\"",
+                            "\"Level 2\"",
                             "0",
                             "0",
                             "0"
@@ -12989,6 +13117,23 @@
                         "",
                         "",
                         "0",
+                        "\"LevelUI\"",
+                        "0",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CopyCameraSettings::CopyCameraSettings"
+                      },
+                      "parameters": [
+                        "",
+                        "",
+                        "0",
                         "\"Obstacles\"",
                         "0",
                         "",
@@ -13253,6 +13398,44 @@
                             "includeConfig": 0
                           },
                           "target": "RobotMode"
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 254,
+                  "colorG": 19,
+                  "colorR": 144,
+                  "creationTime": 0,
+                  "name": "UFO mode",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Player_Sticker",
+                            "Animation",
+                            "=",
+                            "\"UFO\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "UfoMode"
                         }
                       ]
                     }
@@ -13586,6 +13769,165 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Change to Ball Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "BallPortal",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"Ball\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change to UFO Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "BrownBackground",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"UFO\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Change to Spider Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "PurpleBackground",
+                    "Player_Platformer.CenterX()",
+                    "Player_Platformer.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Animation",
+                        "=",
+                        "\"Spider\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Win level",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13631,6 +13973,7 @@
           "colorG": 227,
           "colorR": 80,
           "creationTime": 0,
+          "folded": true,
           "name": "GameState: Victory",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13843,9 +14186,9 @@
                               "parameters": [
                                 "",
                                 "EndLevelParticles",
-                                "CameraBorderRight(\"UI\", ) - 400",
-                                "CameraCenterY(\"UI\")",
-                                "\"UI\""
+                                "CameraBorderRight(\"StaticUI\", ) - 400",
+                                "CameraCenterY(\"StaticUI\")",
+                                "\"StaticUI\""
                               ]
                             },
                             {
@@ -13953,9 +14296,9 @@
                                       "parameters": [
                                         "",
                                         "LevelComplete",
-                                        "CameraCenterX(\"UI\") - 225",
-                                        "CameraBorderTop(\"UI\") + 0.25 * CameraHeight(\"UI\")",
-                                        "\"UI\""
+                                        "CameraCenterX(\"StaticUI\") - 225",
+                                        "CameraBorderTop(\"StaticUI\") + 0.25 * CameraHeight(\"StaticUI\")",
+                                        "\"StaticUI\""
                                       ]
                                     },
                                     {
@@ -14006,9 +14349,9 @@
                                           "parameters": [
                                             "",
                                             "RestartLevel_Button",
-                                            "CameraCenterX(\"UI\") - 160",
-                                            "CameraBorderTop(\"UI\") - 64",
-                                            "\"UI\""
+                                            "CameraCenterX(\"StaticUI\") - 160",
+                                            "CameraBorderTop(\"StaticUI\") - 64",
+                                            "\"StaticUI\""
                                           ]
                                         },
                                         {
@@ -14019,7 +14362,7 @@
                                             "RestartLevel_Button",
                                             "Tween",
                                             "\"SlideDown\"",
-                                            "CameraCenterY(\"UI\") - 64",
+                                            "CameraCenterY(\"StaticUI\") - 64",
                                             "\"easeOutBack\"",
                                             "0.5",
                                             "1"
@@ -14606,6 +14949,38 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "LevelUI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -14646,7 +15021,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "UI",
+          "name": "StaticUI",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -15385,7 +15760,15 @@
                     "Player_Platformer",
                     "HorizontalSpeed",
                     "=",
-                    "500"
+                    "HorizontalSpeed"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ParticleSystem::StartEmission"
+                  },
+                  "parameters": [
+                    "CubeTrail"
                   ]
                 },
                 {
@@ -15393,7 +15776,27 @@
                     "value": "ParticleSystem::StopEmission"
                   },
                   "parameters": [
-                    "CubeTrail"
+                    "ShipTrail"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "FaceForward",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipY"
+                  },
+                  "parameters": [
+                    "Player_Sticker",
+                    "Flippable",
+                    ""
                   ]
                 }
               ]
@@ -16945,13 +17348,32 @@
                     },
                     {
                       "type": {
-                        "value": "ModVarObjet"
+                        "value": "ActivateBehavior"
                       },
                       "parameters": [
-                        "Player_Platformer",
-                        "HorizontalSpeed",
+                        "Player_Sticker",
+                        "FaceForward",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
                         "=",
-                        "100"
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Flippable",
+                        ""
                       ]
                     }
                   ]
@@ -17156,7 +17578,7 @@
                       },
                       "parameters": [
                         "Player_Platformer",
-                        "Player_Platformer.Variable(HorizontalSpeed)",
+                        "HorizontalSpeed",
                         "0",
                         ""
                       ]
@@ -17414,7 +17836,7 @@
                                 "value": "FlippableCapability::FlippableBehavior::FlipY"
                               },
                               "parameters": [
-                                "Player_Platformer",
+                                "Player_Sticker",
                                 "Flippable",
                                 "no"
                               ]
@@ -17576,7 +17998,7 @@
                                 "value": "FlippableCapability::FlippableBehavior::FlipY"
                               },
                               "parameters": [
-                                "Player_Platformer",
+                                "Player_Sticker",
                                 "Flippable",
                                 "yes"
                               ]
@@ -17709,15 +18131,34 @@
                     },
                     {
                       "type": {
-                        "value": "Tween::TweenCameraZoom2"
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
                       },
                       "parameters": [
-                        "",
-                        "\"ZoomOut\"",
-                        "0.7",
-                        "",
-                        "\"linear\"",
-                        "0.5"
+                        "Player_Sticker",
+                        "Flippable",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenCameraZoom2"
+                          },
+                          "parameters": [
+                            "",
+                            "\"ZoomOut\"",
+                            "0.7",
+                            "",
+                            "\"linear\"",
+                            "0.5"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -18856,10 +19297,375 @@
       "events": []
     },
     {
-      "associatedLayout": "",
+      "associatedLayout": "GDevelopDash",
       "lastChangeTimeStamp": 0,
       "name": "UfoMode",
-      "events": []
+      "events": [
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "name": "UFO Mode",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Setup",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "FaceForward",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "FlippableCapability::FlippableBehavior::FlipY"
+                      },
+                      "parameters": [
+                        "Player_Sticker",
+                        "Flippable",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Enforce ceiling and floors",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching floor"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxLeft()",
+                            "Player_Platformer.BoundingBoxBottom() + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxRight()",
+                            "Player_Platformer.BoundingBoxBottom() + 1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxTop() - Player_Platformer.Height()/2 - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Player touching ceiling"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxLeft()",
+                            "Player_Platformer.BoundingBoxTop() - 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Road",
+                            "Player_Platformer.BoundingBoxRight()",
+                            "Player_Platformer.BoundingBoxTop() - 1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetCenterY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "=",
+                        "Road.BoundingBoxBottom() + Player_Platformer.Height()/2 + 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Always move right",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceAL"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "90",
+                        "50",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "750",
+                        "0",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Controls",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Space"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MouseButtonPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Left"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Gamepads::C_Any_Button_pressed"
+                          },
+                          "parameters": [
+                            "",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "KeyPressed"
+                          },
+                          "parameters": [
+                            "",
+                            "Up"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "0",
+                        "-900",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ]
     },
     {
       "associatedLayout": "GDevelopDash",
@@ -64746,7 +65552,7 @@
           "customSize": true,
           "depth": 1,
           "height": 113,
-          "layer": "UI",
+          "layer": "StaticUI",
           "name": "AttemptNumber_Text",
           "persistentUuid": "2fb39992-2c69-4603-a514-48989b781d70",
           "width": 1920,
@@ -64762,7 +65568,7 @@
           "customSize": true,
           "depth": 32,
           "height": 64,
-          "layer": "UI",
+          "layer": "StaticUI",
           "name": "LevelProgressBar",
           "persistentUuid": "c6c026c7-db3e-4c11-a7b1-f7b33e00cd95",
           "width": 640,
@@ -64778,7 +65584,7 @@
           "customSize": true,
           "depth": 1,
           "height": 57,
-          "layer": "UI",
+          "layer": "StaticUI",
           "name": "ProgressPercent_Text",
           "persistentUuid": "0e0ebae3-31b3-410e-97c6-efd40b5e9766",
           "width": 640,
@@ -64800,7 +65606,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.5079575118131732,
+        "zoomFactor": 0.27050126039625516,
         "windowMask": false
       }
     },
@@ -64912,22 +65718,6 @@
           "height": 128,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "399f8c8b-0b33-4a52-b67d-16ebaae28bb1",
-          "width": 5997,
-          "x": 384,
-          "y": -224,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "layer": "Obstacles",
-          "name": "Road",
           "persistentUuid": "a714c74d-72ec-47fc-82a3-9ca642e4fb1c",
           "width": 128,
           "x": 2048,
@@ -64973,7 +65763,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "UI",
+          "layer": "StaticUI",
           "name": "DEBUG",
           "persistentUuid": "2ec00e1c-465e-471d-a23b-e71a442ee011",
           "width": 0,
@@ -65359,8 +66149,8 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "67bcd9ad-dbe3-4632-b2b2-cd433fd493fc",
-          "width": 2336,
-          "x": 6880,
+          "width": 2368,
+          "x": 6848,
           "y": 416,
           "zOrder": 4,
           "numberProperties": [],
@@ -65483,7 +66273,7 @@
           "customSize": true,
           "depth": 1,
           "height": 128,
-          "layer": "",
+          "layer": "LevelUI",
           "name": "ShipMode_Text",
           "persistentUuid": "c797d7ce-083f-4eb1-9eb8-3a5b829c7c14",
           "width": 760,
@@ -67178,7 +67968,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "Obstacles",
+          "layer": "LevelUI",
           "name": "WaveMode_Text",
           "persistentUuid": "09087992-b0f8-4d00-abcd-0ae005235b5e",
           "width": 0,
@@ -67563,7 +68353,7 @@
           "name": "JumpOrb",
           "persistentUuid": "37297ca6-5ded-4e3c-a382-99b07b824af9",
           "width": 0,
-          "x": 11056,
+          "x": 11072,
           "y": 624,
           "zOrder": 129,
           "numberProperties": [],
@@ -69572,7 +70362,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "LevelUI",
           "name": "InvertGravity_Text",
           "persistentUuid": "1c9a5516-d29c-483a-95b5-0fd995052705",
           "width": 0,
@@ -69613,6 +70403,171 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "1bfddfdd-8283-4619-a6b1-53933fc06780",
+          "width": 0,
+          "x": 2400,
+          "y": 704,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "88ed0859-008a-4593-9bbf-ee2d21a01bf3",
+          "width": 0,
+          "x": 1781,
+          "y": 704,
+          "zOrder": 137,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Fall_Text",
+          "persistentUuid": "e4a321cb-b500-4c27-9a5a-d8ec2c53375e",
+          "width": 0,
+          "x": 4512,
+          "y": 288,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Auto_Text",
+          "persistentUuid": "51814b1b-f836-4000-af00-61cdbcb69ad2",
+          "width": 0,
+          "x": 4224,
+          "y": 576,
+          "zOrder": 139,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Fall_Text",
+          "persistentUuid": "9d8430b8-8c15-41c8-a32e-0e2388303b3c",
+          "width": 0,
+          "x": 2080,
+          "y": 592,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Fall_Text",
+          "persistentUuid": "1acdc2ab-dd7b-4be4-a729-6ab61b96f304",
+          "width": 0,
+          "x": 2656,
+          "y": 576,
+          "zOrder": 138,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "DontJump_Text",
+          "persistentUuid": "88fb95f0-d608-4960-ae85-7190bc3485a6",
+          "width": 0,
+          "x": 8096,
+          "y": 224,
+          "zOrder": 140,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "fdac1c77-8d30-49c7-9aab-5428bf630b22",
+          "width": 0,
+          "x": 7360,
+          "y": 224,
+          "zOrder": 141,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "8e96ff44-b3f4-48f2-b16b-54b6d0ab06ed",
+          "width": 0,
+          "x": 12469,
+          "y": 672,
+          "zOrder": 142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "679745cc-1adc-4d4f-9628-f0dabc72500e",
+          "width": 0,
+          "x": 11008,
+          "y": 672,
+          "zOrder": 142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "LevelUI",
+          "name": "Jump_Text",
+          "persistentUuid": "f88b0974-8dae-42d5-bb43-a3109af4c7c3",
+          "width": 0,
+          "x": 12117,
+          "y": 672,
+          "zOrder": 142,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -69625,7 +70580,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.49138775453293776,
+        "zoomFactor": 0.09675524297022141,
         "windowMask": false
       }
     },
@@ -69753,7 +70708,7 @@
           "name": "WaveModePortal",
           "persistentUuid": "bd31a143-e156-459a-9c6c-752a2dc8aa08",
           "width": 128,
-          "x": 4672,
+          "x": 5728,
           "y": 128,
           "zOrder": 8,
           "numberProperties": [],
@@ -69801,7 +70756,7 @@
           "name": "WaveModePortal",
           "persistentUuid": "fd62dc0d-a38a-4c6f-9a29-58ad8a421cb7",
           "width": 128,
-          "x": 4672,
+          "x": 5728,
           "y": 128,
           "zOrder": 8,
           "numberProperties": [],
@@ -69865,7 +70820,7 @@
           "name": "YellowBackground",
           "persistentUuid": "b2165c9e-a8a8-4139-bbe3-371ce0b920f5",
           "width": 64,
-          "x": 4992,
+          "x": 5024,
           "y": 128,
           "zOrder": 14,
           "numberProperties": [],
@@ -69903,6 +70858,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 832,
+          "layer": "",
+          "name": "BrownBackground",
+          "persistentUuid": "dd06577b-e594-4a61-b3af-d82d7709ea9e",
+          "width": 64,
+          "x": 10880,
+          "y": 128,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "layer": "",
+          "name": "Road",
+          "persistentUuid": "66a6a2c0-4389-4d47-807b-9689aab62a84",
+          "width": 608,
+          "x": 5152,
+          "y": 512,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "editionSettings": {
@@ -69915,7 +70902,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.10687685869697826,
+        "zoomFactor": 0.13480471535734648,
         "windowMask": false
       }
     }
