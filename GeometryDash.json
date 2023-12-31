@@ -1201,6 +1201,24 @@
         "name": "Swing11",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ufo_game_enemy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ufo_game_enemy.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Spider2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spider2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1781,47 +1799,18 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Spider",
+                      "image": "Spider2",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 35.5,
+                        "x": 39,
                         "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "SwingOld",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "swing-mode.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 32,
-                        "y": 32
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 39.5,
+                        "y": 22.5
                       },
                       "customCollisionMask": []
                     }
@@ -2754,6 +2743,18 @@
                 "color": "0;0;0"
               },
               "booleanParameters": {}
+            },
+            {
+              "effectType": "Outline",
+              "name": "Effect2",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -2977,24 +2978,24 @@
               "Start1Width": 8,
               "Start2Height": 8,
               "Start3Outline": 16,
-              "Start4Color": "255;255;255",
-              "Start5Opacity": 255,
+              "Start4Color": "248;231;28",
+              "Start5Opacity": 64,
               "Start6Angle": 0,
               "End1Width": 128,
               "End2Height": 128,
               "End3Outline": 0,
-              "End4Color": "255;255;255",
-              "End5Opacity": 255,
+              "End4Color": "248;231;28",
+              "End5Opacity": 64,
               "End6Angle": 0,
               "Behaviors": "Tween",
-              "Duration": 500,
-              "TweenName": "easeOutSine",
+              "Duration": 350,
+              "TweenName": "easeOutQuad",
               "Width": 2.33419557253e-313,
               "Height": 2.33419557253e-313,
               "Outline": 2.33419557253e-313,
               "Color": "",
               "Angle": 2.33419557253e-313,
-              "Type": "Line"
+              "Type": "Fill"
             },
             {
               "name": "Tween",
@@ -3891,6 +3892,18 @@
                 "color": "0;0;0"
               },
               "booleanParameters": {}
+            },
+            {
+              "effectType": "Outline",
+              "name": "Effect2",
+              "doubleParameters": {
+                "padding": 3,
+                "thickness": 3
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
             }
           ],
           "behaviors": [],
@@ -4403,7 +4416,7 @@
                           },
                           "parameters": [
                             "",
-                            "\"Level 2\"",
+                            "\"Level 1\"",
                             "0",
                             "0",
                             "0"
@@ -4525,11 +4538,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": []
                         }
                       ]
                     }
@@ -6720,6 +6728,31 @@
                   },
                   "parameters": [
                     "",
+                    "Numpad0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
                     "Numpad1"
                   ]
                 }
@@ -6745,7 +6778,7 @@
                   },
                   "parameters": [
                     "",
-                    "Numpad0"
+                    "Numpad5"
                   ]
                 }
               ],
@@ -6756,13 +6789,32 @@
                   },
                   "parameters": [
                     "",
-                    "1"
+                    "0.5"
                   ]
                 }
               ]
             }
           ],
           "parameters": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "DebuggerTools::EnableDebugDraw"
+              },
+              "parameters": [
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         },
         {
           "colorB": 228,
@@ -15644,6 +15696,16 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "BoundingBoxRight"
+                  },
+                  "parameters": [
+                    "InvertGravityRing",
+                    ">",
+                    "Player_Platformer.BoundingBoxRight()"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CollisionNP"
                   },
                   "parameters": [
@@ -15919,7 +15981,7 @@
                   },
                   "parameters": [
                     "Player_Platformer",
-                    "NextFrameForceY",
+                    "NextFrame_ForceY",
                     "=",
                     "(Player_Platformer.ForceY() + (Player_Platformer.Variable(GravitySign) * Player_Platformer.Variable(GravityForce))) * TimeDelta()"
                   ]
@@ -15930,9 +15992,9 @@
                   },
                   "parameters": [
                     "Player_Platformer",
-                    "NextFrameTopY",
+                    "NextFrame_TopY",
                     "=",
-                    "Player_Platformer.BoundingBoxTop() + Player_Platformer.Variable(NextFrameForceY)"
+                    "Player_Platformer.BoundingBoxTop() + Player_Platformer.Variable(NextFrame_ForceY)"
                   ]
                 },
                 {
@@ -15941,9 +16003,9 @@
                   },
                   "parameters": [
                     "Player_Platformer",
-                    "NextFrameBottomY",
+                    "NextFrame_BottomY",
                     "=",
-                    "Player_Platformer.BoundingBoxBottom() + Player_Platformer.Variable(NextFrameForceY)"
+                    "Player_Platformer.BoundingBoxBottom() + Player_Platformer.Variable(NextFrame_ForceY)"
                   ]
                 }
               ]
@@ -16020,7 +16082,7 @@
                           "parameters": [
                             "Road",
                             "Player_Platformer.BoundingBoxLeft()",
-                            "Player_Platformer.Variable(NextFrameBottomY)"
+                            "Player_Platformer.Variable(NextFrame_BottomY)"
                           ]
                         },
                         {
@@ -16030,7 +16092,7 @@
                           "parameters": [
                             "Road",
                             "Player_Platformer.BoundingBoxRight()",
-                            "Player_Platformer.Variable(NextFrameBottomY)"
+                            "Player_Platformer.Variable(NextFrame_BottomY)"
                           ]
                         }
                       ]
@@ -16113,7 +16175,7 @@
                           "parameters": [
                             "Road",
                             "Player_Platformer.BoundingBoxLeft()",
-                            "Player_Platformer.Variable(NextFrameTopY)"
+                            "Player_Platformer.Variable(NextFrame_TopY)"
                           ]
                         },
                         {
@@ -16123,7 +16185,7 @@
                           "parameters": [
                             "Road",
                             "Player_Platformer.BoundingBoxRight()",
-                            "Player_Platformer.Variable(NextFrameTopY)"
+                            "Player_Platformer.Variable(NextFrame_TopY)"
                           ]
                         }
                       ]
@@ -17905,6 +17967,13 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "EnforceCeilingAndFloor"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Comment",
                   "color": {
                     "b": 109,
@@ -17917,6 +17986,7 @@
                   "comment": "Player touching floor"
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -17933,6 +18003,7 @@
                   ]
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -18008,6 +18079,7 @@
                   "comment": "Player touching ceiling"
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -18668,15 +18740,34 @@
                     },
                     {
                       "type": {
-                        "value": "Tween::TweenCameraZoom2"
+                        "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
                       },
                       "parameters": [
-                        "",
-                        "\"WaveZoom\"",
-                        "0.7",
-                        "",
-                        "\"easeOutQuad\"",
-                        "0.5"
+                        "Player_Platformer",
+                        "SmoothCamera",
+                        "no",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenCameraZoom2"
+                          },
+                          "parameters": [
+                            "",
+                            "\"WaveZoom\"",
+                            "0.8",
+                            "",
+                            "\"easeOutQuad\"",
+                            "0.5"
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -19154,6 +19245,16 @@
                         "",
                         "75",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "JumpShockwave",
+                        "=",
+                        "JumpPad.ZOrder() - 2"
                       ]
                     }
                   ]
@@ -20998,6 +21099,17 @@
                         "\"easeOutQuad\"",
                         "0.5"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "SmoothCamera",
+                        "no",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -21014,15 +21126,25 @@
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "EnforceCeilingAndFloor"
+                },
+                {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
                     {
                       "type": {
-                        "value": "ParticleSystem::StopEmission"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "CubeTrail"
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "False"
                       ]
                     }
                   ]
@@ -21074,10 +21196,12 @@
                     },
                     {
                       "type": {
-                        "value": "ParticleSystem::StartEmission"
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
-                        "CubeTrail"
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
                       ]
                     }
                   ]
@@ -21125,6 +21249,90 @@
                       },
                       "parameters": [
                         "Player_Platformer"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Particles",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StartEmission"
+                      },
+                      "parameters": [
+                        "CubeTrail"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "ObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Player_Platformer",
+                        "IsOnGround",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ParticleSystem::StopEmission"
+                      },
+                      "parameters": [
+                        "CubeTrail"
                       ]
                     }
                   ]
@@ -67135,13 +67343,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 864,
+          "height": 550,
           "layer": "Obstacles",
           "name": "FinishLine",
           "persistentUuid": "4ed01ddb-339c-429d-a420-691f3026f75e",
-          "width": 96,
-          "x": 53600,
-          "y": 1888,
+          "width": 61,
+          "x": 45244,
+          "y": 763,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -67507,7 +67715,7 @@
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "ca0c6053-52fc-4639-8c04-7a7b83aa1779",
-          "width": 17856,
+          "width": 18304,
           "x": 14496,
           "y": -576,
           "zOrder": 110,
@@ -67663,13 +67871,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 352,
+          "height": 1152,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "ba639128-b45b-4741-a6e0-df4ea1fbdbcb",
           "width": 96,
           "x": 30880,
-          "y": 704,
+          "y": 672,
           "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
@@ -67724,32 +67932,16 @@
           "initialVariables": []
         },
         {
-          "angle": 45,
-          "customSize": true,
-          "depth": 5,
-          "height": 337,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "ff782674-3b31-4e8d-9573-f0acf9ddf979",
-          "width": 1028,
-          "x": 42683,
-          "y": 1146,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 265,
+          "depth": 3,
+          "height": 169,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "5a5b7e92-6f64-498e-8731-f27917972173",
-          "width": 813,
-          "x": 50636,
-          "y": 1241,
+          "width": 518,
+          "x": 43355,
+          "y": 351,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -67758,14 +67950,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "c4cb4b8f-a90b-4a12-9b7d-d39687e29040",
-          "width": 677,
-          "x": 48916,
-          "y": 1538,
+          "width": 431,
+          "x": 42260,
+          "y": 540,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -67774,14 +67966,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "f62479cc-0d73-48fc-8b90-09864378d15a",
-          "width": 745,
-          "x": 49260,
-          "y": 2548,
+          "width": 475,
+          "x": 42479,
+          "y": 1184,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -67790,205 +67982,13 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 6,
-          "height": 416,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "c64b73f9-89e6-4a00-9a83-403062547635",
-          "width": 954,
-          "x": 42695,
-          "y": 2132,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "dae2024a-a228-4151-9017-4f2d59a468cc",
-          "width": 677,
-          "x": 48810,
-          "y": 2365,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "50b88b7c-50ba-48d2-abcf-f5a27b2da046",
-          "width": 745,
-          "x": 49338,
-          "y": 1697,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "050e6e09-7180-458e-a26f-189401eee125",
-          "width": 745,
-          "x": 50675,
-          "y": 2035,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 12,
-          "height": 656,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "b7e14e5e-c042-402c-b9b4-644ce330b8e5",
-          "width": 2013,
-          "x": 42945,
-          "y": 488,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "f4820735-bbca-457b-a7b0-0f334fe37b34",
-          "width": 677,
-          "x": 49821,
-          "y": 1539,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "aa2754b2-adbb-4a12-91ba-ba54e2ae528e",
-          "width": 745,
-          "x": 50165,
-          "y": 2550,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "61250faf-1812-45fc-b79b-b3cf0c579c1a",
-          "width": 677,
-          "x": 49718,
-          "y": 2389,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "24b5d6a8-e5f8-4173-8afd-6dec2d180670",
-          "width": 745,
-          "x": 50242,
-          "y": 1699,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 5,
-          "height": 289,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "ca6c64ec-f73d-422f-bf07-eddf6958dfe1",
-          "width": 887,
-          "x": 43173,
-          "y": 2096,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "0d3e143b-1f32-49d7-b540-03f7416066fd",
-          "width": 745,
-          "x": 51566,
-          "y": 2084,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "159a9649-86b6-411f-9e83-2b6e115addeb",
-          "width": 745,
-          "x": 51647,
-          "y": 1226,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "69780bf0-d751-4dc9-8338-25735e03d494",
-          "width": 677,
-          "x": 51225,
+          "width": 431,
+          "x": 42192,
           "y": 1067,
           "zOrder": 118,
           "numberProperties": [],
@@ -67996,16 +67996,192 @@
           "initialVariables": []
         },
         {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "50b88b7c-50ba-48d2-abcf-f5a27b2da046",
+          "width": 475,
+          "x": 42529,
+          "y": 642,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "050e6e09-7180-458e-a26f-189401eee125",
+          "width": 475,
+          "x": 43380,
+          "y": 857,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 8,
+          "height": 418,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "b7e14e5e-c042-402c-b9b4-644ce330b8e5",
+          "width": 1282,
+          "x": 38456,
+          "y": -129,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "f4820735-bbca-457b-a7b0-0f334fe37b34",
+          "width": 431,
+          "x": 42836,
+          "y": 541,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "aa2754b2-adbb-4a12-91ba-ba54e2ae528e",
+          "width": 475,
+          "x": 43055,
+          "y": 1185,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "61250faf-1812-45fc-b79b-b3cf0c579c1a",
+          "width": 431,
+          "x": 42771,
+          "y": 1082,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "24b5d6a8-e5f8-4173-8afd-6dec2d180670",
+          "width": 475,
+          "x": 43104,
+          "y": 643,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 157,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "ca6c64ec-f73d-422f-bf07-eddf6958dfe1",
+          "width": 483,
+          "x": 38540,
+          "y": 980,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "0d3e143b-1f32-49d7-b540-03f7416066fd",
+          "width": 475,
+          "x": 43948,
+          "y": 888,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "159a9649-86b6-411f-9e83-2b6e115addeb",
+          "width": 475,
+          "x": 43999,
+          "y": 342,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "69780bf0-d751-4dc9-8338-25735e03d494",
+          "width": 431,
+          "x": 43731,
+          "y": 240,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "b7aec73d-03a4-4afb-8f7d-5a7ebd078d10",
-          "width": 677,
-          "x": 51141,
-          "y": 1892,
+          "width": 431,
+          "x": 43677,
+          "y": 766,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68014,14 +68190,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "6a29649e-f7a3-4afe-a2f5-5950ccbbb2ee",
-          "width": 745,
-          "x": 48334,
-          "y": 2271,
+          "width": 475,
+          "x": 41889,
+          "y": 1007,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68030,14 +68206,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "7d5822c3-2ce6-40c1-b661-2236e6b8dc16",
-          "width": 745,
-          "x": 48412,
-          "y": 1420,
+          "width": 475,
+          "x": 41939,
+          "y": 465,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68046,14 +68222,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "27a666c9-51a6-48d2-ac87-3fdc4058d014",
-          "width": 677,
-          "x": 47990,
-          "y": 1262,
+          "width": 431,
+          "x": 41670,
+          "y": 364,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68062,14 +68238,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "7dd479e8-3333-4716-bc2c-69846d9f817d",
-          "width": 677,
-          "x": 47877,
-          "y": 2116,
+          "width": 431,
+          "x": 41598,
+          "y": 908,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68078,14 +68254,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "bc9f0d21-b7e8-4b2f-8ef6-57040eeccdb3",
-          "width": 677,
-          "x": 53110,
-          "y": 1636,
+          "width": 431,
+          "x": 44931,
+          "y": 603,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68094,14 +68270,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "62bdb263-8b63-4a62-9a2e-e5bc973af061",
-          "width": 745,
-          "x": 47419,
-          "y": 2254,
+          "width": 475,
+          "x": 41306,
+          "y": 996,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68110,14 +68286,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "1a9aa49c-6bd5-432d-b720-8b7ad8428fbd",
-          "width": 677,
-          "x": 53003,
-          "y": 2462,
+          "width": 431,
+          "x": 44863,
+          "y": 1129,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68126,14 +68302,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "bcc906e5-d805-4ddc-afeb-7eac8ae40661",
-          "width": 745,
-          "x": 47496,
-          "y": 1403,
+          "width": 475,
+          "x": 41355,
+          "y": 454,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68142,14 +68318,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "aa57e26e-a2c9-497a-8041-c87150ff1866",
-          "width": 745,
-          "x": 52528,
-          "y": 2369,
+          "width": 475,
+          "x": 44561,
+          "y": 1070,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68158,14 +68334,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "5d282069-6eff-44d1-a996-4e311c475733",
-          "width": 745,
-          "x": 52605,
-          "y": 1518,
+          "width": 475,
+          "x": 44610,
+          "y": 528,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68174,14 +68350,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 313,
+          "depth": 3,
+          "height": 199,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "c2410e2d-9ce5-418a-a37d-2d300dc55355",
-          "width": 719,
-          "x": 52163,
-          "y": 1328,
+          "width": 458,
+          "x": 44328,
+          "y": 407,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68190,14 +68366,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "b5fc8d3e-e7e4-476a-afb2-0247b426f519",
-          "width": 677,
-          "x": 52069,
-          "y": 2212,
+          "width": 431,
+          "x": 44268,
+          "y": 970,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68206,14 +68382,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 5,
-          "height": 288,
+          "depth": 8,
+          "height": 449,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "84762f4f-b50f-49e7-afd7-98ceac3bbb0b",
-          "width": 882,
-          "x": 44709,
-          "y": 1746,
+          "width": 1381,
+          "x": 38919,
+          "y": 793,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68222,14 +68398,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 12,
-          "height": 910,
+          "depth": 8,
+          "height": 580,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "f30989a9-062b-44e9-91f6-d2f1fafd292e",
-          "width": 2088,
-          "x": 43408,
-          "y": -363,
+          "width": 1330,
+          "x": 39140,
+          "y": -479,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68238,30 +68414,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 5,
-          "height": 310,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "fbf9b0a9-2bd1-4051-978a-5d18968fade9",
-          "width": 950,
-          "x": 44103,
-          "y": 2344,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 5,
-          "height": 284,
+          "depth": 3,
+          "height": 181,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "79defadd-b78f-4924-9aaa-412cd51affa0",
-          "width": 870,
-          "x": 45413,
-          "y": 1724,
+          "width": 554,
+          "x": 40028,
+          "y": 659,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68270,14 +68430,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 255,
+          "depth": 3,
+          "height": 162,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "7f9ceb1a-3265-4e83-b8e7-a0ee9f88acfa",
-          "width": 783,
-          "x": 45607,
-          "y": 818,
+          "width": 499,
+          "x": 40152,
+          "y": 82,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68286,14 +68446,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 7,
-          "height": 522,
+          "depth": 4,
+          "height": 333,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "4254cdf1-0a58-4c77-804b-6165c586e325",
-          "width": 1197,
-          "x": 44842,
-          "y": 315,
+          "width": 762,
+          "x": 39665,
+          "y": -239,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68302,30 +68462,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 275,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "47bfed4e-6015-41aa-89e6-8a2f30daeeaa",
-          "width": 630,
-          "x": 45189,
-          "y": 1655,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "cefb59fd-c859-4c21-aa73-c2c74acebf7d",
-          "width": 677,
-          "x": 47075,
-          "y": 1244,
+          "width": 431,
+          "x": 41087,
+          "y": 353,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68334,14 +68478,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "a3a45786-0736-48db-9915-e2d57a3046d5",
-          "width": 677,
-          "x": 46968,
-          "y": 2071,
+          "width": 431,
+          "x": 41019,
+          "y": 880,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68350,14 +68494,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "00a96fa5-afad-4e24-abb8-1861b9cf248b",
-          "width": 745,
-          "x": 46492,
-          "y": 1977,
+          "width": 475,
+          "x": 40716,
+          "y": 820,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68366,14 +68510,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "fe429442-d390-45a0-9329-1865e584b1f6",
-          "width": 745,
-          "x": 46570,
-          "y": 1126,
+          "width": 475,
+          "x": 40765,
+          "y": 278,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68382,14 +68526,30 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "52be9790-5ffa-4ee3-b619-01a1a0251c56",
-          "width": 677,
-          "x": 46149,
-          "y": 967,
+          "width": 431,
+          "x": 40497,
+          "y": 177,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "49826472-621c-4811-9e68-e2594b1b1a1d",
+          "width": 431,
+          "x": 40416,
+          "y": 725,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68399,29 +68559,13 @@
           "angle": 45,
           "customSize": true,
           "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "49826472-621c-4811-9e68-e2594b1b1a1d",
-          "width": 677,
-          "x": 46021,
-          "y": 1828,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 6,
-          "height": 412,
+          "height": 262,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "8172710d-f101-4350-bf07-e844005e4b4f",
-          "width": 945,
-          "x": 43559,
-          "y": 2112,
+          "width": 602,
+          "x": 38722,
+          "y": 1006,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68444,32 +68588,16 @@
           "initialVariables": []
         },
         {
-          "angle": 45,
-          "customSize": true,
-          "depth": 5,
-          "height": 302,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "ae588167-8d0e-4814-a228-dbaabafe2b8e",
-          "width": 921,
-          "x": 32035,
-          "y": 281,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 256,
+          "depth": 3,
+          "height": 163,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "10946395-c5f8-4bd0-8098-2bb8ffba42d1",
-          "width": 785,
-          "x": 39976,
-          "y": 336,
+          "width": 500,
+          "x": 36997,
+          "y": 223,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68478,14 +68606,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "f820aa39-2169-404e-a4d5-1c3e080d6605",
-          "width": 677,
-          "x": 38228,
-          "y": 674,
+          "width": 431,
+          "x": 35884,
+          "y": 438,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68494,14 +68622,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "df42f38c-dd53-4369-8e53-7e8fadadcca6",
-          "width": 745,
-          "x": 38572,
-          "y": 1684,
+          "width": 475,
+          "x": 36103,
+          "y": 1081,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68510,30 +68638,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 6,
-          "height": 416,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "ad5ee8b6-a527-4f73-b802-37d20f1a9b2c",
-          "width": 954,
-          "x": 32039,
-          "y": 1332,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "43cbcb12-b8f4-4e7a-909c-8a3801902ea7",
-          "width": 677,
-          "x": 38122,
-          "y": 1501,
+          "width": 431,
+          "x": 35816,
+          "y": 965,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68542,317 +68654,13 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "83218c12-ac67-46bb-bc77-0e1234dcbeb3",
-          "width": 745,
-          "x": 38650,
-          "y": 833,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "c32700a1-8859-449f-94de-f27fcd1921e5",
-          "width": 745,
-          "x": 39987,
-          "y": 1171,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "d531c4a4-0db6-43a4-9ea0-3406797d9c59",
-          "width": 745,
-          "x": 32553,
-          "y": 425,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "e8f0dda5-f97e-4a06-bbf9-f187f55c185f",
-          "width": 677,
-          "x": 39141,
-          "y": 661,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "c99dfda2-d11f-4f0f-bc3d-38fff9957e09",
-          "width": 745,
-          "x": 39477,
-          "y": 1686,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "84c996bf-ee10-43b9-9485-4d4390395c04",
-          "width": 677,
-          "x": 39030,
-          "y": 1540,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 216,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "90e3cbe9-07c6-4490-bff5-923c11cf705a",
-          "width": 661,
-          "x": 39564,
-          "y": 862,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 5,
-          "height": 289,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "31b5ca4e-9375-4ac3-bc91-1a7dcf9a61a2",
-          "width": 887,
-          "x": 32485,
-          "y": 1232,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "3e4e18c5-bc75-454c-8d3e-9678dc735058",
-          "width": 745,
-          "x": 40878,
-          "y": 1220,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "00eada24-baa1-4263-869d-966fa9c1914b",
-          "width": 745,
-          "x": 40959,
-          "y": 362,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "d45a35ce-48d6-4117-ac7e-d623d101d41d",
-          "width": 677,
-          "x": 40537,
-          "y": 203,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "2442edbd-9355-4477-8f2d-49d591aa0ae7",
-          "width": 677,
-          "x": 40431,
-          "y": 1030,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "1dbcd492-876c-4941-aaa6-b37903a7f475",
-          "width": 745,
-          "x": 37646,
-          "y": 1407,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "acb6dc71-1bf2-41e7-87a4-939a7c8c2ab5",
-          "width": 745,
-          "x": 37724,
-          "y": 556,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "966b97b5-0cd3-4404-a7f0-569a55f85ca9",
-          "width": 677,
-          "x": 37302,
-          "y": 398,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "843fec29-2a6d-43e0-a0d9-c0c115ca57eb",
-          "width": 677,
-          "x": 37189,
-          "y": 1252,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "f4d12428-1078-45f4-bfde-7eb9997871fe",
-          "width": 677,
-          "x": 42422,
-          "y": 772,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "9570c904-235e-4641-84a5-dc7371358c4d",
-          "width": 745,
-          "x": 36731,
-          "y": 1390,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "4aa1f9e9-7e3c-415a-84c3-eb47dd1ba202",
-          "width": 677,
-          "x": 42315,
-          "y": 1598,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "9ace05d5-2eb6-451b-abf3-b9641dec8beb",
-          "width": 745,
-          "x": 36808,
+          "width": 475,
+          "x": 36152,
           "y": 539,
           "zOrder": 118,
           "numberProperties": [],
@@ -68862,30 +68670,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "f5af3352-671c-45f2-baae-3bebab711c16",
-          "width": 745,
-          "x": 41840,
-          "y": 1505,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "7dc46367-1af2-4d14-9768-1a383d05cfe3",
-          "width": 745,
-          "x": 41917,
-          "y": 654,
+          "persistentUuid": "c32700a1-8859-449f-94de-f27fcd1921e5",
+          "width": 475,
+          "x": 37004,
+          "y": 754,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68894,14 +68686,30 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "3b760990-8c53-4c00-927c-c473acd3a86c",
-          "width": 677,
-          "x": 41496,
-          "y": 495,
+          "persistentUuid": "e8f0dda5-f97e-4a06-bbf9-f187f55c185f",
+          "width": 431,
+          "x": 36465,
+          "y": 430,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "c99dfda2-d11f-4f0f-bc3d-38fff9957e09",
+          "width": 475,
+          "x": 36679,
+          "y": 1083,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68910,14 +68718,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "21ffe9de-663c-4e05-94bd-fe122e5a9b0c",
-          "width": 677,
-          "x": 41381,
-          "y": 1348,
+          "persistentUuid": "84c996bf-ee10-43b9-9485-4d4390395c04",
+          "width": 431,
+          "x": 36395,
+          "y": 990,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68926,14 +68734,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 138,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "0287a847-079d-48ac-bd9b-d28a39863b73",
-          "width": 745,
-          "x": 33998,
-          "y": -28,
+          "persistentUuid": "90e3cbe9-07c6-4490-bff5-923c11cf705a",
+          "width": 421,
+          "x": 36735,
+          "y": 558,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68942,14 +68750,46 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 5,
+          "height": 286,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "6a4432ab-6603-46f6-99d2-0bafeb79da1c",
-          "width": 745,
-          "x": 33952,
-          "y": 779,
+          "persistentUuid": "31b5ca4e-9375-4ac3-bc91-1a7dcf9a61a2",
+          "width": 879,
+          "x": 32108,
+          "y": 980,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "3e4e18c5-bc75-454c-8d3e-9678dc735058",
+          "width": 475,
+          "x": 37572,
+          "y": 786,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "00eada24-baa1-4263-869d-966fa9c1914b",
+          "width": 475,
+          "x": 37623,
+          "y": 239,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -68958,78 +68798,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "d26bbc7c-6f57-44d9-993d-e735c97a560c",
-          "width": 677,
-          "x": 33098,
-          "y": 284,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "46873791-733c-477c-9863-a8ce89de9063",
-          "width": 745,
-          "x": 33442,
-          "y": 1294,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "7a245451-c3d1-4253-a4ed-e35121a33518",
-          "width": 745,
-          "x": 33519,
-          "y": 443,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "1617a7b3-4f70-4719-a21c-a9cb8bac522f",
-          "width": 745,
-          "x": 34846,
-          "y": 822,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 135,
-          "customSize": true,
-          "depth": 4,
-          "height": 243,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "4f249b6f-39e8-4051-93ba-963b3f06081f",
-          "width": 745,
-          "x": 34924,
-          "y": -30,
+          "persistentUuid": "d45a35ce-48d6-4117-ac7e-d623d101d41d",
+          "width": 431,
+          "x": 37354,
+          "y": 138,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69038,62 +68814,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "9e7d3500-8135-47d1-93ce-723f09ff99cc",
-          "width": 677,
-          "x": 34502,
-          "y": -188,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "d5e1f350-005f-4098-854d-795d00934054",
-          "width": 677,
-          "x": 34405,
-          "y": 644,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "456cf293-746c-4543-84da-e95b7eae48e9",
-          "width": 677,
-          "x": 36387,
-          "y": 380,
-          "zOrder": 118,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 45,
-          "customSize": true,
-          "depth": 4,
-          "height": 295,
-          "layer": "Obstacles",
-          "name": "Road",
-          "persistentUuid": "da89c1c3-98f9-4476-9ccb-906e40b86810",
-          "width": 677,
-          "x": 36280,
-          "y": 1207,
+          "persistentUuid": "2442edbd-9355-4477-8f2d-49d591aa0ae7",
+          "width": 431,
+          "x": 37287,
+          "y": 665,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69102,14 +68830,14 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "5a962dfd-707b-41ef-8e78-c4804581f53a",
-          "width": 745,
-          "x": 35804,
-          "y": 1113,
+          "persistentUuid": "1dbcd492-876c-4941-aaa6-b37903a7f475",
+          "width": 475,
+          "x": 35513,
+          "y": 905,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69118,13 +68846,29 @@
         {
           "angle": 135,
           "customSize": true,
-          "depth": 4,
-          "height": 243,
+          "depth": 3,
+          "height": 155,
           "layer": "Obstacles",
           "name": "Road",
-          "persistentUuid": "df1e829a-166a-4ff7-ba6f-e93779a899cf",
-          "width": 745,
-          "x": 35882,
+          "persistentUuid": "acb6dc71-1bf2-41e7-87a4-939a7c8c2ab5",
+          "width": 475,
+          "x": 35563,
+          "y": 363,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "966b97b5-0cd3-4404-a7f0-569a55f85ca9",
+          "width": 431,
+          "x": 35294,
           "y": 262,
           "zOrder": 118,
           "numberProperties": [],
@@ -69134,14 +68878,334 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "843fec29-2a6d-43e0-a0d9-c0c115ca57eb",
+          "width": 431,
+          "x": 35222,
+          "y": 806,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "9570c904-235e-4641-84a5-dc7371358c4d",
+          "width": 475,
+          "x": 34930,
+          "y": 894,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "9ace05d5-2eb6-451b-abf3-b9641dec8beb",
+          "width": 475,
+          "x": 34979,
+          "y": 352,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "f5af3352-671c-45f2-baae-3bebab711c16",
+          "width": 475,
+          "x": 38184,
+          "y": 967,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "7dc46367-1af2-4d14-9768-1a383d05cfe3",
+          "width": 475,
+          "x": 38234,
+          "y": 425,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "3b760990-8c53-4c00-927c-c473acd3a86c",
+          "width": 431,
+          "x": 37965,
+          "y": 324,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "21ffe9de-663c-4e05-94bd-fe122e5a9b0c",
+          "width": 431,
+          "x": 38403,
+          "y": 957,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "0287a847-079d-48ac-bd9b-d28a39863b73",
+          "width": 475,
+          "x": 33189,
+          "y": -9,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "6a4432ab-6603-46f6-99d2-0bafeb79da1c",
+          "width": 475,
+          "x": 33160,
+          "y": 505,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 7,
+          "height": 467,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "d26bbc7c-6f57-44d9-993d-e735c97a560c",
+          "width": 1072,
+          "x": 32232,
+          "y": -137,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "46873791-733c-477c-9863-a8ce89de9063",
+          "width": 475,
+          "x": 32835,
+          "y": 833,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "7a245451-c3d1-4253-a4ed-e35121a33518",
+          "width": 475,
+          "x": 32884,
+          "y": 291,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "1617a7b3-4f70-4719-a21c-a9cb8bac522f",
+          "width": 475,
+          "x": 33729,
+          "y": 532,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "4f249b6f-39e8-4051-93ba-963b3f06081f",
+          "width": 475,
+          "x": 33779,
+          "y": -11,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "9e7d3500-8135-47d1-93ce-723f09ff99cc",
+          "width": 431,
+          "x": 33510,
+          "y": -111,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "d5e1f350-005f-4098-854d-795d00934054",
+          "width": 431,
+          "x": 33448,
+          "y": 419,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "456cf293-746c-4543-84da-e95b7eae48e9",
+          "width": 431,
+          "x": 34711,
+          "y": 251,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "da89c1c3-98f9-4476-9ccb-906e40b86810",
+          "width": 431,
+          "x": 34643,
+          "y": 777,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "5a962dfd-707b-41ef-8e78-c4804581f53a",
+          "width": 475,
+          "x": 34340,
+          "y": 718,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 3,
+          "height": 155,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "df1e829a-166a-4ff7-ba6f-e93779a899cf",
+          "width": 475,
+          "x": 34389,
+          "y": 175,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "30d82af9-8ba3-4974-8412-12e49da3876c",
-          "width": 677,
-          "x": 35461,
-          "y": 103,
+          "width": 431,
+          "x": 34121,
+          "y": 74,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69150,14 +69214,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 302,
+          "depth": 3,
+          "height": 192,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "d7dcb5d3-9bcc-4334-b819-fe6aede2c62d",
-          "width": 694,
-          "x": 35333,
-          "y": 937,
+          "width": 442,
+          "x": 34040,
+          "y": 605,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69166,14 +69230,14 @@
         {
           "angle": 45,
           "customSize": true,
-          "depth": 4,
-          "height": 295,
+          "depth": 3,
+          "height": 161,
           "layer": "Obstacles",
           "name": "Road",
           "persistentUuid": "78558431-58e9-4102-9763-513ed9df1ef3",
-          "width": 677,
-          "x": 32991,
-          "y": 1110,
+          "width": 368,
+          "x": 32642,
+          "y": 811,
           "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
@@ -69202,8 +69266,8 @@
           "name": "WaveTeleport",
           "persistentUuid": "ad38d6e1-afb8-4512-80fa-84ddba3e0839",
           "width": 0,
-          "x": 30720,
-          "y": 352,
+          "x": 30816,
+          "y": 416,
           "zOrder": 123,
           "numberProperties": [],
           "stringProperties": [],
@@ -70867,14 +70931,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 41,
           "layer": "Obstacles",
           "name": "VictoryTeleport",
           "persistentUuid": "15a1300d-f3cb-43b9-816f-8f7a00629c97",
-          "width": 0,
-          "x": 53152,
-          "y": 1856,
+          "width": 41,
+          "x": 44958,
+          "y": 743,
           "zOrder": 131,
           "numberProperties": [],
           "stringProperties": [],
@@ -70912,14 +70977,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 225,
           "layer": "Obstacles",
           "name": "InvertGravityRing",
           "persistentUuid": "e2cfea5a-e397-40a9-80c5-96acb99b81d4",
-          "width": 0,
-          "x": 43888,
-          "y": 1552,
+          "width": 96,
+          "x": 38896,
+          "y": 650,
           "zOrder": 135,
           "numberProperties": [],
           "stringProperties": [],
@@ -71744,14 +71810,62 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 448,
-          "layer": "",
+          "height": 416,
+          "layer": "Obstacles",
           "name": "WavePortal",
           "persistentUuid": "3327203f-3142-4536-bf99-a924d660ce8b",
           "width": 96,
           "x": 30880,
           "y": 256,
           "zOrder": 144,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 45,
+          "customSize": true,
+          "depth": 3,
+          "height": 188,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "41c30e87-8110-478f-9e3b-d5bfd3519cab",
+          "width": 431,
+          "x": 37892,
+          "y": 867,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 135,
+          "customSize": true,
+          "depth": 8,
+          "height": 580,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "b7b1903d-a7bd-432a-b856-946afa371d08",
+          "width": 1330,
+          "x": 38751,
+          "y": -671,
+          "zOrder": 118,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "layer": "Obstacles",
+          "name": "Road",
+          "persistentUuid": "12dab018-edc4-4d12-9992-b4361cd837ea",
+          "width": 1632,
+          "x": 30976,
+          "y": 896,
+          "zOrder": 145,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -71767,7 +71881,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 0.1440493154925041,
+        "zoomFactor": 0.6622955665506473,
         "windowMask": false
       }
     },
